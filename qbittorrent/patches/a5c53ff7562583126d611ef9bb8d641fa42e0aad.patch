@@ -1,0 +1,219 @@
+From a5c53ff7562583126d611ef9bb8d641fa42e0aad Mon Sep 17 00:00:00 2001
+From: Chocobo1 <Chocobo1@users.noreply.github.com>
+Date: Mon, 24 Dec 2018 00:39:14 +0800
+Subject: [PATCH] Simplify InfoHash, TrackerEntry class internals
+
+---
+ src/base/bittorrent/infohash.cpp     | 41 ++++++++++++----------------
+ src/base/bittorrent/infohash.h       |  6 ++--
+ src/base/bittorrent/trackerentry.cpp | 27 +++++-------------
+ src/base/bittorrent/trackerentry.h   |  9 +++---
+ 4 files changed, 33 insertions(+), 50 deletions(-)
+
+diff --git a/src/base/bittorrent/infohash.cpp b/src/base/bittorrent/infohash.cpp
+index c29c8cd851..d900a47766 100644
+--- a/src/base/bittorrent/infohash.cpp
++++ b/src/base/bittorrent/infohash.cpp
+@@ -28,6 +28,7 @@
+ 
+ #include "infohash.h"
+ 
++#include <QByteArray>
+ #include <QHash>
+ 
+ using namespace BitTorrent;
+@@ -41,29 +42,25 @@ InfoHash::InfoHash(const libtorrent::sha1_hash &nativeHash)
+     : m_valid(true)
+     , m_nativeHash(nativeHash)
+ {
+-    char out[(libtorrent::sha1_hash::size * 2) + 1];
+-    libtorrent::to_hex(reinterpret_cast<const char*>(&m_nativeHash[0]), libtorrent::sha1_hash::size, out);
+-    m_hashString = QString(out);
++    const QByteArray raw = QByteArray::fromRawData(nativeHash.data(), libtorrent::sha1_hash::size);
++    m_hashString = QString::fromLatin1(raw.toHex());
+ }
+ 
+ InfoHash::InfoHash(const QString &hashString)
+     : m_valid(false)
+-    , m_hashString(hashString)
+ {
+-    QByteArray raw = m_hashString.toLatin1();
+-    if (raw.size() == 40)
+-        m_valid = libtorrent::from_hex(raw.constData(), 40, reinterpret_cast<char*>(&m_nativeHash[0]));
+-}
++    if (hashString.size() != (libtorrent::sha1_hash::size * 2))
++        return;
+ 
++    const QByteArray raw = QByteArray::fromHex(hashString.toLatin1());
++    if (raw.size() != libtorrent::sha1_hash::size)  // QByteArray::fromHex() will skip over invalid characters
++        return;
+ 
+-InfoHash::InfoHash(const InfoHash &other)
+-    : m_valid(other.m_valid)
+-    , m_nativeHash(other.m_nativeHash)
+-    , m_hashString(other.m_hashString)
+-{
++    m_valid = true;
++    m_hashString = hashString;
++    m_nativeHash.assign(raw.constData());
+ }
+ 
+-
+ bool InfoHash::isValid() const
+ {
+     return m_valid;
+@@ -74,25 +71,23 @@ InfoHash::operator libtorrent::sha1_hash() const
+     return m_nativeHash;
+ }
+ 
+-
+ InfoHash::operator QString() const
+ {
+     return m_hashString;
+ }
+ 
+-
+-bool InfoHash::operator==(const InfoHash &other) const
++bool BitTorrent::operator==(const InfoHash &left, const InfoHash &right)
+ {
+-    return (m_nativeHash == other.m_nativeHash);
++    return (static_cast<libtorrent::sha1_hash>(left)
++            == static_cast<libtorrent::sha1_hash>(right));
+ }
+ 
+-
+-bool InfoHash::operator!=(const InfoHash &other) const
++bool BitTorrent::operator!=(const InfoHash &left, const InfoHash &right)
+ {
+-    return (m_nativeHash != other.m_nativeHash);
++    return !(left == right);
+ }
+ 
+-uint BitTorrent::qHash(const InfoHash &key, uint seed)
++uint BitTorrent::qHash(const InfoHash &key, const uint seed)
+ {
+-    return qHash(static_cast<QString>(key), seed);
++    return ::qHash(static_cast<QString>(key), seed);
+ }
+diff --git a/src/base/bittorrent/infohash.h b/src/base/bittorrent/infohash.h
+index dfa766ea08..7841e8bfc5 100644
+--- a/src/base/bittorrent/infohash.h
++++ b/src/base/bittorrent/infohash.h
+@@ -40,14 +40,12 @@ namespace BitTorrent
+         InfoHash();
+         InfoHash(const libtorrent::sha1_hash &nativeHash);
+         InfoHash(const QString &hashString);
+-        InfoHash(const InfoHash &other);
++        InfoHash(const InfoHash &other) = default;
+ 
+         bool isValid() const;
+ 
+         operator libtorrent::sha1_hash() const;
+         operator QString() const;
+-        bool operator==(const InfoHash &other) const;
+-        bool operator!=(const InfoHash &other) const;
+ 
+     private:
+         bool m_valid;
+@@ -55,6 +53,8 @@ namespace BitTorrent
+         QString m_hashString;
+     };
+ 
++    bool operator==(const InfoHash &left, const InfoHash &right);
++    bool operator!=(const InfoHash &left, const InfoHash &right);
+     uint qHash(const InfoHash &key, uint seed);
+ }
+ 
+diff --git a/src/base/bittorrent/trackerentry.cpp b/src/base/bittorrent/trackerentry.cpp
+index a757709bb5..7cbaa64ebc 100644
+--- a/src/base/bittorrent/trackerentry.cpp
++++ b/src/base/bittorrent/trackerentry.cpp
+@@ -29,14 +29,12 @@
+ #include "trackerentry.h"
+ 
+ #include <QString>
+-
+-#include "base/utils/misc.h"
+-#include "base/utils/string.h"
++#include <QUrl>
+ 
+ using namespace BitTorrent;
+ 
+ TrackerEntry::TrackerEntry(const QString &url)
+-    : m_nativeEntry(libtorrent::announce_entry(url.toStdString()))
++    : m_nativeEntry(url.toStdString())
+ {
+ }
+ 
+@@ -45,11 +43,6 @@ TrackerEntry::TrackerEntry(const libtorrent::announce_entry &nativeEntry)
+ {
+ }
+ 
+-TrackerEntry::TrackerEntry(const TrackerEntry &other)
+-    : m_nativeEntry(other.m_nativeEntry)
+-{
+-}
+-
+ QString TrackerEntry::url() const
+ {
+     return QString::fromStdString(m_nativeEntry.url);
+@@ -74,23 +67,17 @@ TrackerEntry::Status TrackerEntry::status() const
+         return NotWorking;
+ }
+ 
+-void TrackerEntry::setTier(int value)
++void TrackerEntry::setTier(const int value)
+ {
+     m_nativeEntry.tier = value;
+ }
+ 
+-TrackerEntry &TrackerEntry::operator=(const TrackerEntry &other)
+-{
+-    this->m_nativeEntry = other.m_nativeEntry;
+-    return *this;
+-}
+-
+-bool TrackerEntry::operator==(const TrackerEntry &other) const
++libtorrent::announce_entry TrackerEntry::nativeEntry() const
+ {
+-    return (QUrl(url()) == QUrl(other.url()));
++    return m_nativeEntry;
+ }
+ 
+-libtorrent::announce_entry TrackerEntry::nativeEntry() const
++bool BitTorrent::operator==(const TrackerEntry &left, const TrackerEntry &right)
+ {
+-    return m_nativeEntry;
++    return (QUrl(left.url()) == QUrl(right.url()));
+ }
+diff --git a/src/base/bittorrent/trackerentry.h b/src/base/bittorrent/trackerentry.h
+index e2930e0a92..8a4afd0be4 100644
+--- a/src/base/bittorrent/trackerentry.h
++++ b/src/base/bittorrent/trackerentry.h
+@@ -52,21 +52,22 @@ namespace BitTorrent
+ 
+         TrackerEntry(const QString &url);
+         TrackerEntry(const libtorrent::announce_entry &nativeEntry);
+-        TrackerEntry(const TrackerEntry &other);
++        TrackerEntry(const TrackerEntry &other) = default;
++        TrackerEntry &operator=(const TrackerEntry &other) = default;
+ 
+         QString url() const;
+-        int tier() const;
+         Status status() const;
+ 
++        int tier() const;
+         void setTier(int value);
+-        TrackerEntry &operator=(const TrackerEntry &other);
+-        bool operator==(const TrackerEntry &other) const;
+ 
+         libtorrent::announce_entry nativeEntry() const;
+ 
+     private:
+         libtorrent::announce_entry m_nativeEntry;
+     };
++
++    bool operator==(const TrackerEntry &left, const TrackerEntry &right);
+ }
+ 
+ #endif // BITTORRENT_TRACKERENTRY_H
