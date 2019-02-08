@@ -1,0 +1,90 @@
+SLACKBUILD NAME: ansifilter
+SLACKBUILD LOCATION: ./ansifilter
+SLACKBUILD FILES: PKGNOTE README ansifilter.SlackBuild ansifilter.info slack-desc
+SLACKBUILD VERSION: 2.13
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: http://andre-simon.de/zip/ansifilter-2.13.tar.bz2
+SLACKBUILD MD5SUM: 010bda69eb461ce81e67e75609288038
+SLACKBUILD SHORT DESCRIPTION:  ansifilter
+
+SLACKBUILD NAME: gmic
+SLACKBUILD LOCATION: ./gmic
+SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/gmic-opencv4.patch patches/zart-opencv4.patch slack-desc
+SLACKBUILD VERSION: 2.4.5
+SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.4.5.tar.gz
+SLACKBUILD MD5SUM: e1bc34379800d9b1330419a695824caf
+SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
+
+SLACKBUILD NAME: kid3
+SLACKBUILD LOCATION: ./kid3
+SLACKBUILD FILES: PKGNOTE README doinst.sh kid3.SlackBuild kid3.info slack-desc
+SLACKBUILD VERSION: 3.7.0
+SLACKBUILD REQUIRED: libmp4v2 qt5
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.7.0.tar.gz
+SLACKBUILD MD5SUM: 70b562fd41ca16837d90d7c403fec1f2
+SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
+
+SLACKBUILD NAME: lyx
+SLACKBUILD LOCATION: ./lyx
+SLACKBUILD FILES: PKGNOTE README doinst.sh lyx.SlackBuild lyx.info patches/boost_169.patch slack-desc
+SLACKBUILD VERSION: 2.3.2
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.2.tar.xz
+SLACKBUILD MD5SUM: 7e32b2e4440f2d47053610250840080b
+SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
+
+SLACKBUILD NAME: mkvtoolnix
+SLACKBUILD LOCATION: ./mkvtoolnix
+SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.dep mkvtoolnix.info mkvtoolnix.required slack-desc
+SLACKBUILD VERSION: 30.1.0
+SLACKBUILD REQUIRED: cmark pugixml qt5
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-30.1.0.tar.xz
+SLACKBUILD MD5SUM: 1e75c2ce9ca0d409c39876dcadd75667
+SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
+
+SLACKBUILD NAME: nomacs
+SLACKBUILD LOCATION: ./nomacs
+SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
+SLACKBUILD VERSION: 3.12.0
+SLACKBUILD REQUIRED: opencv quazip qt5
+SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
+SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
+SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
+
+SLACKBUILD NAME: qbittorrent
+SLACKBUILD LOCATION: ./qbittorrent
+SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
+SLACKBUILD VERSION: 4.1.5
+SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
+SLACKBUILD DOWNLOAD: https://github.com/qbittorrent/qBittorrent/archive/7e98035df5362beef54554bb5e84dc4252fa3461.tar.gz
+SLACKBUILD MD5SUM: b85f16a333b8d110650f72bd53e20538
+SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
+
+SLACKBUILD NAME: qtcurve
+SLACKBUILD LOCATION: ./qtcurve
+SLACKBUILD FILES: PKGNOTE README patches/debug.patch qtcurve.SlackBuild qtcurve.info slack-desc
+SLACKBUILD VERSION: 1.9.0
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/1.9.0.tar.gz
+SLACKBUILD MD5SUM: 2cad3588a04638a0933183f08966f9b6
+SLACKBUILD SHORT DESCRIPTION:  qtcurve (A configurable set of widget styles for KDE and Gtk)
+
+SLACKBUILD NAME: sirikali
+SLACKBUILD LOCATION: ./sirikali
+SLACKBUILD FILES: PKGNOTE README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
+SLACKBUILD VERSION: 1.3.6
+SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs libpwquality qt5
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.3.6/SiriKali-1.3.6.tar.xz
+SLACKBUILD MD5SUM: e4b0774dd53ccb45e502e36ffb94f590
+SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
+
+SLACKBUILD NAME: sqlitebrowser
+SLACKBUILD LOCATION: ./sqlitebrowser
+SLACKBUILD FILES: PKGNOTE README doinst.sh slack-desc sqlitebrowser.SlackBuild sqlitebrowser.dep sqlitebrowser.info sqlitebrowser.required
+SLACKBUILD VERSION: 3.11.0
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.11.0.tar.gz
+SLACKBUILD MD5SUM: 7f8364d95ecec89d3baf815253b5c313
+SLACKBUILD SHORT DESCRIPTION:  sqlitebrowser (QT GUI editor for SQLite databases)
+
