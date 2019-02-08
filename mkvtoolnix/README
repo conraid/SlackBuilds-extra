@@ -1,0 +1,25 @@
+
+Slackware Current Repository by Conraid
+
+======================================================================
+
+mkvtoolnix (tools to create, alter and inspect Matroska files)
+
+MKVToolnix is a set of tools to create, alter and inspect Matroska
+files. With these tools one can:
+
+* Get information about Matroska files (mkvinfo)
+* Extract tracks/data from Matroska files (mkvextract)
+* Create Matroska files from other media files (mkvmerge)
+* Modify properties of existing Matroska files (mkvpropedit)
+
+HOME: https://www.bunkus.org/videotools/mkvtoolnix
+
+======================================================================
+NOTE: 
+
+I used qt5 by Alien 
+
+======================
+REQUIRES: cmark pugixml qt5
+
