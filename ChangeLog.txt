@@ -1,3 +1,6 @@
+Sat Feb 9 09:58:18 UTC 2019
+git-cola-3.3-x86_64-1cf.txz:  Added.
++--------------------------+
 Fri Feb 8 12:15:26 UTC 2019
 ansifilter-2.13-x86_64-1cf.txz:  Added.
 gmic-2.4.5-x86_64-1cf.txz:  Added.

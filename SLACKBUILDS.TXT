@@ -7,6 +7,15 @@ SLACKBUILD DOWNLOAD: http://andre-simon.de/zip/ansifilter-2.13.tar.bz2
 SLACKBUILD MD5SUM: 010bda69eb461ce81e67e75609288038
 SLACKBUILD SHORT DESCRIPTION:  ansifilter
 
+SLACKBUILD NAME: git-cola
+SLACKBUILD LOCATION: ./git-cola
+SLACKBUILD FILES: doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
+SLACKBUILD VERSION: 3.3
+SLACKBUILD REQUIRED: qt5 python3-PyQt5
+SLACKBUILD DOWNLOAD: https://github.com/git-cola/git-cola/archive/v3.3.tar.gz
+SLACKBUILD MD5SUM: fa0012511a14921d0aaab1abce263c39
+SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
+
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/gmic-opencv4.patch patches/zart-opencv4.patch slack-desc
