@@ -97,3 +97,12 @@ SLACKBUILD DOWNLOAD: https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.1
 SLACKBUILD MD5SUM: 7f8364d95ecec89d3baf815253b5c313
 SLACKBUILD SHORT DESCRIPTION:  sqlitebrowser (QT GUI editor for SQLite databases)
 
+SLACKBUILD NAME: wireshark
+SLACKBUILD LOCATION: ./wireshark
+SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.dep wireshark.info wireshark.required
+SLACKBUILD VERSION: 3.0.0rc1
+SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
+SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.0rc1.tar.xz
+SLACKBUILD MD5SUM: cf6bb843a0aea353406174afb80a3978
+SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
+
