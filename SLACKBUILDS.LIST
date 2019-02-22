@@ -6,6 +6,7 @@ kid3/kid3.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
+python3-pyqt5/python3-pyqt5.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
 qtcurve/qtcurve.SlackBuild
 sirikali/sirikali.SlackBuild

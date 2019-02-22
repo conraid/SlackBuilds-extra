@@ -1,0 +1,15 @@
+
+Slackware Current Repository by Conraid
+
+======================================================================
+
+python3-pyqt5 (Python bindings for Qt)
+
+PyQt5 is a set of Python bindings for Trolltech's Qt5 application
+framework and runs on all platforms supported by Qt5.
+
+HOME: https://riverbankcomputing.com/software/pyqt/intro/
+
+======================================================================
+REQUIRES: qt5
+

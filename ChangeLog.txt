@@ -1,3 +1,9 @@
+Fri Feb 22 12:54:15 UTC 2019
+python3-pyqt5-5.10.1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
+Wed Feb 20 07:58:54 UTC 2019
+bettercap-2.17-x86_64-1cf.txz:  Added.
++--------------------------+
 Sat Feb 16 20:34:21 UTC 2019
 wireshark-3.0.0rc1-x86_64-1cf.txz:  Added.
 +--------------------------+

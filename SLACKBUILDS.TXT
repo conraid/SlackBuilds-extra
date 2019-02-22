@@ -9,7 +9,7 @@ SLACKBUILD SHORT DESCRIPTION:  ansifilter
 
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
-SLACKBUILD FILES: PKGNOTE README bettercap-2.17-x86_64-1cf.txz bettercap-2.17.tar.gz bettercap.SlackBuild bettercap.dep bettercap.info bettercap.required slack-desc
+SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.dep bettercap.info bettercap.required slack-desc
 SLACKBUILD VERSION: 2.16
 SLACKBUILD REQUIRED: 
 SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.17/bettercap-2.17.tar.gz
@@ -69,6 +69,15 @@ SLACKBUILD REQUIRED: opencv quazip qt5
 SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
+
+SLACKBUILD NAME: python3-pyqt5
+SLACKBUILD LOCATION: ./python3-pyqt5
+SLACKBUILD FILES: README patches/PyQt5-qt511.patch patches/pyqt-support-new-qt.patch patches/pyqt5-cura-crash.patch python3-pyqt5.SlackBuild python3-pyqt5.info slack-desc
+SLACKBUILD VERSION: 5.10.1
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/pyqt/PyQt5_gpl-5.10.1.tar.gz
+SLACKBUILD MD5SUM: be36c2abaffc9daa8b993f1ca982968f
+SLACKBUILD SHORT DESCRIPTION:  python3-pyqt5 (Python bindings for Qt)
 
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
