@@ -18,9 +18,9 @@ SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks a
 
 SLACKBUILD NAME: git-cola
 SLACKBUILD LOCATION: ./git-cola
-SLACKBUILD FILES: doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
+SLACKBUILD FILES: README doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
 SLACKBUILD VERSION: 3.3
-SLACKBUILD REQUIRED: qt5 python3-PyQt5
+SLACKBUILD REQUIRED: qt5 python3-pyqt5
 SLACKBUILD DOWNLOAD: https://github.com/git-cola/git-cola/archive/v3.3.tar.gz
 SLACKBUILD MD5SUM: fa0012511a14921d0aaab1abce263c39
 SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
@@ -118,9 +118,9 @@ SLACKBUILD SHORT DESCRIPTION:  sqlitebrowser (QT GUI editor for SQLite databases
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.0.0rc2
+SLACKBUILD VERSION: 3.0.0
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
-SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.0rc2.tar.xz
+SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.0.tar.xz
 SLACKBUILD MD5SUM: b9e17bb5c34900695729121ee8a352c7
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
