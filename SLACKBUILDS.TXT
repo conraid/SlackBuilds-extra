@@ -9,11 +9,11 @@ SLACKBUILD SHORT DESCRIPTION:  ansifilter
 
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
-SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.dep bettercap.info bettercap.required slack-desc
-SLACKBUILD VERSION: 2.16
+SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
+SLACKBUILD VERSION: 2.18
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.17/bettercap-2.17.tar.gz
-SLACKBUILD MD5SUM: 4bfef8abce915c3e5d93295bf012f7a0
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.18/bettercap-2.18.tar.gz
+SLACKBUILD MD5SUM: b2a3ea7905698318c219c2cf7788e6b3
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: git-cola
