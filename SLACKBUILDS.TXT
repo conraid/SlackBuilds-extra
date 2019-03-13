@@ -10,10 +10,10 @@ SLACKBUILD SHORT DESCRIPTION:  ansifilter
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
 SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
-SLACKBUILD VERSION: 2.18
+SLACKBUILD VERSION: 2.19
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.18/bettercap-2.18.tar.gz
-SLACKBUILD MD5SUM: b2a3ea7905698318c219c2cf7788e6b3
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.19/bettercap-2.19.tar.gz
+SLACKBUILD MD5SUM: dd8b1a183f3382d741720fb5e800b1ec
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: git-cola
@@ -54,10 +54,10 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
-SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.dep mkvtoolnix.info mkvtoolnix.required slack-desc
-SLACKBUILD VERSION: 31.0.0
+SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
+SLACKBUILD VERSION: 32.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-31.0.0.tar.xz
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-32.0.0.tar.xz
 SLACKBUILD MD5SUM: 1e75c2ce9ca0d409c39876dcadd75667
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
