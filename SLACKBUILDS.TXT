@@ -10,10 +10,10 @@ SLACKBUILD SHORT DESCRIPTION:  ansifilter
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
 SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
-SLACKBUILD VERSION: 2.19
+SLACKBUILD VERSION: 2.22
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.19/bettercap-2.19.tar.gz
-SLACKBUILD MD5SUM: dd8b1a183f3382d741720fb5e800b1ec
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.22/bettercap-2.22.tar.gz
+SLACKBUILD MD5SUM: f875d84b812c52df108027f0466e8c3b
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: git-cola
@@ -28,10 +28,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/gmic-opencv4.patch patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.4.5
+SLACKBUILD VERSION: 2.5.5
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.4.5.tar.gz
-SLACKBUILD MD5SUM: e1bc34379800d9b1330419a695824caf
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.5.5.tar.gz
+SLACKBUILD MD5SUM: b916bfc7dbc03680cbe3a56ae9b1f835
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kid3
@@ -108,11 +108,11 @@ SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesy
 
 SLACKBUILD NAME: sqlitebrowser
 SLACKBUILD LOCATION: ./sqlitebrowser
-SLACKBUILD FILES: PKGNOTE README doinst.sh slack-desc sqlitebrowser.SlackBuild sqlitebrowser.dep sqlitebrowser.info sqlitebrowser.required
-SLACKBUILD VERSION: 3.11.0
+SLACKBUILD FILES: PKGNOTE README doinst.sh slack-desc sqlitebrowser.SlackBuild sqlitebrowser.info
+SLACKBUILD VERSION: 3.11.2
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.11.0.tar.gz
-SLACKBUILD MD5SUM: 7f8364d95ecec89d3baf815253b5c313
+SLACKBUILD DOWNLOAD: https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.11.2.tar.gz
+SLACKBUILD MD5SUM: 9991541d1f93ebcd7769ac8e15475c71
 SLACKBUILD SHORT DESCRIPTION:  sqlitebrowser (QT GUI editor for SQLite databases)
 
 SLACKBUILD NAME: wireshark
