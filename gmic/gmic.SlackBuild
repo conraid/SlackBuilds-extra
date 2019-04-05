@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Slackware build script for Gimp G'MIC plugin
 #
-# Copyright 2011-2019 Corrado Franco (http://conraid.net)
+# Copyright 2011-2019 Corrado Franco (https://conraid.net)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -30,7 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=gmic
-SRCVERSION=2.4.5
+SRCVERSION=2.5.5
 VERSION=$SRCVERSION
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
@@ -99,18 +99,21 @@ make CFLAGS="$SLKCFLAGS" WGET=/dev/true -C src cli lib libc
 
 # Build plugins
 if [ -x /usr/bin/qmake-qt5 ]; then
+  QMAKE="qmake-qt5"
   cd gmic-qt
   for PLUGIN_TYPE in none gimp krita; do
     # Use qmake here because fftw cmake is wrong
-    qmake-qt5 QMAKE_CXXFLAGS="-DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" WGET=/dev/true GMIC_PATH=../src GMIC_DYNAMIC_LINKING=on HOST=$PLUGIN_TYPE
+    $QMAKE QMAKE_CXXFLAGS="-DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" WGET=/dev/true GMIC_PATH=../src GMIC_DYNAMIC_LINKING=on HOST=$PLUGIN_TYPE
     make
   done
   cd ..
+else
+  QMAKE="qmake"
 fi
 
 # Build zart
 cd zart
-qmake PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
+$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
 make
 cd ..
 
@@ -118,6 +121,9 @@ make DESTDIR=$PKG install -C src
 
 # Don't ship .la files:
 rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la
+
+find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+find $PKG | xargs file | grep "current ar archive" | cut -f 1 -d : | xargs -r strip -g 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
 cp -a COPYING README* $PKG/usr/doc/$PKGNAM-$VERSION || true
