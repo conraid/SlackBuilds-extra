@@ -1,0 +1,16 @@
+
+Slackware Current Repository by Conraid
+
+======================================================================
+
+extra-cmake-modules (Extra modules and scripts for CMake)
+
+Extra modules and scripts for CMake.
+Extra CMake Modules, or ECM, aims to augment CMake with additional
+modules. It serves as both a staging ground for new modules before
+they are moved upstream to CMake and a place for modules that, for
+whatever reason, are not a good fit for CMake itself.
+
+HOME: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
+
+======================================================================
