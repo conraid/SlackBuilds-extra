@@ -1,3 +1,8 @@
+Wed Apr 17 06:16:39 UTC 2019
+keepassxc-2.4.1-x86_64-1cf.txz:  Added.
+mkvtoolnix-33.1.0-x86_64-1cf.txz:  Upgraded.
+qbittorrent-19dfec1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Tue Apr 9 11:37:01 UTC 2019
 extra-cmake-modules-5.56.0-x86_64-1cf.txz:  Added.
 gmic-2.5.6-x86_64-1cf.txz:  Upgraded.

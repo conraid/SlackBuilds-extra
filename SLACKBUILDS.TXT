@@ -43,6 +43,15 @@ SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.5.6.tar.gz
 SLACKBUILD MD5SUM: 8deabebc29081657986ae6531e3fc1d7
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
+SLACKBUILD NAME: keepassxc
+SLACKBUILD LOCATION: ./keepassxc
+SLACKBUILD FILES: README doinst.sh keepassxc.SlackBuild keepassxc.info slack-desc
+SLACKBUILD VERSION: 2.4.1
+SLACKBUILD REQUIRED: qt5 qrencode
+SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.4.1/keepassxc-2.4.1-src.tar.xz
+SLACKBUILD MD5SUM: 5ca1a374c3250ad8965cdbd5b2db5962
+SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
+
 SLACKBUILD NAME: kid3
 SLACKBUILD LOCATION: ./kid3
 SLACKBUILD FILES: PKGNOTE README doinst.sh kid3.SlackBuild kid3.info slack-desc
@@ -64,10 +73,10 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 32.0.0
+SLACKBUILD VERSION: 33.1.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-32.0.0.tar.xz
-SLACKBUILD MD5SUM: 1e75c2ce9ca0d409c39876dcadd75667
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-33.1.0.tar.xz
+SLACKBUILD MD5SUM: 365d7a0640ec3eeef3ac2a4174f7cc51
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
 SLACKBUILD NAME: nomacs
@@ -91,10 +100,10 @@ SLACKBUILD SHORT DESCRIPTION:  python3-pyqt5 (Python bindings for Qt)
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
 SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
-SLACKBUILD VERSION: 4.1.5
+SLACKBUILD VERSION: 19dfec1
 SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
-SLACKBUILD DOWNLOAD: https://github.com/qbittorrent/qBittorrent/archive/7e98035df5362beef54554bb5e84dc4252fa3461.tar.gz
-SLACKBUILD MD5SUM: b85f16a333b8d110650f72bd53e20538
+SLACKBUILD DOWNLOAD: https://github.com/qbittorrent/qBittorrent/archive/19dfec1e0a64437d69ee8da79460f545f7207972.tar.gz
+SLACKBUILD MD5SUM: 3955fab76815e96ebe1a9c2bede1839f
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
 
 SLACKBUILD NAME: qt5ct

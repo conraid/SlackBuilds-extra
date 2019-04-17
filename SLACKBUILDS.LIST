@@ -3,6 +3,7 @@ bettercap/bettercap.SlackBuild
 extra-cmake-modules/extra-cmake-modules.SlackBuild
 git-cola/git-cola.SlackBuild
 gmic/gmic.SlackBuild
+keepassxc/keepassxc.SlackBuild
 kid3/kid3.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
