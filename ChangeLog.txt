@@ -1,3 +1,8 @@
+Mon Apr 29 14:00:36 UTC 2019
+ansifilter-2.14-x86_64-1cf.txz:  Upgraded.
+bettercap-2.23-x86_64-1cf.txz:  Upgraded.
+gmic-2.6.0-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Wed Apr 17 06:16:39 UTC 2019
 keepassxc-2.4.1-x86_64-1cf.txz:  Added.
 mkvtoolnix-33.1.0-x86_64-1cf.txz:  Upgraded.

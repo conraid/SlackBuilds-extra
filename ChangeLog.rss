@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed, 17 Apr 2019 06:16:39 UTC</pubDate>
-      <lastBuildDate>Wed, 17 Apr 2019 06:17:57 UTC</lastBuildDate>
+      <pubDate>Mon, 29 Apr 2019 14:00:36 UTC</pubDate>
+      <lastBuildDate>Mon, 29 Apr 2019 14:05:59 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 29 Apr 2019 14:00:36 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 29 Apr 2019 14:00:36 UTC</pubDate>
+         <guid isPermaLink="false">20190429160036</guid>
+         <description>
+           <![CDATA[<pre>
+ansifilter-2.14-x86_64-1cf.txz:  Upgraded.
+bettercap-2.23-x86_64-1cf.txz:  Upgraded.
+gmic-2.6.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed, 17 Apr 2019 06:16:39 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>

@@ -1,19 +1,19 @@
 SLACKBUILD NAME: ansifilter
 SLACKBUILD LOCATION: ./ansifilter
 SLACKBUILD FILES: PKGNOTE README ansifilter.SlackBuild ansifilter.info slack-desc
-SLACKBUILD VERSION: 2.13
+SLACKBUILD VERSION: 2.14
 SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: http://andre-simon.de/zip/ansifilter-2.13.tar.bz2
-SLACKBUILD MD5SUM: 010bda69eb461ce81e67e75609288038
+SLACKBUILD DOWNLOAD: http://andre-simon.de/zip/ansifilter-2.14.tar.bz2
+SLACKBUILD MD5SUM: 9a6e91f0e61ca61af6c81b6a4435b29a
 SLACKBUILD SHORT DESCRIPTION:  ansifilter
 
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
 SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
-SLACKBUILD VERSION: 2.22
+SLACKBUILD VERSION: 2.23
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.22/bettercap-2.22.tar.gz
-SLACKBUILD MD5SUM: f875d84b812c52df108027f0466e8c3b
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.23/bettercap-2.23.tar.gz
+SLACKBUILD MD5SUM: cfcbcf7cb6e287930d9e9cdafd640aa5
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: extra-cmake-modules
@@ -37,10 +37,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/gmic-opencv4.patch patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.5.6
+SLACKBUILD VERSION: 2.6.0
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.5.6.tar.gz
-SLACKBUILD MD5SUM: 8deabebc29081657986ae6531e3fc1d7
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.0.tar.gz
+SLACKBUILD MD5SUM: da03fde14c385d9707196b2f718bc9fe
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: keepassxc
