@@ -151,3 +151,12 @@ SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.1.tar.
 SLACKBUILD MD5SUM: 370a113e1c8ec240c4621cfb5abb0c52
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
+SLACKBUILD NAME: zulucrypt
+SLACKBUILD LOCATION: ./zulucrypt
+SLACKBUILD FILES: README doinst.sh slack-desc zulucrypt.SlackBuild zulucrypt.info
+SLACKBUILD VERSION: 5.5.0
+SLACKBUILD REQUIRED: libpwquality zuluplay
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/zuluCrypt/releases/download/5.5.0/zuluCrypt-5.5.0.tar.xz
+SLACKBUILD MD5SUM: 8d8fbaf3852ab8e13dfd21a7901a4634
+SLACKBUILD SHORT DESCRIPTION:  zulucrypt (front end to cryptsetup and True/VeraCrypt)
+
