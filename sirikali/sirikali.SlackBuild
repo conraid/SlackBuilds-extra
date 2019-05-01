@@ -31,7 +31,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=SiriKali
 PKGNAM=$(echo $PRGNAM | tr A-Z a-z)
-VERSION=1.3.7
+VERSION=1.3.8
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
@@ -90,10 +90,6 @@ cmake -Wno-dev \
   -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
-  -DMAN_INSTALL_DIR=/usr/man \
-  -DSYSCONF_INSTALL_DIR=/etc \
-  -DLOCALSTATEDIR=/var \
-  -DHTML_INSTALL_DIR=/usr/doc/HTML \
   -DLIB_SUFFIX=$LIBDIRSUFFIX \
   -DQT5=ON \
   ..
