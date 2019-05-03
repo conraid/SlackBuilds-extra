@@ -31,7 +31,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=qBittorrent
 PKGNAM=qbittorrent
-SRCVERSION=19dfec1e0a64437d69ee8da79460f545f7207972
+SRCVERSION=d001927d47263157073476f1117edf7edae01e1f
 VERSION=$(echo $SRCVERSION | head -c7)
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
