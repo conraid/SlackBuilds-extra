@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  1 May 2019 10:51:39 UTC</pubDate>
-      <lastBuildDate>Wed,  1 May 2019 10:54:07 UTC</lastBuildDate>
+      <pubDate>Fri,  3 May 2019 16:24:20 UTC</pubDate>
+      <lastBuildDate>Fri,  3 May 2019 16:25:41 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Fri,  3 May 2019 16:24:20 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri,  3 May 2019 16:24:20 UTC</pubDate>
+         <guid isPermaLink="false">20190503182420</guid>
+         <description>
+           <![CDATA[<pre>
+bettercap-2.24-x86_64-1cf.txz:  Upgraded.
+qbittorrent-d001927-x86_64-1cf.txz:  Upgraded.
+zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed,  1 May 2019 10:51:39 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -203,26 +216,6 @@ sirikali-1.3.7-x86_64-1cf.txz:  Upgraded
          <description>
            <![CDATA[<pre>
 git-cola-3.3-x86_64-1cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  8 Feb 2019 12:15:26 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  8 Feb 2019 12:15:26 UTC</pubDate>
-         <guid isPermaLink="false">20190208131526</guid>
-         <description>
-           <![CDATA[<pre>
-ansifilter-2.13-x86_64-1cf.txz:  Added.
-gmic-2.4.5-x86_64-1cf.txz:  Added.
-kid3-3.7.0-x86_64-1cf.txz:  Added.
-lyx-2.3.2-x86_64-1cf.txz:  Added.
-mkvtoolnix-30.1.0-x86_64-1cf.txz:  Added.
-nomacs-3.12-x86_64-2cf.txz:  Added.
-qbittorrent-4.1.5-x86_64-1cf.txz:  Added.
-qtcurve-1.9.0-x86_64-1cf.txz:  Added.
-sirikali-1.3.6-x86_64-1cf.txz:  Added.
-sqlitebrowser-3.11.0-x86_64-1cf.txz:  Added.
            </pre>]]>
          </description>
       </item>

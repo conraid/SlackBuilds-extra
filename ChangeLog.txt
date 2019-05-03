@@ -1,3 +1,8 @@
+Fri May 3 16:24:20 UTC 2019
+bettercap-2.24-x86_64-1cf.txz:  Upgraded.
+qbittorrent-d001927-x86_64-1cf.txz:  Upgraded.
+zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Wed May 1 10:51:39 UTC 2019
 zulucrypt-5.5.0-x86_64-1cf.txz:  Added.
 +--------------------------+

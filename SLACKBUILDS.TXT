@@ -10,10 +10,10 @@ SLACKBUILD SHORT DESCRIPTION:  ansifilter
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
 SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
-SLACKBUILD VERSION: 2.23
+SLACKBUILD VERSION: 2.24
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.23/bettercap-2.23.tar.gz
-SLACKBUILD MD5SUM: cfcbcf7cb6e287930d9e9cdafd640aa5
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.24/bettercap-2.24.tar.gz
+SLACKBUILD MD5SUM: bbfed39bb182adf60a4a10c08160fa5a
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: extra-cmake-modules
@@ -100,10 +100,10 @@ SLACKBUILD SHORT DESCRIPTION:  python3-pyqt5 (Python bindings for Qt)
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
 SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
-SLACKBUILD VERSION: 19dfec1
+SLACKBUILD VERSION: d001927
 SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
-SLACKBUILD DOWNLOAD: https://github.com/qbittorrent/qBittorrent/archive/19dfec1e0a64437d69ee8da79460f545f7207972.tar.gz
-SLACKBUILD MD5SUM: 3955fab76815e96ebe1a9c2bede1839f
+SLACKBUILD DOWNLOAD: https://github.com/qbittorrent/qBittorrent/archive/d001927d47263157073476f1117edf7edae01e1f.tar.gz
+SLACKBUILD MD5SUM: e14d4039baaf0199fb1b92720bc6be3a
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
 
 SLACKBUILD NAME: qt5ct
