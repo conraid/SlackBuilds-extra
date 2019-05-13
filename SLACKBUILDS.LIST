@@ -1,10 +1,14 @@
+amule/amule.SlackBuild
 ansifilter/ansifilter.SlackBuild
 bettercap/bettercap.SlackBuild
+converseen/converseen.SlackBuild
+diskmonitor/diskmonitor.SlackBuild
 extra-cmake-modules/extra-cmake-modules.SlackBuild
 git-cola/git-cola.SlackBuild
 gmic/gmic.SlackBuild
 keepassxc/keepassxc.SlackBuild
 kid3/kid3.SlackBuild
+luminance-hdr/luminance-hdr.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
@@ -13,6 +17,10 @@ qbittorrent/qbittorrent.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
 sirikali/sirikali.SlackBuild
+soundkonverter/soundkonverter.SlackBuild
 sqlitebrowser/sqlitebrowser.SlackBuild
+tellico/tellico.SlackBuild
+wine/wine.SlackBuild
 wireshark/wireshark.SlackBuild
+yakuake/yakuake.SlackBuild
 zulucrypt/zulucrypt.SlackBuild

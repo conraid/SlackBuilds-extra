@@ -1,3 +1,17 @@
+Mon May 13 09:45:49 UTC 2019
+amule-r11004-x86_64-6cf.txz:  Added.
+bettercap-2.24-x86_64-1cf.txz:  Upgraded.
+converseen-0.9.7.2-x86_64-1cf.txz:  Added.
+diskmonitor-0.3.3-x86_64-1cf.txz:  Added.
+luminance-hdr-1d9feb4-x86_64-1cf.txz:  Added.
+qbittorrent-4.1.6-x86_64-1cf.txz:  Upgraded.
+qtcurve-25c4522-x86_64-1cf.txz:  Upgraded.
+soundkonverter-3.0.1-x86_64-1cf.txz:  Added.
+tellico-3.1.4-x86_64-1cf.txz:  Added.
+wine-4.7-x86_64-1cf.txz:  Added.
+yakuake-3.0.5-x86_64-7cf.txz:  Added.
+zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Fri May 3 16:24:20 UTC 2019
 bettercap-2.24-x86_64-1cf.txz:  Upgraded.
 qbittorrent-d001927-x86_64-1cf.txz:  Upgraded.
