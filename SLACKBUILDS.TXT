@@ -43,15 +43,6 @@ SLACKBUILD DOWNLOAD: https://github.com/papylhomme/diskmonitor/archive/0.3.3/dis
 SLACKBUILD MD5SUM: 31df3c7f2fefe7153811e7ca0379aa58
 SLACKBUILD SHORT DESCRIPTION:  diskmonitor (KDE tools to monitor SMART devices)
 
-SLACKBUILD NAME: extra-cmake-modules
-SLACKBUILD LOCATION: ./extra-cmake-modules
-SLACKBUILD FILES: README doinst.sh extra-cmake-modules.SlackBuild extra-cmake-modules.info slack-desc
-SLACKBUILD VERSION: 5.56.0
-SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/KDE/extra-cmake-modules/archive/v5.56.0/extra-cmake-modules-5.56.0.tar.gz
-SLACKBUILD MD5SUM: b986439d13f55f155464334468c82a5b
-SLACKBUILD SHORT DESCRIPTION:  extra-cmake-modules (Extra modules and scripts for CMake)
-
 SLACKBUILD NAME: git-cola
 SLACKBUILD LOCATION: ./git-cola
 SLACKBUILD FILES: README doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
@@ -88,6 +79,15 @@ SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.7.0.tar.gz
 SLACKBUILD MD5SUM: 70b562fd41ca16837d90d7c403fec1f2
 SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 
+SLACKBUILD NAME: ktexteditor
+SLACKBUILD LOCATION: ./ktexteditor
+SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
+SLACKBUILD VERSION: 5.58.0
+SLACKBUILD REQUIRED: editorconfig-core-c kde5
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.58/ktexteditor-5.58.0.tar.xz
+SLACKBUILD MD5SUM: 9b26b1c6de1b19e8995f66fd31ab9901
+SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
+
 SLACKBUILD NAME: luminance-hdr
 SLACKBUILD LOCATION: ./luminance-hdr
 SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/omp.patch patches/qt-5.11.patch slack-desc
@@ -123,15 +123,6 @@ SLACKBUILD REQUIRED: opencv quazip qt5
 SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
-
-SLACKBUILD NAME: python3-pyqt5
-SLACKBUILD LOCATION: ./python3-pyqt5
-SLACKBUILD FILES: README patches/PyQt5-qt511.patch patches/pyqt-support-new-qt.patch patches/pyqt5-cura-crash.patch python3-pyqt5.SlackBuild python3-pyqt5.info slack-desc
-SLACKBUILD VERSION: 5.10.1
-SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/pyqt/PyQt5_gpl-5.10.1.tar.gz
-SLACKBUILD MD5SUM: be36c2abaffc9daa8b993f1ca982968f
-SLACKBUILD SHORT DESCRIPTION:  python3-pyqt5 (Python bindings for Qt)
 
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
