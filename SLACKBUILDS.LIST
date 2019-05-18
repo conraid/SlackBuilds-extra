@@ -5,6 +5,7 @@ converseen/converseen.SlackBuild
 diskmonitor/diskmonitor.SlackBuild
 git-cola/git-cola.SlackBuild
 gmic/gmic.SlackBuild
+kdiff3/kdiff3.SlackBuild
 keepassxc/keepassxc.SlackBuild
 kid3/kid3.SlackBuild
 ktexteditor/ktexteditor.SlackBuild

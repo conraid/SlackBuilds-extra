@@ -55,11 +55,20 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.6.2
+SLACKBUILD VERSION: 2.6.3
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.2.tar.gz
-SLACKBUILD MD5SUM: 3a570a2f0baf2c1f98265482d4a19c07
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.3.tar.gz
+SLACKBUILD MD5SUM: a092e47cc945a10c930e6f2dfb8684dc
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
+
+SLACKBUILD NAME: kdiff3
+SLACKBUILD LOCATION: ./kdiff3
+SLACKBUILD FILES: README doinst.sh kdiff3.SlackBuild kdiff3.info slack-desc
+SLACKBUILD VERSION: 1.8.1
+SLACKBUILD REQUIRED: kde5
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/kdiff3/kdiff3-1.8.1.tar.xz
+SLACKBUILD MD5SUM: 5312807431d12f866831f07d2a235ffc
+SLACKBUILD SHORT DESCRIPTION:  kdiff3 (A compare and merge tool for KDE. From KDE Extragear)
 
 SLACKBUILD NAME: keepassxc
 SLACKBUILD LOCATION: ./keepassxc
