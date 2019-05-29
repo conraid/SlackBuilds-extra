@@ -1,0 +1,15 @@
+
+Slackware Current Repository by Conraid
+
+======================================================================
+
+php73-imagick (PHP Wrapper for ImageMagick)
+
+Imagick is a native php extension to create and modify images using
+the ImageMagick API.
+
+HOME: https://pecl.php.net/package/imagick
+
+======================================================================
+REQUIRES: php73
+
