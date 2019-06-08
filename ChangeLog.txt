@@ -1,3 +1,6 @@
+Sat Jun 8 15:56:14 UTC 2019
+gmic-2.6.5-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Mon Jun 3 11:26:35 UTC 2019
 balsa-2.5.7-x86_64-1cf.txz:  Added.
 keepassxc-2.4.2-x86_64-1cf.txz:  Upgraded.
