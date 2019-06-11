@@ -277,6 +277,15 @@ SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/
 SLACKBUILD MD5SUM: 2240c08f02a29df3c7601b6731bfd72d
 SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
 
+SLACKBUILD NAME: smb4k
+SLACKBUILD LOCATION: ./smb4k
+SLACKBUILD FILES: README doinst.sh slack-desc smb4k.SlackBuild smb4k.info
+SLACKBUILD VERSION: 3.0.0
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/smb4k/smb4k-3.0.0.tar.xz
+SLACKBUILD MD5SUM: c3af6a6bd48a5c0f19cbe278623b648b
+SLACKBUILD SHORT DESCRIPTION:  smb4k (Advanced Network Neighborhood Browser for KDE)
+
 SLACKBUILD NAME: soundkonverter
 SLACKBUILD LOCATION: ./soundkonverter
 SLACKBUILD FILES: README doinst.sh slack-desc soundkonverter.SlackBuild soundkonverter.info

@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat,  8 Jun 2019 15:56:14 UTC</pubDate>
-      <lastBuildDate>Sat,  8 Jun 2019 15:56:39 UTC</lastBuildDate>
+      <pubDate>Tue, 11 Jun 2019 09:28:57 UTC</pubDate>
+      <lastBuildDate>Tue, 11 Jun 2019 09:29:11 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue, 11 Jun 2019 09:28:57 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue, 11 Jun 2019 09:28:57 UTC</pubDate>
+         <guid isPermaLink="false">20190611112857</guid>
+         <description>
+           <![CDATA[<pre>
+smb4k-3.0.0-x86_64-1cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat,  8 Jun 2019 15:56:14 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -231,17 +242,6 @@ mkvtoolnix-32.0.0-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 bettercap-2.18-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  1 Mar 2019 11:07:14 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  1 Mar 2019 11:07:14 UTC</pubDate>
-         <guid isPermaLink="false">20190301120714</guid>
-         <description>
-           <![CDATA[<pre>
-wireshark-3.0.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
