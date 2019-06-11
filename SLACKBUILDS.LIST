@@ -16,7 +16,6 @@ mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
 php73-apcu/php73-apcu.SlackBuild
 php73-ast/php73-ast.SlackBuild
-php73-composer/php73-composer.SlackBuild
 php73-igbinary/php73-igbinary.SlackBuild
 php73-imagick/php73-imagick.SlackBuild
 php73-memcached/php73-memcached.SlackBuild

@@ -11,9 +11,21 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Tue, 11 Jun 2019 09:28:57 UTC</pubDate>
-      <lastBuildDate>Tue, 11 Jun 2019 09:29:11 UTC</lastBuildDate>
+      <pubDate>Tue, 11 Jun 2019 13:20:59 UTC</pubDate>
+      <lastBuildDate>Tue, 11 Jun 2019 13:24:01 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue, 11 Jun 2019 13:20:59 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue, 11 Jun 2019 13:20:59 UTC</pubDate>
+         <guid isPermaLink="false">20190611152059</guid>
+         <description>
+           <![CDATA[<pre>
+php73-composer-1.8.5-noarch-3cf:  Removed.
+	- Readded in main repository with name composer
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Tue, 11 Jun 2019 09:28:57 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -231,17 +243,6 @@ sqlitebrowser-3.11.2-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 bettercap-2.19-x86_64-1cf.txz:  Upgraded.
 mkvtoolnix-32.0.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  1 Mar 2019 15:53:58 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  1 Mar 2019 15:53:58 UTC</pubDate>
-         <guid isPermaLink="false">20190301165358</guid>
-         <description>
-           <![CDATA[<pre>
-bettercap-2.18-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

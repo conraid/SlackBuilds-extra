@@ -160,15 +160,6 @@ SLACKBUILD DOWNLOAD: https://github.com/nikic/php-ast/archive/v1.0.0.tar.gz
 SLACKBUILD MD5SUM: c613d50796ccf9ed0f9d842c764db7b8
 SLACKBUILD SHORT DESCRIPTION:  php73-ast (Extension exposing PHP 7 abstract syntax tree)
 
-SLACKBUILD NAME: php73-composer
-SLACKBUILD LOCATION: ./php73-composer
-SLACKBUILD FILES: LICENSE README php73-composer.SlackBuild php73-composer.info slack-desc
-SLACKBUILD VERSION: 1.8.5
-SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://getcomposer.org/download/1.8.5/composer.phar
-SLACKBUILD MD5SUM: 45e6c402cc932cf8c0640c6304d105f8
-SLACKBUILD SHORT DESCRIPTION:  php73-composer (Dependency Manager for PHP)
-
 SLACKBUILD NAME: php73-igbinary
 SLACKBUILD LOCATION: ./php73-igbinary
 SLACKBUILD FILES: README doinst.sh php73-igbinary.SlackBuild php73-igbinary.info slack-desc
