@@ -82,10 +82,10 @@ SLACKBUILD SHORT DESCRIPTION:  kdiff3 (A compare and merge tool for KDE. From KD
 SLACKBUILD NAME: keepassxc
 SLACKBUILD LOCATION: ./keepassxc
 SLACKBUILD FILES: README doinst.sh keepassxc.SlackBuild keepassxc.info slack-desc
-SLACKBUILD VERSION: 2.4.2
+SLACKBUILD VERSION: 2.4.3
 SLACKBUILD REQUIRED: qt5 qrencode
-SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.4.2/keepassxc-2.4.2-src.tar.xz
-SLACKBUILD MD5SUM: b5af703ee097b715548cd13f972d2819
+SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.4.3/keepassxc-2.4.3-src.tar.xz
+SLACKBUILD MD5SUM: ed2cc2adc2003fe9c3cb39ed032b5392
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
 
 SLACKBUILD NAME: kid3
