@@ -14,16 +14,6 @@ luminance-hdr/luminance-hdr.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
-php73-apcu/php73-apcu.SlackBuild
-php73-ast/php73-ast.SlackBuild
-php73-igbinary/php73-igbinary.SlackBuild
-php73-imagick/php73-imagick.SlackBuild
-php73-memcached/php73-memcached.SlackBuild
-php73-msgpack/php73-msgpack.SlackBuild
-php73-oauth/php73-oauth.SlackBuild
-php73-redis/php73-redis.SlackBuild
-php73-xdebug/php73-xdebug.SlackBuild
-php73/php73.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
