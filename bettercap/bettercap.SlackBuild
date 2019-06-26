@@ -30,6 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=bettercap
+VERSION=2.24.1
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
@@ -73,17 +74,26 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PKGNAM
 mkdir -p $PKGNAM
+cd $PKGNAM
+tar xvf $CWD/$PKGNAM-$VERSION.tar.gz
+cd $PKGNAM-$VERSION
 
-export GOPATH=$TMP/$PKGNAM
-cd $GOPATH
-go get -v github.com/bettercap/bettercap
+chown -R root:root .
+chmod -R u+w,go+r-w,a+X-s .
+cd ..
 
-install -Dm755 bin/$PKGNAM $PKG/usr/bin/$PKGNAM
+mkdir -p go/src/github.com/bettercap
+ln -rTsf $TMP/$PKGNAM/$PKGNAM-$VERSION go/src/github.com/bettercap/bettercap
 
-VERSION=$($GOPATH/bin/bettercap -version | cut -d" " -f2 | sed 's/v//')
+cd go/src/github.com/bettercap/bettercap
+export GOPATH=$TMP/$PKGNAM/go
+
+dep ensure
+make build
+
+install -Dm755 bettercap $PKG/usr/bin/bettercap
 
 mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
-cd $GOPATH/src/github.com/bettercap/bettercap
 cp -a $DOCFILES $PKG/usr/doc/$PKGNAM-$VERSION || true
 cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
 
@@ -96,8 +106,4 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-
-chown -R root:root .
-chmod -R u+w,go+r-w,a+X-s .
-
 /sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
