@@ -64,10 +64,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.6.6
+SLACKBUILD VERSION: 2.6.7
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.6.tar.gz
-SLACKBUILD MD5SUM: 6203de642d50cee27baf05ba9ba74faf
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.7.tar.gz
+SLACKBUILD MD5SUM: 1d55ec5d349ccf0ef78cf8d1b4a42af8
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -117,20 +117,20 @@ SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 
 SLACKBUILD NAME: lyx
 SLACKBUILD LOCATION: ./lyx
-SLACKBUILD FILES: PKGNOTE README doinst.sh lyx.SlackBuild lyx.info patches/boost_169.patch slack-desc
-SLACKBUILD VERSION: 2.3.2
+SLACKBUILD FILES: PKGNOTE README doinst.sh lyx.SlackBuild lyx.info slack-desc
+SLACKBUILD VERSION: 2.3.3
 SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.2.tar.xz
-SLACKBUILD MD5SUM: 7e32b2e4440f2d47053610250840080b
+SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.3.tar.xz
+SLACKBUILD MD5SUM: b49cc1f92e0cab8988f066650a7b5868
 SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 34.0.0
+SLACKBUILD VERSION: 35.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-34.0.0.tar.xz
-SLACKBUILD MD5SUM: f8cdbcd2d9f87c21309eacf5f6ff7642
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-35.0.0.tar.xz
+SLACKBUILD MD5SUM: 915c728e7ba3fc5dd42110db5e89c703
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
 SLACKBUILD NAME: nomacs
