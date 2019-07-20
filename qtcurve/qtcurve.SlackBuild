@@ -28,7 +28,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=qtcurve
-SRCVERSION=25c45221b66caa840c487f17a4b80b5001fbf932
+SRCVERSION=ee2228ea2f18ac5da9b434ee6089381df815aa94
 VERSION=$(echo $SRCVERSION | head -c7)
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
@@ -112,7 +112,7 @@ cmake \
  -DQTC_QT4_ENABLE_KDE=$KDE4 \
  -DENABLE_QT5=$QT5 \
  -DQTC_QT5_ENABLE_KDE=$KDE5 \
- -DENABLE_GTK2=false \
+ -DENABLE_GTK2=true \
  ..
 
 make VERBOSE=1
