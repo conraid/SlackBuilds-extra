@@ -109,10 +109,10 @@ SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 SLACKBUILD NAME: luminance-hdr
 SLACKBUILD LOCATION: ./luminance-hdr
 SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/omp.patch patches/qt-5.11.patch slack-desc
-SLACKBUILD VERSION: 1d9feb4
-SLACKBUILD REQUIRED: qt5 qt5-webkit
-SLACKBUILD DOWNLOAD: https://github.com/LuminanceHDR/LuminanceHDR/archive/1d9feb4c8f057055b97ad3bb02c215010548aebd.tar.gz
-SLACKBUILD MD5SUM: 055278df2b370542ea57fcae86455ce5
+SLACKBUILD VERSION: 2..0
+SLACKBUILD REQUIRED: qt5 qt5-webkit cfitsio libxbdcommon
+SLACKBUILD DOWNLOAD: https://github.com/LuminanceHDR/LuminanceHDR/archive/v.2.6.0.tar.gz
+SLACKBUILD MD5SUM: 221d05cac964f17a37347ff82302c209
 SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 
 SLACKBUILD NAME: lyx
@@ -163,10 +163,10 @@ SLACKBUILD SHORT DESCRIPTION:  qt5ct (Qt5 configuration utility)
 SLACKBUILD NAME: qtcurve
 SLACKBUILD LOCATION: ./qtcurve
 SLACKBUILD FILES: PKGNOTE README patches/flags.patch qtcurve.SlackBuild qtcurve.info slack-desc
-SLACKBUILD VERSION: 25c4522
+SLACKBUILD VERSION: ee2228e
 SLACKBUILD REQUIRED: kde5
-SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/25c45221b66caa840c487f17a4b80b5001fbf932.tar.gz
-SLACKBUILD MD5SUM: 2cad3588a04638a0933183f08966f9b6
+SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/ee2228ea2f18ac5da9b434ee6089381df815aa94.tar.gz
+SLACKBUILD MD5SUM: 92b150458e401bb5f234e425cc6fa71f
 SLACKBUILD SHORT DESCRIPTION:  qtcurve (A configurable set of widget styles for KDE and Gtk)
 
 SLACKBUILD NAME: sirikali
@@ -226,10 +226,10 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.0.2
+SLACKBUILD VERSION: 3.0.3
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
-SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.2.tar.xz
-SLACKBUILD MD5SUM: e344675283d6329a4bc213b621d7f46a
+SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.3.tar.xz
+SLACKBUILD MD5SUM: e945d76a57db2c3e6cf776f95da2cf0e
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: yakuake
