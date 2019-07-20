@@ -15,5 +15,5 @@ Luminance HDR was formerly named qtpfsgui.
 HOME: http://qtpfsgui.sourceforge.net/
 
 ======================================================================
-REQUIRES: qt5 qt5-webkit
+REQUIRES: qt5 qt5-webkit cfitsio libxbdcommon
 
