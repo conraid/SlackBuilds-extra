@@ -14,5 +14,5 @@ AVCataloger or Readerware, although it's still got a ways to go.
 HOME: http://tellico-project.org
 
 ======================================================================
-REQUIRES: exempi kde5
+REQUIRES: exempi kde5 libcsv
 
