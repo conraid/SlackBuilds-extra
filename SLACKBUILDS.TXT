@@ -142,6 +142,15 @@ SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
 
+SLACKBUILD NAME: notmuch
+SLACKBUILD LOCATION: ./notmuch
+SLACKBUILD FILES: README doinst.sh notmuch.SlackBuild notmuch.info slack-desc
+SLACKBUILD VERSION: 0.29.1
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: http://notmuchmail.org/releases/notmuch-0.29.1.tar.xz
+SLACKBUILD MD5SUM: d45bc3f5177a0fa63d7469bb98ee5f45
+SLACKBUILD SHORT DESCRIPTION:  notmuch (thread-based email index, search and tagging)
+
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
 SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
@@ -150,6 +159,15 @@ SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
 SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.1.6.tar.xz
 SLACKBUILD MD5SUM: f3b8e1e04b081e8d3a36739f767ec05a
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
+
+SLACKBUILD NAME: qdirstat
+SLACKBUILD LOCATION: ./qdirstat
+SLACKBUILD FILES: README doinst.sh qdirstat.SlackBuild qdirstat.info slack-desc
+SLACKBUILD VERSION: 1.6
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: https://github.com/shundhammer/qdirstat/archive/1.6/qdirstat-1.6.tar.gz
+SLACKBUILD MD5SUM: 3dbd167320d60c7088e3a631ad4713ba
+SLACKBUILD SHORT DESCRIPTION:  qdirstat (Qt-based directory statistics)
 
 SLACKBUILD NAME: qt5ct
 SLACKBUILD LOCATION: ./qt5ct
@@ -207,12 +225,21 @@ SLACKBUILD SHORT DESCRIPTION:  sqlitebrowser (QT GUI editor for SQLite databases
 
 SLACKBUILD NAME: tellico
 SLACKBUILD LOCATION: ./tellico
-SLACKBUILD FILES: README doinst.sh patches/compilefix.patch slack-desc tellico.SlackBuild tellico.info
-SLACKBUILD VERSION: 3.1.4
-SLACKBUILD REQUIRED: exempi kde5
-SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.1.4.tar.xz
-SLACKBUILD MD5SUM: e6c9ed49030ed3e7541f438dae65e498
+SLACKBUILD FILES: README doinst.sh slack-desc tellico.SlackBuild tellico.info
+SLACKBUILD VERSION: 3.2.1
+SLACKBUILD REQUIRED: exempi kde5 libcsv
+SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.2.1.tar.xz
+SLACKBUILD MD5SUM: d1e3485aa20111020547a80ca266cf14
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
+
+SLACKBUILD NAME: vimb
+SLACKBUILD LOCATION: ./vimb
+SLACKBUILD FILES: README doinst.sh patches/0eda3ec2ac78577a08ace4c18cd9e912a56609e6.patch slack-desc vimb.SlackBuild vimb.info
+SLACKBUILD VERSION: 3.4.0
+SLACKBUILD REQUIRED: webkit2gtk
+SLACKBUILD DOWNLOAD: https://github.com/fanglingsu/vimb/archive/3.4.0/vimb-3.4.0.tar.gz
+SLACKBUILD MD5SUM: befacbb3089627a516cf8f12ac389b98
+SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
 
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
@@ -226,10 +253,10 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.0.3
+SLACKBUILD VERSION: 3.1.0
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
-SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.0.3.tar.xz
-SLACKBUILD MD5SUM: e945d76a57db2c3e6cf776f95da2cf0e
+SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.1.0.tar.xz
+SLACKBUILD MD5SUM: 6828d8895d2c1d6445e7be4a21c50c1b
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: yakuake

@@ -14,7 +14,9 @@ luminance-hdr/luminance-hdr.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
+notmuch/notmuch.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
+qdirstat/qdirstat.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
 sirikali/sirikali.SlackBuild
@@ -22,6 +24,7 @@ smb4k/smb4k.SlackBuild
 soundkonverter/soundkonverter.SlackBuild
 sqlitebrowser/sqlitebrowser.SlackBuild
 tellico/tellico.SlackBuild
+vimb/vimb.SlackBuild
 wine/wine.SlackBuild
 wireshark/wireshark.SlackBuild
 yakuake/yakuake.SlackBuild
