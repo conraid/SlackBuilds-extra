@@ -23,13 +23,13 @@
 # with this program (most likely, a file named COPYING).  If not, see
 # <http://www.gnu.org/licenses/>.
 
-set -eu 
+set -eu
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=yakuake
-VERSION=3.0.5
-BUILD=${BUILD:-7}
+VERSION=19.07.90
+BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
@@ -71,7 +71,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PKGNAM-$VERSION
-tar xvf $CWD/$PKGNAM-$VERSION.tar.xz
+tar xvf $CWD/$PKGNAM-$VERSION.tar.gz || tar xvf $CWD/v${VERSION}.tar.gz
 cd $PKGNAM-$VERSION
 
 chown -R root:root .
@@ -80,13 +80,11 @@ chmod -R u+w,go+r-w,a-s .
 mkdir -p build
 cd build
 cmake -Wno-dev \
-  -DCMAKE_C_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
   -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
   -DMAN_INSTALL_DIR=/usr/man \
   -DSYSCONF_INSTALL_DIR=/etc \
-  -DLIB_SUFFIX=${LIBDIRSUFFIX} \
   ..
 
 make
