@@ -15,10 +15,12 @@ lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 nomacs/nomacs.SlackBuild
 notmuch/notmuch.SlackBuild
+profanity/profanity.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
 qdirstat/qdirstat.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
+scribus/scribus.SlackBuild
 sirikali/sirikali.SlackBuild
 smb4k/smb4k.SlackBuild
 soundkonverter/soundkonverter.SlackBuild
