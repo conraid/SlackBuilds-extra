@@ -15,5 +15,5 @@ package included in ktown of alien
 HOME: https://kde.org
 
 ======================================================================
-REQUIRES: editorconfig-core-c kde5
+REQUIRES: editorconfig-core-c kde5 libgit2
 
