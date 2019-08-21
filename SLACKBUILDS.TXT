@@ -64,10 +64,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.6.7
+SLACKBUILD VERSION: 2.7.0
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.6.7.tar.gz
-SLACKBUILD MD5SUM: 1d55ec5d349ccf0ef78cf8d1b4a42af8
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.0.tar.gz
+SLACKBUILD MD5SUM: cccaf229cf24a200f1039e20f426a63b
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -101,7 +101,7 @@ SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
 SLACKBUILD VERSION: 5.60.0
-SLACKBUILD REQUIRED: editorconfig-core-c kde5
+SLACKBUILD REQUIRED: editorconfig-core-c kde5 libgit2
 SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.60/ktexteditor-5.60.0.tar.xz
 SLACKBUILD MD5SUM: 46a45573dd2d86e5291d0d1b8f7890c4
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
@@ -133,6 +133,15 @@ SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-36.0.0.tar.x
 SLACKBUILD MD5SUM: b9c5a283a96b8bc89f7dab9d1a32dcd6
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
+SLACKBUILD NAME: multibootusb
+SLACKBUILD LOCATION: ./multibootusb
+SLACKBUILD FILES: README doinst.sh multibootusb.SlackBuild multibootusb.info slack-desc
+SLACKBUILD VERSION: 9.2.0
+SLACKBUILD REQUIRED: pyqt5 qt5
+SLACKBUILD DOWNLOAD: https://github.com/mbusb/multibootusb/archive/v9.2.0/multibootusb-9.2.0.tar.gz
+SLACKBUILD MD5SUM: 8b4e9fb36af2b2af34019d73db9ce8c3
+SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a USB disk)
+
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
 SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
@@ -163,10 +172,10 @@ SLACKBUILD SHORT DESCRIPTION:  profanity (A console based XMPP client)
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
 SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
-SLACKBUILD VERSION: 4.1.6
+SLACKBUILD VERSION: 4.1.7
 SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
-SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.1.6.tar.xz
-SLACKBUILD MD5SUM: f3b8e1e04b081e8d3a36739f767ec05a
+SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.1.7.tar.xz
+SLACKBUILD MD5SUM: d717e41ee7d0670f402c9c1f8e2c88fc
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
 
 SLACKBUILD NAME: qdirstat
@@ -217,10 +226,10 @@ SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesy
 SLACKBUILD NAME: smb4k
 SLACKBUILD LOCATION: ./smb4k
 SLACKBUILD FILES: README doinst.sh slack-desc smb4k.SlackBuild smb4k.info
-SLACKBUILD VERSION: 3.0.1
+SLACKBUILD VERSION: 3.0.2
 SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/smb4k/smb4k-3.0.1.tar.xz
-SLACKBUILD MD5SUM: 2695bdc94db7c5bdd888c813b20ba592
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/smb4k/smb4k-3.0.2.tar.xz
+SLACKBUILD MD5SUM: 12ea7b57edec04e74276ecc7a37801f5
 SLACKBUILD SHORT DESCRIPTION:  smb4k (Advanced Network Neighborhood Browser for KDE)
 
 SLACKBUILD NAME: soundkonverter
@@ -289,9 +298,9 @@ SLACKBUILD SHORT DESCRIPTION:  yakuake (Yet Another Kuake, KDE terminal emulator
 SLACKBUILD NAME: zulucrypt
 SLACKBUILD LOCATION: ./zulucrypt
 SLACKBUILD FILES: README doinst.sh slack-desc zulucrypt.SlackBuild zulucrypt.info
-SLACKBUILD VERSION: 5.5.0
+SLACKBUILD VERSION: 5.6.0
 SLACKBUILD REQUIRED: libpwquality zuluplay
-SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/zuluCrypt/releases/download/5.5.0/zuluCrypt-5.5.0.tar.xz
-SLACKBUILD MD5SUM: 8d8fbaf3852ab8e13dfd21a7901a4634
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/zuluCrypt/releases/download/5.6.0/zuluCrypt-5.6.0.tar.xz
+SLACKBUILD MD5SUM: 58eaa74e56f2541b49a801cf285f733f
 SLACKBUILD SHORT DESCRIPTION:  zulucrypt (front end to cryptsetup and True/VeraCrypt)
 

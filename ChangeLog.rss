@@ -11,9 +11,27 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed, 14 Aug 2019 16:29:53 UTC</pubDate>
-      <lastBuildDate>Wed, 14 Aug 2019 16:32:35 UTC</lastBuildDate>
+      <pubDate>Wed, 21 Aug 2019 15:32:58 UTC</pubDate>
+      <lastBuildDate>Wed, 21 Aug 2019 15:38:18 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed, 21 Aug 2019 15:32:58 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed, 21 Aug 2019 15:32:58 UTC</pubDate>
+         <guid isPermaLink="false">20190821173258</guid>
+         <description>
+           <![CDATA[<pre>
+amule-r11004-x86_64-6cf.txz:  Rebuilt.
+gmic-2.7.0-x86_64-1cf.txz:  Upgraded.
+luminance-hdr-2.6.0-x86_64-2cf.txz:  Rebuilt.
+mkvtoolnix-36.0.0-x86_64-2cf.txz:  Rebuilt.
+multibootusb-9.2.0-x86_64-1cf.txz:  Added.
+qbittorrent-4.1.7-x86_64-1cf.txz:  Upgraded.
+smb4k-3.0.2-x86_64-1cf.txz:  Upgraded.
+zulucrypt-5.6.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed, 14 Aug 2019 16:29:53 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -255,17 +273,6 @@ zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
 bettercap-2.24-x86_64-1cf.txz:  Upgraded.
 qbittorrent-d001927-x86_64-1cf.txz:  Upgraded.
 zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Wed,  1 May 2019 10:51:39 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed,  1 May 2019 10:51:39 UTC</pubDate>
-         <guid isPermaLink="false">20190501125139</guid>
-         <description>
-           <![CDATA[<pre>
-zulucrypt-5.5.0-x86_64-1cf.txz:  Added.
            </pre>]]>
          </description>
       </item>
