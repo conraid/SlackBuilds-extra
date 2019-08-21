@@ -30,7 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=gmic
-SRCVERSION=2.6.7
+SRCVERSION=2.7.0
 VERSION=$SRCVERSION
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
@@ -83,10 +83,6 @@ sed -e "/^LIB/s/lib/lib$LIBDIRSUFFIX/" \
     -e "s|share/doc/gmic|doc/gmic-$VERSION|g" \
     -e 's|/share/man|/man|g' -i src/Makefile
 
-# fix opencv4
-sed -e 's/pkg-config opencv --libs ||//' -e 's/-lopencv_highgui/-lopencv_videoio/' \
-    -e 's/pkg-config opencv/pkg-config opencv4/' -i src/Makefile
-
 # Build library and command line
 make CFLAGS="$SLKCFLAGS" WGET=/dev/true -C src cli lib libc
 
@@ -104,11 +100,12 @@ else
   QMAKE="qmake"
 fi
 
+
 # Build zart
-cd zart
-$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
-make
-cd ..
+#cd zart
+#$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
+#make
+#cd ..
 
 make DESTDIR=$PKG install -C src
 
