@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed, 21 Aug 2019 15:32:58 UTC</pubDate>
-      <lastBuildDate>Wed, 21 Aug 2019 15:38:18 UTC</lastBuildDate>
+      <pubDate>Tue, 27 Aug 2019 17:23:05 UTC</pubDate>
+      <lastBuildDate>Tue, 27 Aug 2019 17:24:33 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue, 27 Aug 2019 17:23:05 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue, 27 Aug 2019 17:23:05 UTC</pubDate>
+         <guid isPermaLink="false">20190827192305</guid>
+         <description>
+           <![CDATA[<pre>
+fontforge-20190801-x86_64-1cf.txz:  Added.
+	- Moved from mail repository
+mkvtoolnix-37.0.0-x86_64-1cf.txz:  Upgraded.
+wine-4.14-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed, 21 Aug 2019 15:32:58 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -259,19 +273,6 @@ soundkonverter-3.0.1-x86_64-1cf.txz:  Added.
 tellico-3.1.4-x86_64-1cf.txz:  Added.
 wine-4.7-x86_64-1cf.txz:  Added.
 yakuake-3.0.5-x86_64-7cf.txz:  Added.
-zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  3 May 2019 16:24:20 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  3 May 2019 16:24:20 UTC</pubDate>
-         <guid isPermaLink="false">20190503182420</guid>
-         <description>
-           <![CDATA[<pre>
-bettercap-2.24-x86_64-1cf.txz:  Upgraded.
-qbittorrent-d001927-x86_64-1cf.txz:  Upgraded.
 zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>

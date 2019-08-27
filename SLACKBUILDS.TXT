@@ -52,6 +52,15 @@ SLACKBUILD DOWNLOAD: https://github.com/papylhomme/diskmonitor/archive/0.3.3/dis
 SLACKBUILD MD5SUM: 31df3c7f2fefe7153811e7ca0379aa58
 SLACKBUILD SHORT DESCRIPTION:  diskmonitor (KDE tools to monitor SMART devices)
 
+SLACKBUILD NAME: fontforge
+SLACKBUILD LOCATION: ./fontforge
+SLACKBUILD FILES: README doinst.sh fontforge.SlackBuild fontforge.info slack-desc
+SLACKBUILD VERSION: 20190801
+SLACKBUILD REQUIRED: libspiro libuninameslist
+SLACKBUILD DOWNLOAD: https://github.com/fontforge/fontforge/releases/download/20190801/fontforge-20190801.tar.gz
+SLACKBUILD MD5SUM: 5d845f6092b8c3342473ff64bc8ee70c
+SLACKBUILD SHORT DESCRIPTION:  fontforge (Font editor)
+
 SLACKBUILD NAME: git-cola
 SLACKBUILD LOCATION: ./git-cola
 SLACKBUILD FILES: README doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
@@ -127,10 +136,10 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 36.0.0
+SLACKBUILD VERSION: 37.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-36.0.0.tar.xz
-SLACKBUILD MD5SUM: b9c5a283a96b8bc89f7dab9d1a32dcd6
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-37.0.0.tar.xz
+SLACKBUILD MD5SUM: 7a5d921e5604972d96ee6675dec733fd
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
 SLACKBUILD NAME: multibootusb
@@ -271,10 +280,10 @@ SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
 SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 4.7
+SLACKBUILD VERSION: 4.14
 SLACKBUILD REQUIRED: openal fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.7.tar.xz
-SLACKBUILD MD5SUM: a1e5c515f3c09c1ed42ce30a089eea15
+SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.14.tar.xz
+SLACKBUILD MD5SUM: a835928827b34f8de67e37f87294ce01
 SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 
 SLACKBUILD NAME: wireshark
