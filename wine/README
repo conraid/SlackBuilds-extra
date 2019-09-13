@@ -15,5 +15,5 @@ With staging patches.
 HOME: http://www.winehq.org/
 
 ======================================================================
-REQUIRES: openal fontforge cabextract
+REQUIRES: fontforge cabextract
 
