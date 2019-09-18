@@ -15,13 +15,16 @@ luminance-hdr/luminance-hdr.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 multibootusb/multibootusb.SlackBuild
+neovim-qt/neovim-qt.SlackBuild
 nomacs/nomacs.SlackBuild
 notmuch/notmuch.SlackBuild
+ostinato/ostinato.SlackBuild
 profanity/profanity.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
 qdirstat/qdirstat.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
+qtpass/qtpass.SlackBuild
 scribus/scribus.SlackBuild
 sirikali/sirikali.SlackBuild
 smb4k/smb4k.SlackBuild
@@ -29,7 +32,7 @@ soundkonverter/soundkonverter.SlackBuild
 sqlitebrowser/sqlitebrowser.SlackBuild
 tellico/tellico.SlackBuild
 vimb/vimb.SlackBuild
+webkitgtk/webkitgtk.SlackBuild
 wine/wine.SlackBuild
 wireshark/wireshark.SlackBuild
-yakuake/yakuake.SlackBuild
 zulucrypt/zulucrypt.SlackBuild

@@ -11,20 +11,37 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Tue, 27 Aug 2019 17:23:05 UTC</pubDate>
-      <lastBuildDate>Tue, 27 Aug 2019 17:24:33 UTC</lastBuildDate>
+      <pubDate>Wed, 18 Sep 2019 06:01:29 UTC</pubDate>
+      <lastBuildDate>Wed, 18 Sep 2019 06:07:19 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
       <item>
-         <title>Tue, 27 Aug 2019 17:23:05 UTC</title>
+         <title>Wed, 18 Sep 2019 06:01:29 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 27 Aug 2019 17:23:05 UTC</pubDate>
-         <guid isPermaLink="false">20190827192305</guid>
+         <pubDate>Wed, 18 Sep 2019 06:01:29 UTC</pubDate>
+         <guid isPermaLink="false">20190918080129</guid>
+         <description>
+           <![CDATA[<pre>
+balsa-2.5.7-x86_64-2cf.txz:  Rebuilt.
+ktexteditor-5.62.0-x86_64-1cf.txz:  Upgraded.
+	- with editorconfig support
+webkitgtk-2.26.0-x86_64-1cf.txz:  Added.
+yakuake-19.07.90-x86_64-1cf.txz:  Removed.
+	- now in ktown by Alien
+           </pre>]]>
+         </description>
+      </item>
+      <item>
+         <title>Fri, 13 Sep 2019 14:57:58 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri, 13 Sep 2019 14:57:58 UTC</pubDate>
+         <guid isPermaLink="false">20190913165758</guid>
          <description>
            <![CDATA[<pre>
 fontforge-20190801-x86_64-1cf.txz:  Added.
-	- Moved from mail repository
-mkvtoolnix-37.0.0-x86_64-1cf.txz:  Upgraded.
-wine-4.14-x86_64-1cf.txz:  Upgraded.
+neovim-qt-0.2.14-x86_64-1cf.txz:  Added.
+ostinato-1.0-x86_64-1cf.txz:  Added.
+qtpass-1.3.0-x86_64-1cf.txz:  Added.
+wine-4.15-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
@@ -252,28 +269,6 @@ nomacs-3.12-x86_64-4cf.txz:  Rebuilt.
            <![CDATA[<pre>
 ktexteditor-5.58.0-x86_64-1cf.txz:  Added.
 	- Built with editorconfig support
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon, 13 May 2019 09:45:49 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon, 13 May 2019 09:45:49 UTC</pubDate>
-         <guid isPermaLink="false">20190513114549</guid>
-         <description>
-           <![CDATA[<pre>
-amule-r11004-x86_64-6cf.txz:  Added.
-bettercap-2.24-x86_64-1cf.txz:  Upgraded.
-converseen-0.9.7.2-x86_64-1cf.txz:  Added.
-diskmonitor-0.3.3-x86_64-1cf.txz:  Added.
-luminance-hdr-1d9feb4-x86_64-1cf.txz:  Added.
-qbittorrent-4.1.6-x86_64-1cf.txz:  Upgraded.
-qtcurve-25c4522-x86_64-1cf.txz:  Upgraded.
-soundkonverter-3.0.1-x86_64-1cf.txz:  Added.
-tellico-3.1.4-x86_64-1cf.txz:  Added.
-wine-4.7-x86_64-1cf.txz:  Added.
-yakuake-3.0.5-x86_64-7cf.txz:  Added.
-zulucrypt-5.5.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

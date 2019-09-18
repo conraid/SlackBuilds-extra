@@ -20,7 +20,7 @@ SLACKBUILD NAME: balsa
 SLACKBUILD LOCATION: ./balsa
 SLACKBUILD FILES: README balsa.SlackBuild balsa.info doinst.sh slack-desc
 SLACKBUILD VERSION: 2.5.7
-SLACKBUILD REQUIRED: libesmtp enchant2 webkit2gtk
+SLACKBUILD REQUIRED: libesmtp enchant2 webkitgtk gmime2
 SLACKBUILD DOWNLOAD: http://pawsa.fedorapeople.org/balsa/balsa-2.5.7.tar.bz2
 SLACKBUILD MD5SUM: 3d1d06c29e3d2cf9ec648641f35f0865
 SLACKBUILD SHORT DESCRIPTION:  balsa (Email Client)
@@ -109,10 +109,10 @@ SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
-SLACKBUILD VERSION: 5.60.0
+SLACKBUILD VERSION: 5.62.0
 SLACKBUILD REQUIRED: editorconfig-core-c kde5 libgit2
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.60/ktexteditor-5.60.0.tar.xz
-SLACKBUILD MD5SUM: 46a45573dd2d86e5291d0d1b8f7890c4
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.62/ktexteditor-5.62.0.tar.xz
+SLACKBUILD MD5SUM: 222956ab29b2ccf8b95c4914a74a4359
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 
 SLACKBUILD NAME: luminance-hdr
@@ -151,6 +151,15 @@ SLACKBUILD DOWNLOAD: https://github.com/mbusb/multibootusb/archive/v9.2.0/multib
 SLACKBUILD MD5SUM: 8b4e9fb36af2b2af34019d73db9ce8c3
 SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a USB disk)
 
+SLACKBUILD NAME: neovim-qt
+SLACKBUILD LOCATION: ./neovim-qt
+SLACKBUILD FILES: README doinst.sh neovim-qt.SlackBuild neovim-qt.info slack-desc
+SLACKBUILD VERSION: 0.2.14
+SLACKBUILD REQUIRED: qt5 msgpack-c neovim
+SLACKBUILD DOWNLOAD: https://github.com/equalsraf/neovim-qt/archive/v0.2.14/neovim-qt-0.2.14.tar.gz
+SLACKBUILD MD5SUM: 4cd74d98288cf4e6c9ad9b4219a8eb61
+SLACKBUILD SHORT DESCRIPTION:  neovim-qt (Neovim client library and GUI, in Qt5)
+
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
 SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
@@ -168,6 +177,15 @@ SLACKBUILD REQUIRED:
 SLACKBUILD DOWNLOAD: http://notmuchmail.org/releases/notmuch-0.29.1.tar.xz
 SLACKBUILD MD5SUM: d45bc3f5177a0fa63d7469bb98ee5f45
 SLACKBUILD SHORT DESCRIPTION:  notmuch (thread-based email index, search and tagging)
+
+SLACKBUILD NAME: ostinato
+SLACKBUILD LOCATION: ./ostinato
+SLACKBUILD FILES: README files/remote-ext.h ostinato.SlackBuild ostinato.info slack-desc
+SLACKBUILD VERSION: 1.0
+SLACKBUILD REQUIRED: protobuf qt5
+SLACKBUILD DOWNLOAD: https://github.com/pstavirs/ostinato/archive/v1.0.tar.gz
+SLACKBUILD MD5SUM: 51a5e89f7e84b95e6c54e08505021743
+SLACKBUILD SHORT DESCRIPTION:  ostinato (Packet/Traffic Generator and Analyzer)
 
 SLACKBUILD NAME: profanity
 SLACKBUILD LOCATION: ./profanity
@@ -213,6 +231,15 @@ SLACKBUILD REQUIRED: kde5
 SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/ee2228ea2f18ac5da9b434ee6089381df815aa94.tar.gz
 SLACKBUILD MD5SUM: 92b150458e401bb5f234e425cc6fa71f
 SLACKBUILD SHORT DESCRIPTION:  qtcurve (A configurable set of widget styles for KDE and Gtk)
+
+SLACKBUILD NAME: qtpass
+SLACKBUILD LOCATION: ./qtpass
+SLACKBUILD FILES: README doinst.sh qtpass.SlackBuild qtpass.info slack-desc
+SLACKBUILD VERSION: 1.3.0
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: https://github.com/IJHack/qtpass/archive/v1.3.0.tar.gz
+SLACKBUILD MD5SUM: fbba46455fc5685060f4a099bd67f933
+SLACKBUILD SHORT DESCRIPTION:  qtpass (A multi-platform GUI for pass)
 
 SLACKBUILD NAME: scribus
 SLACKBUILD LOCATION: ./scribus
@@ -272,18 +299,27 @@ SLACKBUILD NAME: vimb
 SLACKBUILD LOCATION: ./vimb
 SLACKBUILD FILES: README doinst.sh slack-desc vimb.SlackBuild vimb.info
 SLACKBUILD VERSION: 3.5.0
-SLACKBUILD REQUIRED: webkit2gtk
+SLACKBUILD REQUIRED: webkitgtk
 SLACKBUILD DOWNLOAD: https://github.com/fanglingsu/vimb/archive/3.5.0/vimb-3.5.0.tar.gz
 SLACKBUILD MD5SUM: 9b18f7c13c2853bc4ed9dfc7e9a10dff
 SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
 
+SLACKBUILD NAME: webkitgtk
+SLACKBUILD LOCATION: ./webkitgtk
+SLACKBUILD FILES: README slack-desc webkitgtk.SlackBuild webkitgtk.info
+SLACKBUILD VERSION: 2.26.0
+SLACKBUILD REQUIRED: woff2 hyphen libseccomp bubblewrap xdg-dbus-proxy
+SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.0.tar.xz
+SLACKBUILD MD5SUM: 3a7054843cf9decbf824b8ffae794e65
+SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
+
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
 SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 4.14
-SLACKBUILD REQUIRED: openal fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.14.tar.xz
-SLACKBUILD MD5SUM: a835928827b34f8de67e37f87294ce01
+SLACKBUILD VERSION: 4.15
+SLACKBUILD REQUIRED: fontforge cabextract
+SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.15.tar.xz
+SLACKBUILD MD5SUM: 234811f7f42aa4dc444ee74a2ee63a83
 SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 
 SLACKBUILD NAME: wireshark
@@ -294,15 +330,6 @@ SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
 SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.1.0.tar.xz
 SLACKBUILD MD5SUM: 6828d8895d2c1d6445e7be4a21c50c1b
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
-
-SLACKBUILD NAME: yakuake
-SLACKBUILD LOCATION: ./yakuake
-SLACKBUILD FILES: README doinst.sh slack-desc yakuake.SlackBuild yakuake.info
-SLACKBUILD VERSION: 19.07.90
-SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/KDE/yakuake/archive/v19.07.90.tar.gz
-SLACKBUILD MD5SUM: aedd147a02d38f4e1b9c8caa69b38205
-SLACKBUILD SHORT DESCRIPTION:  yakuake (Yet Another Kuake, KDE terminal emulator) 
 
 SLACKBUILD NAME: zulucrypt
 SLACKBUILD LOCATION: ./zulucrypt
