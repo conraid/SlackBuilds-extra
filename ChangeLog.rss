@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed, 18 Sep 2019 06:01:29 UTC</pubDate>
-      <lastBuildDate>Wed, 18 Sep 2019 06:07:19 UTC</lastBuildDate>
+      <pubDate>Thu, 26 Sep 2019 13:13:41 UTC</pubDate>
+      <lastBuildDate>Thu, 26 Sep 2019 13:15:20 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu, 26 Sep 2019 13:13:41 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu, 26 Sep 2019 13:13:41 UTC</pubDate>
+         <guid isPermaLink="false">20190926151341</guid>
+         <description>
+           <![CDATA[<pre>
+bettercap-2.25-x86_64-1cf.txz:  Upgraded.
+gmic-2.7.2-x86_64-1cf.txz:  Upgraded.
+profanity-0.7.1-x86_64-1cf.txz:  Upgraded.
+rawtherapee-5.7-x86_64-1cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed, 18 Sep 2019 06:01:29 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -257,18 +271,6 @@ kdiff3-1.8.1-x86_64-1cf.txz:  Added.
            <![CDATA[<pre>
 gmic-2.6.2-x86_64-1cf.txz:  Upgraded.
 nomacs-3.12-x86_64-4cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue, 14 May 2019 09:49:56 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 14 May 2019 09:49:56 UTC</pubDate>
-         <guid isPermaLink="false">20190514114956</guid>
-         <description>
-           <![CDATA[<pre>
-ktexteditor-5.58.0-x86_64-1cf.txz:  Added.
-	- Built with editorconfig support
            </pre>]]>
          </description>
       </item>

@@ -28,10 +28,10 @@ SLACKBUILD SHORT DESCRIPTION:  balsa (Email Client)
 SLACKBUILD NAME: bettercap
 SLACKBUILD LOCATION: ./bettercap
 SLACKBUILD FILES: PKGNOTE README bettercap.SlackBuild bettercap.info slack-desc
-SLACKBUILD VERSION: 2.24.1
-SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.24.1/bettercap-2.24.1.tar.gz
-SLACKBUILD MD5SUM: d4d50c754524661aece9665f0dd81999
+SLACKBUILD VERSION: 2.25
+SLACKBUILD REQUIRED: dep google-go-lang
+SLACKBUILD DOWNLOAD: https://github.com/bettercap/bettercap/archive/v2.25/bettercap-2.25.tar.gz
+SLACKBUILD MD5SUM: 06eed12c0353f9b0fa88f99741f4d5a0
 SLACKBUILD SHORT DESCRIPTION:  bettercap (Swiss army knife for network attacks and monitoring)
 
 SLACKBUILD NAME: converseen
@@ -73,9 +73,9 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.7.0
+SLACKBUILD VERSION: 2.7.2
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.0.tar.gz
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.2.tar.gz
 SLACKBUILD MD5SUM: cccaf229cf24a200f1039e20f426a63b
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
@@ -190,10 +190,10 @@ SLACKBUILD SHORT DESCRIPTION:  ostinato (Packet/Traffic Generator and Analyzer)
 SLACKBUILD NAME: profanity
 SLACKBUILD LOCATION: ./profanity
 SLACKBUILD FILES: README profanity.SlackBuild profanity.info slack-desc
-SLACKBUILD VERSION: 0.7.0
+SLACKBUILD VERSION: 0.7.1
 SLACKBUILD REQUIRED: libotr libmesode
-SLACKBUILD DOWNLOAD: https://github.com/boothj5/profanity/releases/download/0.7.0/profanity-0.7.0.tar.gz
-SLACKBUILD MD5SUM: e5092d6b318cb94c2562c0070e2ca72c
+SLACKBUILD DOWNLOAD: https://github.com/boothj5/profanity/releases/download/0.7.1/profanity-0.7.1.tar.gz
+SLACKBUILD MD5SUM: cf0708c7ccedbd961d614bd0bbbeb28e
 SLACKBUILD SHORT DESCRIPTION:  profanity (A console based XMPP client)
 
 SLACKBUILD NAME: qbittorrent
@@ -240,6 +240,15 @@ SLACKBUILD REQUIRED: qt5
 SLACKBUILD DOWNLOAD: https://github.com/IJHack/qtpass/archive/v1.3.0.tar.gz
 SLACKBUILD MD5SUM: fbba46455fc5685060f4a099bd67f933
 SLACKBUILD SHORT DESCRIPTION:  qtpass (A multi-platform GUI for pass)
+
+SLACKBUILD NAME: rawtherapee
+SLACKBUILD LOCATION: ./rawtherapee
+SLACKBUILD FILES: README doinst.sh rawtherapee.SlackBuild rawtherapee.info slack-desc
+SLACKBUILD VERSION: 5.7
+SLACKBUILD REQUIRED: libiptcdata lensfun
+SLACKBUILD DOWNLOAD: https://github.com/Beep6581/RawTherapee/releases/download/5.7/rawtherapee-5.7.tar.xz
+SLACKBUILD MD5SUM: a9fb6fa8828984b3a927001fa0c6533c
+SLACKBUILD SHORT DESCRIPTION:  rawtherapee (Raw image processing software)
 
 SLACKBUILD NAME: scribus
 SLACKBUILD LOCATION: ./scribus
