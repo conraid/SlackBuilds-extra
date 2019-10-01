@@ -1,2 +1,0 @@
-At runtime it does not need dependencies.
-To build I used the "go" and "dep" binaries from https://github.com/golang
