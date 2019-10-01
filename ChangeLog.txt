@@ -1,3 +1,8 @@
+Tue Oct 1 11:58:31 UTC 2019
+bettercap-2.25-x86_64-1cf.txz:  Removed.
+	- moved to main repository
+sirikali-1.4.0-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Thu Sep 26 13:13:41 UTC 2019
 bettercap-2.25-x86_64-1cf.txz:  Upgraded.
 gmic-2.7.2-x86_64-1cf.txz:  Upgraded.

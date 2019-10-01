@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Thu, 26 Sep 2019 13:13:41 UTC</pubDate>
-      <lastBuildDate>Thu, 26 Sep 2019 13:15:20 UTC</lastBuildDate>
+      <pubDate>Tue,  1 Oct 2019 11:58:31 UTC</pubDate>
+      <lastBuildDate>Tue,  1 Oct 2019 12:02:44 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue,  1 Oct 2019 11:58:31 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue,  1 Oct 2019 11:58:31 UTC</pubDate>
+         <guid isPermaLink="false">20191001135831</guid>
+         <description>
+           <![CDATA[<pre>
+bettercap-2.25-x86_64-1cf.txz:  Removed.
+	- moved to main repository
+sirikali-1.4.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Thu, 26 Sep 2019 13:13:41 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -259,18 +272,6 @@ wireshark-3.0.2-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 gmic-2.6.3-x86_64-1cf.txz:  Upgraded.
 kdiff3-1.8.1-x86_64-1cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue, 14 May 2019 11:33:32 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 14 May 2019 11:33:32 UTC</pubDate>
-         <guid isPermaLink="false">20190514133332</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.6.2-x86_64-1cf.txz:  Upgraded.
-nomacs-3.12-x86_64-4cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>
