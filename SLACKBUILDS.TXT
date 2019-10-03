@@ -226,10 +226,10 @@ SLACKBUILD SHORT DESCRIPTION:  qtcurve (A configurable set of widget styles for 
 SLACKBUILD NAME: qtpass
 SLACKBUILD LOCATION: ./qtpass
 SLACKBUILD FILES: README doinst.sh qtpass.SlackBuild qtpass.info slack-desc
-SLACKBUILD VERSION: 1.3.0
+SLACKBUILD VERSION: 1.3.1
 SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: https://github.com/IJHack/qtpass/archive/v1.3.0.tar.gz
-SLACKBUILD MD5SUM: fbba46455fc5685060f4a099bd67f933
+SLACKBUILD DOWNLOAD: https://github.com/IJHack/qtpass/archive/v1.3.1.tar.gz
+SLACKBUILD MD5SUM: 13845ae127aa79eec975d76be3ecaf5c
 SLACKBUILD SHORT DESCRIPTION:  qtpass (A multi-platform GUI for pass)
 
 SLACKBUILD NAME: rawtherapee
@@ -334,9 +334,9 @@ SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 SLACKBUILD NAME: zulucrypt
 SLACKBUILD LOCATION: ./zulucrypt
 SLACKBUILD FILES: README doinst.sh slack-desc zulucrypt.SlackBuild zulucrypt.info
-SLACKBUILD VERSION: 5.6.0
+SLACKBUILD VERSION: 5.7.0
 SLACKBUILD REQUIRED: libpwquality zuluplay
-SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/zuluCrypt/releases/download/5.6.0/zuluCrypt-5.6.0.tar.xz
-SLACKBUILD MD5SUM: 58eaa74e56f2541b49a801cf285f733f
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/zuluCrypt/releases/download/5.7.0/zuluCrypt-5.7.0.tar.xz
+SLACKBUILD MD5SUM: 99b5291ec17bc234afa252bb78d2d036
 SLACKBUILD SHORT DESCRIPTION:  zulucrypt (front end to cryptsetup and True/VeraCrypt)
 
