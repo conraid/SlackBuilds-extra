@@ -127,9 +127,9 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 37.0.0
+SLACKBUILD VERSION: 38.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-37.0.0.tar.xz
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-38.0.0.tar.xz
 SLACKBUILD MD5SUM: 7a5d921e5604972d96ee6675dec733fd
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
@@ -247,7 +247,7 @@ SLACKBUILD FILES: README doinst.sh scribus.SlackBuild scribus.info slack-desc
 SLACKBUILD VERSION: 1.5.5
 SLACKBUILD REQUIRED: podofo qt5
 SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/scribus/scribus-1.5.5.tar.xz
-SLACKBUILD MD5SUM: ef61b996b6d07f8a19475f51330d3535
+SLACKBUILD MD5SUM: 6a9ddc8c45356d3c6c741e4c7bb0565a
 SLACKBUILD SHORT DESCRIPTION:  Scribus (open-source professional page layout program)
 
 SLACKBUILD NAME: sirikali
@@ -306,11 +306,11 @@ SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
 
 SLACKBUILD NAME: webkitgtk
 SLACKBUILD LOCATION: ./webkitgtk
-SLACKBUILD FILES: README slack-desc webkitgtk.SlackBuild webkitgtk.info
-SLACKBUILD VERSION: 2.26.0
+SLACKBUILD FILES: README patches/icu651.patch slack-desc webkitgtk.SlackBuild webkitgtk.info
+SLACKBUILD VERSION: 2.26.1
 SLACKBUILD REQUIRED: woff2 hyphen libseccomp bubblewrap xdg-dbus-proxy
-SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.0.tar.xz
-SLACKBUILD MD5SUM: 3a7054843cf9decbf824b8ffae794e65
+SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.1.tar.xz
+SLACKBUILD MD5SUM: 08145bd6c1587230f135921c142bc150
 SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 
 SLACKBUILD NAME: wine

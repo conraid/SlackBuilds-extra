@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri,  4 Oct 2019 08:28:37 UTC</pubDate>
-      <lastBuildDate>Fri,  4 Oct 2019 08:29:05 UTC</lastBuildDate>
+      <pubDate>Mon,  7 Oct 2019 16:48:29 UTC</pubDate>
+      <lastBuildDate>Mon,  7 Oct 2019 16:50:25 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon,  7 Oct 2019 16:48:29 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon,  7 Oct 2019 16:48:29 UTC</pubDate>
+         <guid isPermaLink="false">20191007184829</guid>
+         <description>
+           <![CDATA[<pre>
+luminance-hdr-2.6.0-x86_64-3cf.txz:  Rebuilt.
+mkvtoolnix-38.0.0-x86_64-1cf.txz:  Upgraded.
+scribus-1.5.5-x86_64-2cf.txz:  Rebuilt.
+webkitgtk-2.26.1-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri,  4 Oct 2019 08:28:37 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -248,18 +262,6 @@ smb4k-3.0.0-x86_64-1cf.txz:  Added.
          <description>
            <![CDATA[<pre>
 gmic-2.6.5-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon,  3 Jun 2019 11:26:35 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon,  3 Jun 2019 11:26:35 UTC</pubDate>
-         <guid isPermaLink="false">20190603132635</guid>
-         <description>
-           <![CDATA[<pre>
-balsa-2.5.7-x86_64-1cf.txz:  Added.
-keepassxc-2.4.2-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
