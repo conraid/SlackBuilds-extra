@@ -30,7 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=gmic
-SRCVERSION=2.7.2
+SRCVERSION=2.7.4
 VERSION=$SRCVERSION
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
@@ -78,6 +78,13 @@ cd $PKGNAM-$SRCVERSION
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
 
+# Apply patches
+if [ -e $CWD/patches/ ]; then
+  for PATCH in $CWD/patches/*.patch; do
+    patch -p1 -i $PATCH
+  done
+fi
+
 # Fix path
 sed -e "/^LIB/s/lib/lib$LIBDIRSUFFIX/" \
     -e "s|share/doc/gmic|doc/gmic-$VERSION|g" \
@@ -102,10 +109,10 @@ fi
 
 
 # Build zart
-#cd zart
-#$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
-#make
-#cd ..
+cd zart
+$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
+make
+cd ..
 
 make DESTDIR=$PKG install -C src
 
