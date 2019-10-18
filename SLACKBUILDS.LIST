@@ -1,7 +1,9 @@
 amule/amule.SlackBuild
 ansifilter/ansifilter.SlackBuild
 balsa/balsa.SlackBuild
+cmus/cmus.SlackBuild
 converseen/converseen.SlackBuild
+darktable/darktable.SlackBuild
 diskmonitor/diskmonitor.SlackBuild
 fontforge/fontforge.SlackBuild
 git-cola/git-cola.SlackBuild
@@ -14,6 +16,7 @@ luminance-hdr/luminance-hdr.SlackBuild
 lyx/lyx.SlackBuild
 mkvtoolnix/mkvtoolnix.SlackBuild
 multibootusb/multibootusb.SlackBuild
+neomutt/neomutt.SlackBuild
 neovim-qt/neovim-qt.SlackBuild
 nomacs/nomacs.SlackBuild
 notmuch/notmuch.SlackBuild
@@ -24,6 +27,7 @@ qdirstat/qdirstat.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
 qtpass/qtpass.SlackBuild
+rawstudio/rawstudio.SlackBuild
 rawtherapee/rawtherapee.SlackBuild
 scribus/scribus.SlackBuild
 sirikali/sirikali.SlackBuild

@@ -11,9 +11,27 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon,  7 Oct 2019 16:48:29 UTC</pubDate>
-      <lastBuildDate>Mon,  7 Oct 2019 16:50:25 UTC</lastBuildDate>
+      <pubDate>Fri, 18 Oct 2019 09:17:24 UTC</pubDate>
+      <lastBuildDate>Fri, 18 Oct 2019 09:25:00 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Fri, 18 Oct 2019 09:17:24 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri, 18 Oct 2019 09:17:24 UTC</pubDate>
+         <guid isPermaLink="false">20191018111724</guid>
+         <description>
+           <![CDATA[<pre>
+amule-r11004-x86_64-7cf.txz:  Rebuilt.
+cmus-2.8.0-x86_64-2cf.txz:  Added.
+darktable-cea07b2-x86_64-1cf.txz:  Added.
+gmic-2.7.4-x86_64-1cf.txz:  Upgraded.
+neomutt-20180716-x86_64-6cf.txz:  Added.
+qtpass-1.3.2-x86_64-1cf.txz:  Upgraded.
+rawstudio-2.0-x86_64-7cf.txz:  Added.
+sirikali-1.4.1-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon,  7 Oct 2019 16:48:29 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -251,17 +269,6 @@ php73-composer-1.8.5-noarch-3cf:  Removed.
          <description>
            <![CDATA[<pre>
 smb4k-3.0.0-x86_64-1cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat,  8 Jun 2019 15:56:14 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat,  8 Jun 2019 15:56:14 UTC</pubDate>
-         <guid isPermaLink="false">20190608175614</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.6.5-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
