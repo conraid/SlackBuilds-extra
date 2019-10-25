@@ -30,9 +30,9 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=neomutt
-SRCVERSION=20180716
+SRCVERSION=2019-10-25
 VERSION=$(echo $SRCVERSION | tr - _)
-BUILD=${BUILD:-6}
+BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
@@ -71,9 +71,9 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PKGNAM-$PKGNAM-$SRCVERSION
-tar xvf $CWD/$PKGNAM-$PKGNAM-$SRCVERSION.tar.gz || tar xvf $CWD/$PKGNAM-$SRCVERSION.tar.gz
-cd $PKGNAM-$PKGNAM-$SRCVERSION
+rm -rf $PKGNAM-$SRCVERSION
+tar xvf $CWD/$PKGNAM-$SRCVERSION.tar.gz || tar xvf $CWD/$SRCVERSION.tar.gz
+cd $PKGNAM-$SRCVERSION
 
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
@@ -106,6 +106,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-idn \
   --idn2 \
   --kyotocabinet \
+  --sqlite \
   --host=$ARCH-slackware-linux \
   --build=$ARCH-slackware-linux
 

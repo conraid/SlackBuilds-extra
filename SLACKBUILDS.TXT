@@ -46,10 +46,10 @@ SLACKBUILD SHORT DESCRIPTION:  converseen
 SLACKBUILD NAME: darktable
 SLACKBUILD LOCATION: ./darktable
 SLACKBUILD FILES: README darktable.SlackBuild darktable.info doinst.sh slack-desc
-SLACKBUILD VERSION: cea07b2
+SLACKBUILD VERSION: 2.6.3
 SLACKBUILD REQUIRED: lensfun flickcurl  graphicsmagick lua pugixml openjpeg1
-SLACKBUILD DOWNLOAD: https://github.com/darktable-org/darktable/archive/cea07b275cbc84e4c830bd037d8aa599a5bef033.tar.gz
-SLACKBUILD MD5SUM: 3df624f3fe4dd2e079ab087275102122
+SLACKBUILD DOWNLOAD: https://github.com/darktable-org/darktable/releases/download/release-2.6.3/darktable-2.6.3.tar.xz
+SLACKBUILD MD5SUM: b15bf275cad55155d115ef97661e6a9e
 SLACKBUILD SHORT DESCRIPTION:  darktable (digital photography application)
 
 SLACKBUILD NAME: diskmonitor
@@ -118,10 +118,10 @@ SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
-SLACKBUILD VERSION: 5.62.0
+SLACKBUILD VERSION: 5.63.0
 SLACKBUILD REQUIRED: editorconfig-core-c kde5 libgit2
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.62/ktexteditor-5.62.0.tar.xz
-SLACKBUILD MD5SUM: 222956ab29b2ccf8b95c4914a74a4359
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.63/ktexteditor-5.63.0.tar.xz
+SLACKBUILD MD5SUM: ce473b443039c2009781c71fd494d121
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 
 SLACKBUILD NAME: luminance-hdr
@@ -163,10 +163,10 @@ SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a US
 SLACKBUILD NAME: neomutt
 SLACKBUILD LOCATION: ./neomutt
 SLACKBUILD FILES: README doinst.sh files/neomutt.desktop files/neomutt.xpm neomutt.SlackBuild neomutt.info slack-desc
-SLACKBUILD VERSION: 20180716
-SLACKBUILD REQUIRED: notmuch lua kyotocabinet
-SLACKBUILD DOWNLOAD: https://github.com/neomutt/neomutt/archive/neomutt-20180716.tar.gz
-SLACKBUILD MD5SUM: f628d1bcb31d36c926ed60f2105f742a
+SLACKBUILD VERSION: 2019-10-25
+SLACKBUILD REQUIRED: gpgme notmuch lua kyotocabinet
+SLACKBUILD DOWNLOAD: https://github.com/neomutt/neomutt/archive/2019-10-25.tar.gz
+SLACKBUILD MD5SUM: e8c7805129e92b8b34347105e3859aae
 SLACKBUILD SHORT DESCRIPTION:  neomutt (Bringing together all the Mutt code)
 
 SLACKBUILD NAME: neovim-qt
@@ -190,10 +190,10 @@ SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
 SLACKBUILD NAME: notmuch
 SLACKBUILD LOCATION: ./notmuch
 SLACKBUILD FILES: README doinst.sh notmuch.SlackBuild notmuch.info slack-desc
-SLACKBUILD VERSION: 0.29.1
+SLACKBUILD VERSION: 0.29.2
 SLACKBUILD REQUIRED: gpgme
-SLACKBUILD DOWNLOAD: http://notmuchmail.org/releases/notmuch-0.29.1.tar.xz
-SLACKBUILD MD5SUM: d45bc3f5177a0fa63d7469bb98ee5f45
+SLACKBUILD DOWNLOAD: http://notmuchmail.org/releases/notmuch-0.29.2.tar.xz
+SLACKBUILD MD5SUM: e6398f41315e698e780ab356b32266a3
 SLACKBUILD SHORT DESCRIPTION:  notmuch (thread-based email index, search and tagging)
 
 SLACKBUILD NAME: ostinato

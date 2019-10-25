@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 18 Oct 2019 09:17:24 UTC</pubDate>
-      <lastBuildDate>Fri, 18 Oct 2019 09:25:00 UTC</lastBuildDate>
+      <pubDate>Fri, 25 Oct 2019 14:47:02 UTC</pubDate>
+      <lastBuildDate>Fri, 25 Oct 2019 14:47:16 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Fri, 25 Oct 2019 14:47:02 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri, 25 Oct 2019 14:47:02 UTC</pubDate>
+         <guid isPermaLink="false">20191025164702</guid>
+         <description>
+           <![CDATA[<pre>
+darktable-2.6.3-x86_64-1cf.txz:  Upgraded.
+ktexteditor-5.63.0-x86_64-1cf.txz:  Upgraded.
+neomutt-2019_10_25-x86_64-1cf.txz:  Upgraded.
+notmuch-0.29.2-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri, 18 Oct 2019 09:17:24 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -258,17 +272,6 @@ keepassxc-2.4.3-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 php73-composer-1.8.5-noarch-3cf:  Removed.
 	- Readded in main repository with name composer
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue, 11 Jun 2019 09:28:57 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 11 Jun 2019 09:28:57 UTC</pubDate>
-         <guid isPermaLink="false">20190611112857</guid>
-         <description>
-           <![CDATA[<pre>
-smb4k-3.0.0-x86_64-1cf.txz:  Added.
            </pre>]]>
          </description>
       </item>
