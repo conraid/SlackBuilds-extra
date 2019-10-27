@@ -82,10 +82,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.7.4
+SLACKBUILD VERSION: 2.7.5
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.4.tar.gz
-SLACKBUILD MD5SUM: 0ba06858712e4ed2f7bbd47371ed5dd0
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.5.tar.gz
+SLACKBUILD MD5SUM: d1c9baba2726b8ce8421804c91406a34
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -100,10 +100,10 @@ SLACKBUILD SHORT DESCRIPTION:  kdiff3 (A compare and merge tool for KDE. From KD
 SLACKBUILD NAME: keepassxc
 SLACKBUILD LOCATION: ./keepassxc
 SLACKBUILD FILES: README doinst.sh keepassxc.SlackBuild keepassxc.info slack-desc
-SLACKBUILD VERSION: 2.4.3
+SLACKBUILD VERSION: 2.5.0
 SLACKBUILD REQUIRED: qt5 qrencode
-SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.4.3/keepassxc-2.4.3-src.tar.xz
-SLACKBUILD MD5SUM: ed2cc2adc2003fe9c3cb39ed032b5392
+SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.5.0/keepassxc-2.5.0-src.tar.xz
+SLACKBUILD MD5SUM: ca51fa9b7289bc4f070f61ee87f8d030
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
 
 SLACKBUILD NAME: kid3
@@ -172,9 +172,9 @@ SLACKBUILD SHORT DESCRIPTION:  neomutt (Bringing together all the Mutt code)
 SLACKBUILD NAME: neovim-qt
 SLACKBUILD LOCATION: ./neovim-qt
 SLACKBUILD FILES: README doinst.sh neovim-qt.SlackBuild neovim-qt.info slack-desc
-SLACKBUILD VERSION: 0.2.14
+SLACKBUILD VERSION: 0.2.15
 SLACKBUILD REQUIRED: qt5 msgpack-c neovim
-SLACKBUILD DOWNLOAD: https://github.com/equalsraf/neovim-qt/archive/v0.2.14/neovim-qt-0.2.14.tar.gz
+SLACKBUILD DOWNLOAD: https://github.com/equalsraf/neovim-qt/archive/v0.2.15/neovim-qt-0.2.15.tar.gz
 SLACKBUILD MD5SUM: 4cd74d98288cf4e6c9ad9b4219a8eb61
 SLACKBUILD SHORT DESCRIPTION:  neovim-qt (Neovim client library and GUI, in Qt5)
 

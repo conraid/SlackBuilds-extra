@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 25 Oct 2019 14:47:02 UTC</pubDate>
-      <lastBuildDate>Fri, 25 Oct 2019 14:47:16 UTC</lastBuildDate>
+      <pubDate>Sun, 27 Oct 2019 10:40:00 UTC</pubDate>
+      <lastBuildDate>Sun, 27 Oct 2019 10:40:14 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sun, 27 Oct 2019 10:40:00 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sun, 27 Oct 2019 10:40:00 UTC</pubDate>
+         <guid isPermaLink="false">20191027114000</guid>
+         <description>
+           <![CDATA[<pre>
+gmic-2.7.5-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.5.0-x86_64-1cf.txz:  Upgraded.
+neovim-qt-0.2.15-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri, 25 Oct 2019 14:47:02 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -260,18 +273,6 @@ php73-xdebug-2.7.2-x86_64-2cf.txz:  Removed.
          <description>
            <![CDATA[<pre>
 keepassxc-2.4.3-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue, 11 Jun 2019 13:20:59 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 11 Jun 2019 13:20:59 UTC</pubDate>
-         <guid isPermaLink="false">20190611152059</guid>
-         <description>
-           <![CDATA[<pre>
-php73-composer-1.8.5-noarch-3cf:  Removed.
-	- Readded in main repository with name composer
            </pre>]]>
          </description>
       </item>
