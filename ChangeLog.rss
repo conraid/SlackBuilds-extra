@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sun, 27 Oct 2019 10:40:00 UTC</pubDate>
-      <lastBuildDate>Sun, 27 Oct 2019 10:40:14 UTC</lastBuildDate>
+      <pubDate>Fri,  1 Nov 2019 12:16:45 UTC</pubDate>
+      <lastBuildDate>Fri,  1 Nov 2019 12:16:57 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Fri,  1 Nov 2019 12:16:45 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri,  1 Nov 2019 12:16:45 UTC</pubDate>
+         <guid isPermaLink="false">20191101131645</guid>
+         <description>
+           <![CDATA[<pre>
+ostinato-1.0-x86_64-3cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sun, 27 Oct 2019 10:40:00 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -262,17 +273,6 @@ php73-redis-4.1.1-x86_64-14cf.txz:  Removed.
 	- Moved to main repository
 php73-xdebug-2.7.2-x86_64-2cf.txz:  Removed.
 	- Moved to main repository
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 15 Jun 2019 07:24:24 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 15 Jun 2019 07:24:24 UTC</pubDate>
-         <guid isPermaLink="false">20190615092424</guid>
-         <description>
-           <![CDATA[<pre>
-keepassxc-2.4.3-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
