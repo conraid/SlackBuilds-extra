@@ -30,7 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=neomutt
-SRCVERSION=2019-10-25
+SRCVERSION=20191102
 VERSION=$(echo $SRCVERSION | tr - _)
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
