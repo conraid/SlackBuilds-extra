@@ -11,9 +11,24 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon,  4 Nov 2019 08:28:37 UTC</pubDate>
-      <lastBuildDate>Mon,  4 Nov 2019 08:28:55 UTC</lastBuildDate>
+      <pubDate>Thu, 14 Nov 2019 13:14:19 UTC</pubDate>
+      <lastBuildDate>Thu, 14 Nov 2019 13:15:58 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu, 14 Nov 2019 13:14:19 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu, 14 Nov 2019 13:14:19 UTC</pubDate>
+         <guid isPermaLink="false">20191114141419</guid>
+         <description>
+           <![CDATA[<pre>
+ansifilter-2.15-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.5.1-x86_64-1cf.txz:  Upgraded.
+mkvtoolnix-39.0.0-x86_64-1cf.txz:  Upgraded.
+neomutt-20191111-x86_64-1cf.txz:  Upgraded.
+webkitgtk-2.26.2-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon,  4 Nov 2019 08:28:37 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -239,19 +254,6 @@ wireshark-3.1.0-x86_64-1cf.txz:  Upgraded.
 luminance-hdr-2.6.0-x86_64-1cf.txz:  Upgraded.
 qtcurve-ee2228e-x86_64-1cf.txz:  Upgraded.
 wireshark-3.0.3-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu,  4 Jul 2019 10:19:48 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu,  4 Jul 2019 10:19:48 UTC</pubDate>
-         <guid isPermaLink="false">20190704121948</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.6.7-x86_64-1cf.txz:  Upgraded.
-lyx-2.3.3-x86_64-1cf.txz:  Upgraded.
-mkvtoolnix-35.0.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

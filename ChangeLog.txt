@@ -1,3 +1,10 @@
+Thu Nov 14 13:14:19 UTC 2019
+ansifilter-2.15-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.5.1-x86_64-1cf.txz:  Upgraded.
+mkvtoolnix-39.0.0-x86_64-1cf.txz:  Upgraded.
+neomutt-20191111-x86_64-1cf.txz:  Upgraded.
+webkitgtk-2.26.2-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Mon Nov 4 08:28:37 UTC 2019
 converseen-0.9.8.0-x86_64-1cf.txz:  Upgraded.
 neomutt-20191102-x86_64-1cf.txz:  Upgraded.
