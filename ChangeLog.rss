@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Thu, 14 Nov 2019 13:14:19 UTC</pubDate>
-      <lastBuildDate>Thu, 14 Nov 2019 13:17:41 UTC</lastBuildDate>
+      <pubDate>Mon, 18 Nov 2019 12:45:40 UTC</pubDate>
+      <lastBuildDate>Mon, 18 Nov 2019 12:48:13 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 18 Nov 2019 12:45:40 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 18 Nov 2019 12:45:40 UTC</pubDate>
+         <guid isPermaLink="false">20191118134540</guid>
+         <description>
+           <![CDATA[<pre>
+ktexteditor-5.64.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Thu, 14 Nov 2019 13:14:19 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -241,19 +252,6 @@ qdirstat-1.6-x86_64-1cf.txz: Added.
 tellico-3.2.1-x86_64-1cf.txz:  Upgraded.
 vimb-3.4.0-x86_64-1cf.txz:  Added.
 wireshark-3.1.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 20 Jul 2019 10:30:20 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 20 Jul 2019 10:30:20 UTC</pubDate>
-         <guid isPermaLink="false">20190720123020</guid>
-         <description>
-           <![CDATA[<pre>
-luminance-hdr-2.6.0-x86_64-1cf.txz:  Upgraded.
-qtcurve-ee2228e-x86_64-1cf.txz:  Upgraded.
-wireshark-3.0.3-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
