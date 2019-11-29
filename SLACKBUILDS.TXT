@@ -163,10 +163,10 @@ SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a US
 SLACKBUILD NAME: neomutt
 SLACKBUILD LOCATION: ./neomutt
 SLACKBUILD FILES: README doinst.sh files/neomutt.desktop files/neomutt.xpm neomutt.SlackBuild neomutt.info slack-desc
-SLACKBUILD VERSION: 20191111
+SLACKBUILD VERSION: 20191129
 SLACKBUILD REQUIRED: gpgme notmuch lua kyotocabinet
-SLACKBUILD DOWNLOAD: https://github.com/neomutt/neomutt/archive/20191111.tar.gz
-SLACKBUILD MD5SUM: 54cd82b345974cc76b60f6c656166c7e
+SLACKBUILD DOWNLOAD: https://github.com/neomutt/neomutt/archive/20191129.tar.gz
+SLACKBUILD MD5SUM: d00c0c79ad0048e9d9b38af92dbf6990
 SLACKBUILD SHORT DESCRIPTION:  neomutt (Bringing together all the Mutt code)
 
 SLACKBUILD NAME: neovim-qt
@@ -352,10 +352,10 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.1.0
+SLACKBUILD VERSION: 3.1.1
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
-SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.1.0.tar.xz
-SLACKBUILD MD5SUM: 6828d8895d2c1d6445e7be4a21c50c1b
+SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.1.1.tar.xz
+SLACKBUILD MD5SUM: 3e9bf6c66173b0a68aa84e95244bb485
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: zulucrypt
