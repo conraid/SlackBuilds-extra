@@ -124,6 +124,15 @@ SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.64/ktexteditor
 SLACKBUILD MD5SUM: 4b23b94d0f38d293b5c043bed8455451
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 
+SLACKBUILD NAME: libopenshot
+SLACKBUILD LOCATION: ./libopenshot
+SLACKBUILD FILES: README libopenshot.SlackBuild libopenshot.info slack-desc
+SLACKBUILD VERSION: 5e1b6fd
+SLACKBUILD REQUIRED: qt5 libopenshot-audio zeromq unittest-cpp
+SLACKBUILD DOWNLOAD: https://github.com/OpenShot/libopenshot/archive/5e1b6fd7409cf938672bb859121a911af66cbcf8.tar.gz
+SLACKBUILD MD5SUM: 2d44156a3891ca8f756ef6b6f4b3761b
+SLACKBUILD SHORT DESCRIPTION:  libopenshot (OpenShot Video Library)
+
 SLACKBUILD NAME: luminance-hdr
 SLACKBUILD LOCATION: ./luminance-hdr
 SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/omp.patch patches/qt-5.11.patch slack-desc
@@ -186,6 +195,15 @@ SLACKBUILD REQUIRED: opencv quazip qt5
 SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
+
+SLACKBUILD NAME: openshot
+SLACKBUILD LOCATION: ./openshot
+SLACKBUILD FILES: README doinst.sh openshot.SlackBuild openshot.info slack-desc
+SLACKBUILD VERSION: 2b386db
+SLACKBUILD REQUIRED: httplib2 python-pyzmq libopenshot PyQt5
+SLACKBUILD DOWNLOAD: https://github.com/OpenShot/openshot-qt/archive/2b386db44a7f11bfa375af85c3baadb6f156c777.tar.gz
+SLACKBUILD MD5SUM: 093d3b8b41eb2aa55e336c0a364e07b3
+SLACKBUILD SHORT DESCRIPTION:  openshot (open-source video editor)
 
 SLACKBUILD NAME: ostinato
 SLACKBUILD LOCATION: ./ostinato
