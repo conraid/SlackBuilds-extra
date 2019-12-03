@@ -169,15 +169,6 @@ SLACKBUILD DOWNLOAD: https://github.com/mbusb/multibootusb/archive/v9.2.0/multib
 SLACKBUILD MD5SUM: 8b4e9fb36af2b2af34019d73db9ce8c3
 SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a USB disk)
 
-SLACKBUILD NAME: neomutt
-SLACKBUILD LOCATION: ./neomutt
-SLACKBUILD FILES: README doinst.sh files/neomutt.desktop files/neomutt.xpm neomutt.SlackBuild neomutt.info slack-desc
-SLACKBUILD VERSION: 20191129
-SLACKBUILD REQUIRED: gpgme notmuch lua kyotocabinet
-SLACKBUILD DOWNLOAD: https://github.com/neomutt/neomutt/archive/20191129.tar.gz
-SLACKBUILD MD5SUM: d00c0c79ad0048e9d9b38af92dbf6990
-SLACKBUILD SHORT DESCRIPTION:  neomutt (Bringing together all the Mutt code)
-
 SLACKBUILD NAME: neovim-qt
 SLACKBUILD LOCATION: ./neovim-qt
 SLACKBUILD FILES: README doinst.sh neovim-qt.SlackBuild neovim-qt.info slack-desc
