@@ -82,10 +82,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.7.5
+SLACKBUILD VERSION: 2.8.0
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.7.5.tar.gz
-SLACKBUILD MD5SUM: d1c9baba2726b8ce8421804c91406a34
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.0.tar.gz
+SLACKBUILD MD5SUM: 38361565e2293f46ea732e2bc118b54e
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -154,10 +154,10 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 39.0.0
+SLACKBUILD VERSION: 41.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-39.0.0.tar.xz
-SLACKBUILD MD5SUM: c5b9506a3cb08aae7b1e63f49a198b24
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-41.0.0.tar.xz
+SLACKBUILD MD5SUM: 1a5815905dc89cb0fa749503f2d43198
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
 SLACKBUILD NAME: multibootusb
@@ -361,10 +361,10 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.1.1
-SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5
-SLACKBUILD DOWNLOAD: https://www.wireshark.org/download/src/wireshark-3.1.1.tar.xz
-SLACKBUILD MD5SUM: 3e9bf6c66173b0a68aa84e95244bb485
+SLACKBUILD VERSION: 3.2.0rc1
+SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5 minizip
+SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0rc1.tar.xz
+SLACKBUILD MD5SUM: ff04d0480e8c5eb7a206ecc749a6dddb
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: zulucrypt

@@ -28,7 +28,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=wireshark
-VERSION=3.1.1
+VERSION=3.2.0rc1
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
@@ -86,19 +86,20 @@ fi
 
 mkdir -p build
 cd build
-cmake -Wno-dev \
+cmake -Wno-dev -GNinja \
   -DCMAKE_C_FLAGS_RELEASE:STRING="$SLKCFLAGS -lm -ldl" \
   -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS -lm -ldl" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
-  -DCMAKE_INSTALL_DOCDIR=/usr/doc/$PKGNAM-$VERSION \
-  -DCMAKE_INSTALL_MANDIR=/usr/man \
+  -DCMAKE_INSTALL_DOCDIR=doc/$PKGNAM-$VERSION \
+  -DCMAKE_INSTALL_MANDIR=man \
   -DBUILD_tfshark=ON \
   -DENABLE_CCACHE=ON \
+  -DCMAKE_SKIP_RPATH=ON \
   ..
 
-make
-make DESTDIR=$PKG install
+ninja
+DESTDIR=$PKG ninja install
 cd ..
 
 # Don't ship .la files:

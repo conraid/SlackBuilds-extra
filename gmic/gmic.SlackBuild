@@ -30,7 +30,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=gmic
-SRCVERSION=2.7.5
+SRCVERSION=2.8.0
 VERSION=$SRCVERSION
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
@@ -91,7 +91,7 @@ sed -e "/^LIB/s/lib/lib$LIBDIRSUFFIX/" \
     -e 's|/share/man|/man|g' -i src/Makefile
 
 # Build library and command line
-make CFLAGS="$SLKCFLAGS" WGET=/dev/true -C src cli lib libc
+make -j1 CFLAGS="$SLKCFLAGS" WGET=/dev/true -C src cli lib libc
 
 # Build plugins
 if [ -x /usr/bin/qmake-qt5 ]; then
@@ -100,7 +100,7 @@ if [ -x /usr/bin/qmake-qt5 ]; then
   for PLUGIN_TYPE in none gimp krita; do
     # Use qmake here because fftw cmake is wrong
     $QMAKE QMAKE_CXXFLAGS="-DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" WGET=/dev/true GMIC_PATH=../src GMIC_DYNAMIC_LINKING=on HOST=$PLUGIN_TYPE
-    make
+    make -j1
   done
   cd ..
 else
@@ -109,10 +109,10 @@ fi
 
 
 ## Build zart
-#cd zart
-#$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
-#make
-#cd ..
+cd zart
+$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
+make -j1
+cd ..
 
 make DESTDIR=$PKG install -C src
 
