@@ -65,7 +65,7 @@ SLACKBUILD NAME: fontforge
 SLACKBUILD LOCATION: ./fontforge
 SLACKBUILD FILES: README doinst.sh fontforge.SlackBuild fontforge.info slack-desc
 SLACKBUILD VERSION: 20190801
-SLACKBUILD REQUIRED: libspiro libuninameslist
+SLACKBUILD REQUIRED: woof2 brotli libspiro libuninameslist
 SLACKBUILD DOWNLOAD: https://github.com/fontforge/fontforge/releases/download/20190801/fontforge-20190801.tar.gz
 SLACKBUILD MD5SUM: 5d845f6092b8c3342473ff64bc8ee70c
 SLACKBUILD SHORT DESCRIPTION:  fontforge (Font editor)
@@ -352,10 +352,10 @@ SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
 SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 4.15
-SLACKBUILD REQUIRED: fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.15.tar.xz
-SLACKBUILD MD5SUM: 234811f7f42aa4dc444ee74a2ee63a83
+SLACKBUILD VERSION: 4.21
+SLACKBUILD REQUIRED: OpenAL fontforge cabextract
+SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.21.tar.xz
+SLACKBUILD MD5SUM: 8c0b7b7f16c9fcbad663a35903b4613b
 SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 
 SLACKBUILD NAME: wireshark
