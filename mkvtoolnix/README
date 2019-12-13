@@ -16,10 +16,5 @@ files. With these tools one can:
 HOME: https://www.bunkus.org/videotools/mkvtoolnix
 
 ======================================================================
-NOTE: 
-
-I used qt5 by Alien 
-
-======================
 REQUIRES: cmark pugixml qt5
 
