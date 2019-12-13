@@ -1,10 +1,10 @@
 SLACKBUILD NAME: amule
 SLACKBUILD LOCATION: ./amule
 SLACKBUILD FILES: README amule.SlackBuild amule.info doinst.sh slack-desc
-SLACKBUILD VERSION: r11004
+SLACKBUILD VERSION: r11028
 SLACKBUILD REQUIRED: cryptopp wxgtk libupnp geoip
-SLACKBUILD DOWNLOAD: http://amule.sourceforge.net/tarballs/aMule-SVN-r11004.tar.bz2
-SLACKBUILD MD5SUM: ae18e08ee4e08034dcc829a2cd7ced3e
+SLACKBUILD DOWNLOAD: http://amule.sourceforge.net/tarballs/aMule-SVN-r11028.tar.bz2
+SLACKBUILD MD5SUM: 56f19d05bd8b720840779064fe5bcf37
 SLACKBUILD SHORT DESCRIPTION:  amule (ed2k client)
 
 SLACKBUILD NAME: ansifilter
@@ -153,7 +153,7 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
-SLACKBUILD FILES: PKGNOTE README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
+SLACKBUILD FILES: README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
 SLACKBUILD VERSION: 41.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
 SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-41.0.0.tar.xz
@@ -216,11 +216,11 @@ SLACKBUILD SHORT DESCRIPTION:  profanity (A console based XMPP client)
 
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
-SLACKBUILD FILES: PKGNOTE README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
-SLACKBUILD VERSION: 4.1.7
+SLACKBUILD FILES: README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
+SLACKBUILD VERSION: 4.2.0
 SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
-SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.1.7.tar.xz
-SLACKBUILD MD5SUM: d717e41ee7d0670f402c9c1f8e2c88fc
+SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.2.0.tar.xz
+SLACKBUILD MD5SUM: 34d951b7f6d875fe27967f1426fea2d2
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
 
 SLACKBUILD NAME: qdirstat
@@ -361,9 +361,9 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.2.0rc1
+SLACKBUILD VERSION: 3.2.0rc2
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5 minizip
-SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0rc1.tar.xz
+SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0rc2.tar.xz
 SLACKBUILD MD5SUM: ff04d0480e8c5eb7a206ecc749a6dddb
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
