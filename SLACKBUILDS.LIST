@@ -26,6 +26,7 @@ qbittorrent/qbittorrent.SlackBuild
 qdirstat/qdirstat.SlackBuild
 qt5ct/qt5ct.SlackBuild
 qtcurve/qtcurve.SlackBuild
+qtkeychain/qtkeychain.SlackBuild
 qtpass/qtpass.SlackBuild
 rawstudio/rawstudio.SlackBuild
 rawtherapee/rawtherapee.SlackBuild
@@ -35,6 +36,7 @@ smb4k/smb4k.SlackBuild
 soundkonverter/soundkonverter.SlackBuild
 sqlitebrowser/sqlitebrowser.SlackBuild
 tellico/tellico.SlackBuild
+trojita/trojita.SlackBuild
 vimb/vimb.SlackBuild
 webkitgtk/webkitgtk.SlackBuild
 wine/wine.SlackBuild

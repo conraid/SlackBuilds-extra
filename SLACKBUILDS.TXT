@@ -82,10 +82,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.8.0
+SLACKBUILD VERSION: 2.8.1
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.0.tar.gz
-SLACKBUILD MD5SUM: 38361565e2293f46ea732e2bc118b54e
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.1.tar.gz
+SLACKBUILD MD5SUM: 026a72278bcec0ba0b6f996581eeec44
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -250,6 +250,15 @@ SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/ee2228ea2f18ac5da9b4
 SLACKBUILD MD5SUM: 92b150458e401bb5f234e425cc6fa71f
 SLACKBUILD SHORT DESCRIPTION:  qtcurve (A configurable set of widget styles for KDE and Gtk)
 
+SLACKBUILD NAME: qtkeychain
+SLACKBUILD LOCATION: ./qtkeychain
+SLACKBUILD FILES: README qtkeychain.SlackBuild qtkeychain.info slack-desc
+SLACKBUILD VERSION: 0.10.0
+SLACKBUILD REQUIRED: qt5
+SLACKBUILD DOWNLOAD: https://github.com/frankosterfeld/qtkeychain/archive/v0.10.0.tar.gz
+SLACKBUILD MD5SUM: 00856441d995146b11fb8cfab87b8bc6
+SLACKBUILD SHORT DESCRIPTION:  qtkeychain (Qt API for storing passwords securely)
+
 SLACKBUILD NAME: qtpass
 SLACKBUILD LOCATION: ./qtpass
 SLACKBUILD FILES: README doinst.sh qtpass.SlackBuild qtpass.info slack-desc
@@ -289,10 +298,10 @@ SLACKBUILD SHORT DESCRIPTION:  Scribus (open-source professional page layout pro
 SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali
 SLACKBUILD FILES: PKGNOTE README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
-SLACKBUILD VERSION: 1.4.1
+SLACKBUILD VERSION: 1.4.2
 SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs libpwquality qt5
-SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.1/SiriKali-1.4.1.tar.xz
-SLACKBUILD MD5SUM: 11ee8567b40fe1ee9cce96ac9a240911
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.2/SiriKali-1.4.2.tar.xz
+SLACKBUILD MD5SUM: e87543b2d366f550470a5ace1248cc68
 SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
 
 SLACKBUILD NAME: smb4k
@@ -331,6 +340,15 @@ SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.2.1.tar.xz
 SLACKBUILD MD5SUM: d1e3485aa20111020547a80ca266cf14
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
 
+SLACKBUILD NAME: trojita
+SLACKBUILD LOCATION: ./trojita
+SLACKBUILD FILES: README doinst.sh slack-desc trojita.SlackBuild trojita.info
+SLACKBUILD VERSION: 0.7
+SLACKBUILD REQUIRED: qtkeychain qt5
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/trojita/trojita-0.7.tar.xz
+SLACKBUILD MD5SUM: b2b5720be888ec6298a88798b113ad5f
+SLACKBUILD SHORT DESCRIPTION:  trojita (Qt IMAP e-mail client)
+
 SLACKBUILD NAME: vimb
 SLACKBUILD LOCATION: ./vimb
 SLACKBUILD FILES: README doinst.sh slack-desc vimb.SlackBuild vimb.info
@@ -361,10 +379,10 @@ SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.2.0rc2
+SLACKBUILD VERSION: 3.2.0
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5 minizip
-SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0rc2.tar.xz
-SLACKBUILD MD5SUM: ff04d0480e8c5eb7a206ecc749a6dddb
+SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0.tar.xz
+SLACKBUILD MD5SUM: 259915adbbaded15de075afe7b4b03b6
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: zulucrypt
