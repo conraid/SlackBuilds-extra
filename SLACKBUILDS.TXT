@@ -46,10 +46,10 @@ SLACKBUILD SHORT DESCRIPTION:  converseen
 SLACKBUILD NAME: darktable
 SLACKBUILD LOCATION: ./darktable
 SLACKBUILD FILES: README darktable.SlackBuild darktable.info doinst.sh slack-desc
-SLACKBUILD VERSION: 2.6.3
+SLACKBUILD VERSION: 3.0.0
 SLACKBUILD REQUIRED: lensfun flickcurl  graphicsmagick lua pugixml openjpeg1
-SLACKBUILD DOWNLOAD: https://github.com/darktable-org/darktable/releases/download/release-2.6.3/darktable-2.6.3.tar.xz
-SLACKBUILD MD5SUM: b15bf275cad55155d115ef97661e6a9e
+SLACKBUILD DOWNLOAD: https://github.com/darktable-org/darktable/releases/download/release-3.0.0/darktable-3.0.0.tar.xz
+SLACKBUILD MD5SUM: ca69b409d76e0ec7afcbdb2aea131d09
 SLACKBUILD SHORT DESCRIPTION:  darktable (digital photography application)
 
 SLACKBUILD NAME: diskmonitor
@@ -109,10 +109,10 @@ SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Editi
 SLACKBUILD NAME: kid3
 SLACKBUILD LOCATION: ./kid3
 SLACKBUILD FILES: PKGNOTE README doinst.sh kid3.SlackBuild kid3.info slack-desc
-SLACKBUILD VERSION: 3.7.0
+SLACKBUILD VERSION: 3.8.1
 SLACKBUILD REQUIRED: libmp4v2 qt5
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.7.0.tar.gz
-SLACKBUILD MD5SUM: 70b562fd41ca16837d90d7c403fec1f2
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.8.1.tar.gz
+SLACKBUILD MD5SUM: 4ecf33a46933252ddee961453717e2ba
 SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 
 SLACKBUILD NAME: ktexteditor
