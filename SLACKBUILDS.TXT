@@ -127,10 +127,10 @@ SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 SLACKBUILD NAME: libopenshot
 SLACKBUILD LOCATION: ./libopenshot
 SLACKBUILD FILES: README libopenshot.SlackBuild libopenshot.info slack-desc
-SLACKBUILD VERSION: 5e1b6fd
+SLACKBUILD VERSION: a1158ee
 SLACKBUILD REQUIRED: qt5 libopenshot-audio zeromq unittest-cpp
-SLACKBUILD DOWNLOAD: https://github.com/OpenShot/libopenshot/archive/5e1b6fd7409cf938672bb859121a911af66cbcf8.tar.gz
-SLACKBUILD MD5SUM: 2d44156a3891ca8f756ef6b6f4b3761b
+SLACKBUILD DOWNLOAD: https://github.com/OpenShot/libopenshot/archive/a1158ee278e6f66e7aacff77e9b46244eee44b19.tar.gz
+SLACKBUILD MD5SUM: e344e933affbb36537c6328d4b36afe3
 SLACKBUILD SHORT DESCRIPTION:  libopenshot (OpenShot Video Library)
 
 SLACKBUILD NAME: luminance-hdr
@@ -231,6 +231,15 @@ SLACKBUILD REQUIRED: qt5
 SLACKBUILD DOWNLOAD: https://github.com/shundhammer/qdirstat/archive/1.6/qdirstat-1.6.tar.gz
 SLACKBUILD MD5SUM: 3dbd167320d60c7088e3a631ad4713ba
 SLACKBUILD SHORT DESCRIPTION:  qdirstat (Qt-based directory statistics)
+
+SLACKBUILD NAME: qnetstatview
+SLACKBUILD LOCATION: ./qnetstatview
+SLACKBUILD FILES: README doinst.sh qnetstatview.SlackBuild qnetstatview.desktop qnetstatview.info slack-desc
+SLACKBUILD VERSION: 1.5.5
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: https://bitbucket.org/admsasha/qnetstatview/downloads/qnetstatview-1.5.5.tar.gz
+SLACKBUILD MD5SUM: 42944cb27261772fb5de00fc55837fab
+SLACKBUILD SHORT DESCRIPTION:  QNetStatView 
 
 SLACKBUILD NAME: qt5ct
 SLACKBUILD LOCATION: ./qt5ct
