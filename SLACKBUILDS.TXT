@@ -118,10 +118,10 @@ SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
-SLACKBUILD VERSION: 5.64.0
+SLACKBUILD VERSION: 5.65.0
 SLACKBUILD REQUIRED: editorconfig-core-c kde5 libgit2
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.64/ktexteditor-5.64.0.tar.xz
-SLACKBUILD MD5SUM: 4b23b94d0f38d293b5c043bed8455451
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.65/ktexteditor-5.65.0.tar.xz
+SLACKBUILD MD5SUM: 4f3067388314b056fc2731e37fa8fc81
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 
 SLACKBUILD NAME: libopenshot
