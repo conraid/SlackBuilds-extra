@@ -31,7 +31,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=darktable
 VERSION=3.0.0
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
@@ -95,19 +95,11 @@ cmake \
   -DUSE_LUA=On \
   -DDONT_USE_INTERNAL_LUA=On \
   -DUSE_LIBSECRET=On \
-  ..
-
-make
-make DESTDIR=$PKG install
-cd -
-
-mkdir -p tools/basecurve/build
-cd tools/basecurve/build
-cmake \
-  -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS -DNDEBUG" \
-  -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS -DNDEBUG" \
-  -DCMAKE_BUILD_TYPE=none \
-  -DCMAKE_INSTALL_PREFIX=/usr \
+  -DBUILD_CURVE_TOOL=ON \
+  -DBUILD_BATTERY_INDICATOR=ON \
+  -DBUILD_NOISE_TOOLS=ON \
+  -DCUSTOM_CFLAGS=ON \
+  -DLUA53=ON \
   ..
 
 make

@@ -1,3 +1,7 @@
+Fri Dec 27 08:57:48 UTC 2019
+darktable-3.0.0-x86_64-2cf.txz:  Rebuilt.
+	- Fixed error with basecurve
++--------------------------+
 Thu Dec 26 14:17:07 UTC 2019
 libopenshot-a1158ee-x86_64-1cf.txz:  Upgraded.
 qnetstatview-1.5.5-x86_64-1cf.txz:  Added.
