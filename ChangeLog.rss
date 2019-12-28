@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 27 Dec 2019 11:19:44 UTC</pubDate>
-      <lastBuildDate>Fri, 27 Dec 2019 11:19:52 UTC</lastBuildDate>
+      <pubDate>Sat, 28 Dec 2019 13:56:27 UTC</pubDate>
+      <lastBuildDate>Sat, 28 Dec 2019 13:56:34 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sat, 28 Dec 2019 13:56:27 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sat, 28 Dec 2019 13:56:27 UTC</pubDate>
+         <guid isPermaLink="false">20191228145627</guid>
+         <description>
+           <![CDATA[<pre>
+libopenshot-a1158ee-x86_64-2cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri, 27 Dec 2019 11:19:44 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -210,20 +221,6 @@ ostinato-1.0-x86_64-3cf.txz:  Rebuilt.
 gmic-2.7.5-x86_64-1cf.txz:  Upgraded.
 keepassxc-2.5.0-x86_64-1cf.txz:  Upgraded.
 neovim-qt-0.2.15-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri, 25 Oct 2019 14:47:02 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri, 25 Oct 2019 14:47:02 UTC</pubDate>
-         <guid isPermaLink="false">20191025164702</guid>
-         <description>
-           <![CDATA[<pre>
-darktable-2.6.3-x86_64-1cf.txz:  Upgraded.
-ktexteditor-5.63.0-x86_64-1cf.txz:  Upgraded.
-neomutt-2019_10_25-x86_64-1cf.txz:  Upgraded.
-notmuch-0.29.2-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
