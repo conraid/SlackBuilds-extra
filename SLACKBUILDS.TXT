@@ -277,15 +277,6 @@ SLACKBUILD DOWNLOAD: https://github.com/IJHack/qtpass/archive/v1.3.2.tar.gz
 SLACKBUILD MD5SUM: 13845ae127aa79eec975d76be3ecaf5c
 SLACKBUILD SHORT DESCRIPTION:  qtpass (A multi-platform GUI for pass)
 
-SLACKBUILD NAME: rawstudio
-SLACKBUILD LOCATION: ./rawstudio
-SLACKBUILD FILES: README doinst.sh patches/lensfun03.patch patches/libpng15.patch rawstudio.SlackBuild rawstudio.info slack-desc
-SLACKBUILD VERSION: 2.0
-SLACKBUILD REQUIRED: flickcurl lensfun
-SLACKBUILD DOWNLOAD: https://rawstudio.org/files/release/rawstudio-2.0.tar.gz
-SLACKBUILD MD5SUM: b2f86b8ca6b83ad954e3104c4cb89e9b
-SLACKBUILD SHORT DESCRIPTION:  RAWStudio (read and manipulate RAW images)
-
 SLACKBUILD NAME: rawtherapee
 SLACKBUILD LOCATION: ./rawtherapee
 SLACKBUILD FILES: README doinst.sh rawtherapee.SlackBuild rawtherapee.info slack-desc
