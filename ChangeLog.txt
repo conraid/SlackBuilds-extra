@@ -1,3 +1,6 @@
+Wed Jan 1 17:01:50 UTC 2020
+gimp-lensfun-0.2.4-x86_64-5cf.txz:  Added.
++--------------------------+
 Wed Jan 1 16:32:59 UTC 2020
 converseen-0.9.8.0-x86_64-2cf.txz:  Rebuilt.
 darktable-3.0.0-x86_64-3cf.txz:  Rebuilt.
