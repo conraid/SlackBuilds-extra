@@ -180,7 +180,7 @@ SLACKBUILD SHORT DESCRIPTION:  neovim-qt (Neovim client library and GUI, in Qt5)
 
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
-SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
+SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info patches/37805e3bc8753970127db101f4aa0c061bc5a70d.patch patches/7fdb4371135909bf5a2ba0caac2370e2a1a1c692.patch slack-desc
 SLACKBUILD VERSION: 3.12.0
 SLACKBUILD REQUIRED: opencv quazip qt5
 SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz

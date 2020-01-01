@@ -11,9 +11,29 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat, 28 Dec 2019 13:56:27 UTC</pubDate>
-      <lastBuildDate>Sat, 28 Dec 2019 13:56:34 UTC</lastBuildDate>
+      <pubDate>Wed,  1 Jan 2020 16:32:59 UTC</pubDate>
+      <lastBuildDate>Wed,  1 Jan 2020 16:33:46 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed,  1 Jan 2020 16:32:59 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed,  1 Jan 2020 16:32:59 UTC</pubDate>
+         <guid isPermaLink="false">20200101173259</guid>
+         <description>
+           <![CDATA[<pre>
+converseen-0.9.8.0-x86_64-2cf.txz:  Rebuilt.
+darktable-3.0.0-x86_64-3cf.txz:  Rebuilt.
+libopenshot-a1158ee-x86_64-3cf.txz:  Rebuilt.
+multibootusb-9.2.0-x86_64-2cf.txz:  Rebuilt.
+nomacs-3.12-x86_64-5cf.txz:  Rebuilt.
+openshot-2b386db-x86_64-1cf.txz:  Upgraded.
+ostinato-1.0-x86_64-4cf.txz:  Rebuilt.
+profanity-0.7.1-x86_64-2cf.txz:  Rebuilt.
+rawstudio-2.0-x86_64-7cf:  Removed.
+rawtherapee-5.7-x86_64-2cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat, 28 Dec 2019 13:56:27 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -208,19 +228,6 @@ neomutt-20191102-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 ostinato-1.0-x86_64-3cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sun, 27 Oct 2019 10:40:00 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sun, 27 Oct 2019 10:40:00 UTC</pubDate>
-         <guid isPermaLink="false">20191027114000</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.7.5-x86_64-1cf.txz:  Upgraded.
-keepassxc-2.5.0-x86_64-1cf.txz:  Upgraded.
-neovim-qt-0.2.15-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
