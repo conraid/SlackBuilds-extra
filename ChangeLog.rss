@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  1 Jan 2020 16:32:59 UTC</pubDate>
-      <lastBuildDate>Wed,  1 Jan 2020 17:01:58 UTC</lastBuildDate>
+      <pubDate>Wed,  1 Jan 2020 17:01:50 UTC</pubDate>
+      <lastBuildDate>Wed,  1 Jan 2020 17:03:54 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed,  1 Jan 2020 17:01:50 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed,  1 Jan 2020 17:01:50 UTC</pubDate>
+         <guid isPermaLink="false">20200101180150</guid>
+         <description>
+           <![CDATA[<pre>
+gimp-lensfun-0.2.4-x86_64-5cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed,  1 Jan 2020 16:32:59 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -217,17 +228,6 @@ webkitgtk-2.26.2-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 converseen-0.9.8.0-x86_64-1cf.txz:  Upgraded.
 neomutt-20191102-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  1 Nov 2019 12:16:45 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  1 Nov 2019 12:16:45 UTC</pubDate>
-         <guid isPermaLink="false">20191101131645</guid>
-         <description>
-           <![CDATA[<pre>
-ostinato-1.0-x86_64-3cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>
