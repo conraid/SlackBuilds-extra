@@ -1,0 +1,123 @@
+From 7fdb4371135909bf5a2ba0caac2370e2a1a1c692 Mon Sep 17 00:00:00 2001
+From: Markus Diem <diemmarkus@gmail.com>
+Date: Wed, 21 Nov 2018 13:06:16 +0100
+Subject: [PATCH] fixes issues with OpenCV 4.0
+
+- closes #26
+---
+ AffineTransformations/src/DkAffineTransformationsPlugin.json | 2 +-
+ FakeMiniaturesPlugin/src/DkFakeMiniaturesDialog.cpp          | 2 ++
+ FakeMiniaturesPlugin/src/DkFakeMiniaturesPlugin.json         | 2 +-
+ PageExtractionPlugin/src/DkPageExtractionPlugin.json         | 2 +-
+ PageExtractionPlugin/src/DkPageSegmentation.cpp              | 4 +++-
+ PageExtractionPlugin/src/DkPageSegmentation.h                | 2 ++
+ PageExtractionPlugin/src/DkPageSegmentationUtils.h           | 1 +
+ PaintPlugin/src/DkPaintPlugin.json                           | 2 +-
+ 8 files changed, 12 insertions(+), 5 deletions(-)
+
+diff --git a/plugins/AffineTransformations/src/DkAffineTransformationsPlugin.json b/plugins/AffineTransformations/src/DkAffineTransformationsPlugin.json
+index 33f8c05..22ed131 100644
+--- a/plugins/AffineTransformations/src/DkAffineTransformationsPlugin.json
++++ b/plugins/AffineTransformations/src/DkAffineTransformationsPlugin.json
+@@ -3,7 +3,7 @@
+ 	"AuthorName" 	: "Tim Jerman",
+ 	"Company"		: "",
+ 	"DateCreated" 	: "2014-06-01",
+-	"DateModified"	: "2018-10-22",
++	"DateModified"	: "2018-11-21",
+ 	"Description"	: "Apply affine transformations to the selected image. The available transformations are: scale, rotation (with automatic skewness detection), and shear.",
+ 	"Tagline" 	: "Transform and rotate images",
+ 	"PluginId"		: "7a4a50a45ddb408ba46a16a40e6518fd",
+diff --git a/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesDialog.cpp b/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesDialog.cpp
+index 090e9e9..51a3cd6 100644
+--- a/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesDialog.cpp
++++ b/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesDialog.cpp
+@@ -27,6 +27,8 @@
+ 
+ #include "DkFakeMiniaturesDialog.h"
+ 
++#include "opencv2/imgproc/imgproc_c.h"
++
+ #define INIT_X 0
+ #define INIT_Y 0.7117
+ #define INIT_WIDTH 1
+diff --git a/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesPlugin.json b/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesPlugin.json
+index ac4e738..942fc2d 100644
+--- a/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesPlugin.json
++++ b/plugins/FakeMiniaturesPlugin/src/DkFakeMiniaturesPlugin.json
+@@ -3,7 +3,7 @@
+ 	"AuthorName" 	: "Tim Jerman",
+ 	"Company"		: "",
+ 	"DateCreated" 	: "2014-06-01",
+-	"DateModified"	: "2018-10-22",
++	"DateModified"	: "2018-11-21",
+ 	"Description"	: "On the preview image select (by mouse click move and release) the region without blurring. A blur is applyied depending on the distance from this region. The amount of blur and saturation can be changed with the sliders on the right of the dialog.",
+ 	"Tagline" 		: "Apply a fake miniature filter (tilt shift effect) to the image.",
+ 	"PluginId"		: "a2ac7b68866b4ab29fb1df3e170b8f0d",
+diff --git a/plugins/PageExtractionPlugin/src/DkPageExtractionPlugin.json b/plugins/PageExtractionPlugin/src/DkPageExtractionPlugin.json
+index 8cd4ab6..5541956 100644
+--- a/plugins/PageExtractionPlugin/src/DkPageExtractionPlugin.json
++++ b/plugins/PageExtractionPlugin/src/DkPageExtractionPlugin.json
+@@ -3,7 +3,7 @@
+ 	"AuthorName" 	: "Markus Diem, Thomas Lang",
+ 	"Company"		: "Computer Vision Lab",
+ 	"DateCreated" 	: "2015-08-27",
+-	"DateModified"	: "2018-10-22",
++	"DateModified"	: "2018-11-21",
+ 	"Description"	: "This plugin detects document pages and either crops the image accordingly or annotates the region.",
+ 	"Tagline" 		: "Detect document pages in images",
+ 	"PluginId"		: "4acb88c461024cb080ae5cd15d0ef0ec",
+diff --git a/plugins/PageExtractionPlugin/src/DkPageSegmentation.cpp b/plugins/PageExtractionPlugin/src/DkPageSegmentation.cpp
+index 8d01e17..60d8722 100644
+--- a/plugins/PageExtractionPlugin/src/DkPageSegmentation.cpp
++++ b/plugins/PageExtractionPlugin/src/DkPageSegmentation.cpp
+@@ -28,8 +28,10 @@
+ 
+ #pragma warning(push, 0)	// no warnings from includes - begin
+ #include <QDebug>
+-#include <opencv2/imgproc/imgproc.hpp>
+ #include <QPainter>
++
++#include <opencv2/imgproc/imgproc_c.h>
++#include <opencv2/imgproc/imgproc.hpp>
+ #pragma warning(pop)		// no warnings from includes - end
+ 
+ namespace nmp {
+diff --git a/plugins/PageExtractionPlugin/src/DkPageSegmentation.h b/plugins/PageExtractionPlugin/src/DkPageSegmentation.h
+index acb283a..c40995a 100644
+--- a/plugins/PageExtractionPlugin/src/DkPageSegmentation.h
++++ b/plugins/PageExtractionPlugin/src/DkPageSegmentation.h
+@@ -28,6 +28,8 @@
+ 
+ #pragma warning(push, 0)	// no warnings from includes - begin
+ #include <opencv2/core/core.hpp>
++#include <opencv2/imgproc/imgproc_c.h>
++
+ #include <QColor>
+ #include <QImage>
+ #pragma warning(pop)		// no warnings from includes - end
+diff --git a/plugins/PageExtractionPlugin/src/DkPageSegmentationUtils.h b/plugins/PageExtractionPlugin/src/DkPageSegmentationUtils.h
+index 9169d42..4467b81 100644
+--- a/plugins/PageExtractionPlugin/src/DkPageSegmentationUtils.h
++++ b/plugins/PageExtractionPlugin/src/DkPageSegmentationUtils.h
+@@ -28,6 +28,7 @@
+ 
+ #pragma warning(push, 0)	// no warnings from includes - begin
+ #include <opencv2/core/core.hpp>
++#include <opencv2/imgproc/imgproc_c.h>
+ #include <QString>
+ #pragma warning(pop)		// no warnings from includes - end
+ 
+diff --git a/plugins/PaintPlugin/src/DkPaintPlugin.json b/plugins/PaintPlugin/src/DkPaintPlugin.json
+index de4b7d4..b972935 100644
+--- a/plugins/PaintPlugin/src/DkPaintPlugin.json
++++ b/plugins/PaintPlugin/src/DkPaintPlugin.json
+@@ -3,7 +3,7 @@
+ 	"AuthorName" 	: "Tim Jerman",
+ 	"Company"		: "",
+ 	"DateCreated" 	: "2014-05-01",
+-	"DateModified"	: "2018-10-22",
++	"DateModified"	: "2018-11-21",
+ 	"Description"	: "Paint on an image. The color, size and opacity of the brush can be changed.",
+ 	"Tagline" 		: "Draw with adjustable brushes to an image.",
+ 	"PluginId"		: "ad970ef36cc24737afd2b53ad015ff0d",
