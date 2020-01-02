@@ -163,10 +163,10 @@ SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 41.0.0
+SLACKBUILD VERSION: 42.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-41.0.0.tar.xz
-SLACKBUILD MD5SUM: 1a5815905dc89cb0fa749503f2d43198
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-42.0.0.tar.xz
+SLACKBUILD MD5SUM: 41036afe31231e8d8ab4fe684271e0eb
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 
 SLACKBUILD NAME: multibootusb

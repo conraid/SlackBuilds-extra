@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  1 Jan 2020 17:01:50 UTC</pubDate>
-      <lastBuildDate>Wed,  1 Jan 2020 17:03:54 UTC</lastBuildDate>
+      <pubDate>Thu,  2 Jan 2020 15:46:28 UTC</pubDate>
+      <lastBuildDate>Thu,  2 Jan 2020 15:46:35 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu,  2 Jan 2020 15:46:28 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu,  2 Jan 2020 15:46:28 UTC</pubDate>
+         <guid isPermaLink="false">20200102164628</guid>
+         <description>
+           <![CDATA[<pre>
+mkvtoolnix-42.0.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed,  1 Jan 2020 17:01:50 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -216,18 +227,6 @@ keepassxc-2.5.1-x86_64-1cf.txz:  Upgraded.
 mkvtoolnix-39.0.0-x86_64-1cf.txz:  Upgraded.
 neomutt-20191111-x86_64-1cf.txz:  Upgraded.
 webkitgtk-2.26.2-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon,  4 Nov 2019 08:28:37 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon,  4 Nov 2019 08:28:37 UTC</pubDate>
-         <guid isPermaLink="false">20191104092837</guid>
-         <description>
-           <![CDATA[<pre>
-converseen-0.9.8.0-x86_64-1cf.txz:  Upgraded.
-neomutt-20191102-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
