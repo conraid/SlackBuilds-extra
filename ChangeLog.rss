@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Thu,  2 Jan 2020 15:46:28 UTC</pubDate>
-      <lastBuildDate>Thu,  2 Jan 2020 15:46:35 UTC</lastBuildDate>
+      <pubDate>Sun,  5 Jan 2020 11:52:10 UTC</pubDate>
+      <lastBuildDate>Sun,  5 Jan 2020 11:52:26 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sun,  5 Jan 2020 11:52:10 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sun,  5 Jan 2020 11:52:10 UTC</pubDate>
+         <guid isPermaLink="false">20200105125210</guid>
+         <description>
+           <![CDATA[<pre>
+keepassxc-2.5.2-x86_64-1cf.txz:  Upgraded.
+vimb-3.6.0-x86_64-1cf.txz:  Upgraded.
+webkitgtk-2.26.2-x86_64-2cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Thu,  2 Jan 2020 15:46:28 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -212,21 +225,6 @@ wireshark-3.1.1-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 ktexteditor-5.64.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu, 14 Nov 2019 13:14:19 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu, 14 Nov 2019 13:14:19 UTC</pubDate>
-         <guid isPermaLink="false">20191114141419</guid>
-         <description>
-           <![CDATA[<pre>
-ansifilter-2.15-x86_64-1cf.txz:  Upgraded.
-keepassxc-2.5.1-x86_64-1cf.txz:  Upgraded.
-mkvtoolnix-39.0.0-x86_64-1cf.txz:  Upgraded.
-neomutt-20191111-x86_64-1cf.txz:  Upgraded.
-webkitgtk-2.26.2-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
