@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.8.1
+SLACKBUILD VERSION: 2.8.2
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.1.tar.gz
-SLACKBUILD MD5SUM: 026a72278bcec0ba0b6f996581eeec44
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.2.tar.gz
+SLACKBUILD MD5SUM: 0e221d46e3685d3c7fe3e21f91767fb3
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
