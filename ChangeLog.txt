@@ -1,3 +1,10 @@
+Thu Jan 23 08:57:49 UTC 2020
+keepassxc-2.5.3-x86_64-1cf.txz:  Upgraded.
+kid3-3.8.2-x86_64-1cf.txz:  Upgraded.
+webkitgtk-2.26.3-x86_64-1cf.txz:  Upgraded.
+wine-5.0-x86_64-1cf.txz:  Upgraded.
+wireshark-3.2.1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Wed Jan 15 12:48:51 UTC 2020
 gmic-2.8.2-x86_64-1cf.txz:  Upgraded.
 +--------------------------+

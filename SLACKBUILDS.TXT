@@ -109,19 +109,19 @@ SLACKBUILD SHORT DESCRIPTION:  kdiff3 (A compare and merge tool for KDE. From KD
 SLACKBUILD NAME: keepassxc
 SLACKBUILD LOCATION: ./keepassxc
 SLACKBUILD FILES: README doinst.sh keepassxc.SlackBuild keepassxc.info slack-desc
-SLACKBUILD VERSION: 2.5.2
+SLACKBUILD VERSION: 2.5.3
 SLACKBUILD REQUIRED: qt5 qrencode
-SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.5.2/keepassxc-2.5.2-src.tar.xz
-SLACKBUILD MD5SUM: 4d87b446f2c4492ed38718569e6e9e4b
+SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.5.3/keepassxc-2.5.3-src.tar.xz
+SLACKBUILD MD5SUM: ac7ad8bec58366fe1e9f21ac7d7fe208
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
 
 SLACKBUILD NAME: kid3
 SLACKBUILD LOCATION: ./kid3
 SLACKBUILD FILES: PKGNOTE README doinst.sh kid3.SlackBuild kid3.info slack-desc
-SLACKBUILD VERSION: 3.8.1
+SLACKBUILD VERSION: 3.8.2
 SLACKBUILD REQUIRED: libmp4v2 qt5
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.8.1.tar.gz
-SLACKBUILD MD5SUM: 4ecf33a46933252ddee961453717e2ba
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.8.2.tar.gz
+SLACKBUILD MD5SUM: a7b27ef15eb19b77cf7e689add005581
 SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
 
 SLACKBUILD NAME: ktexteditor
@@ -369,29 +369,29 @@ SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
 
 SLACKBUILD NAME: webkitgtk
 SLACKBUILD LOCATION: ./webkitgtk
-SLACKBUILD FILES: README patches/icu65.patch slack-desc webkitgtk.SlackBuild webkitgtk.info
-SLACKBUILD VERSION: 2.26.2
+SLACKBUILD FILES: README slack-desc webkitgtk.SlackBuild webkitgtk.info
+SLACKBUILD VERSION: 2.26.3
 SLACKBUILD REQUIRED: woff2 hyphen libseccomp bubblewrap xdg-dbus-proxy
-SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.2.tar.xz
-SLACKBUILD MD5SUM: 65e06fe73ee166447894aaea95038e3b
+SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.3.tar.xz
+SLACKBUILD MD5SUM: 4c27d59a032710dae3cffa5990bb6aea
 SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
 SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 4.21
+SLACKBUILD VERSION: 5.0
 SLACKBUILD REQUIRED: OpenAL fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/4.x/wine-4.21.tar.xz
-SLACKBUILD MD5SUM: 8c0b7b7f16c9fcbad663a35903b4613b
+SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/5.0/wine-5.0.tar.xz
+SLACKBUILD MD5SUM: 95993144d0c63bdd31110ae5a90c77b2
 SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 
 SLACKBUILD NAME: wireshark
 SLACKBUILD LOCATION: ./wireshark
 SLACKBUILD FILES: README doinst.sh slack-desc wireshark.SlackBuild wireshark.info
-SLACKBUILD VERSION: 3.2.0
+SLACKBUILD VERSION: 3.2.1
 SLACKBUILD REQUIRED: asciidoctor c-ares lua52 libmaxminddb libsmi lz4 qt5 minizip
-SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.0.tar.xz
-SLACKBUILD MD5SUM: 259915adbbaded15de075afe7b4b03b6
+SLACKBUILD DOWNLOAD: https://1.eu.dl.wireshark.org/src/wireshark-3.2.1.tar.xz
+SLACKBUILD MD5SUM: e699b1e001c6303013791d81faf7727d
 SLACKBUILD SHORT DESCRIPTION:  WireShark (packet sniffer and protocol analyzer)
 
 SLACKBUILD NAME: zulucrypt
