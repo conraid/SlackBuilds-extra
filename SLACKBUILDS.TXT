@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.8.2
+SLACKBUILD VERSION: 2.8.3
 SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.2.tar.gz
-SLACKBUILD MD5SUM: 0e221d46e3685d3c7fe3e21f91767fb3
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.3.tar.gz
+SLACKBUILD MD5SUM: 604c78b4a7a4cc3459300a26fec4c00f
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kdiff3
@@ -225,11 +225,11 @@ SLACKBUILD SHORT DESCRIPTION:  profanity (A console based XMPP client)
 
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent
-SLACKBUILD FILES: README doinst.sh patches/a5c53ff7562583126d611ef9bb8d641fa42e0aad.patch qbittorrent.SlackBuild qbittorrent.info slack-desc
-SLACKBUILD VERSION: 4.2.0
+SLACKBUILD FILES: README doinst.sh qbittorrent.SlackBuild qbittorrent.info slack-desc
+SLACKBUILD VERSION: 4.2.1
 SLACKBUILD REQUIRED: libtorrent-rasterbar qt5
-SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.2.0.tar.xz
-SLACKBUILD MD5SUM: 34d951b7f6d875fe27967f1426fea2d2
+SLACKBUILD DOWNLOAD: https://downloads.sourceforge.net/qbittorrent/qbittorrent-4.2.1.tar.xz
+SLACKBUILD MD5SUM: 92af608d88e6ca45265cc42596ee6c0a
 SLACKBUILD SHORT DESCRIPTION:  qBittorrent (a C++/Qt4 Bittorrent Client)
 
 SLACKBUILD NAME: qdirstat
