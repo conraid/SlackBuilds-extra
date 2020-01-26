@@ -25,20 +25,11 @@ SLACKBUILD DOWNLOAD: http://pawsa.fedorapeople.org/balsa/balsa-2.5.7.tar.bz2
 SLACKBUILD MD5SUM: 3d1d06c29e3d2cf9ec648641f35f0865
 SLACKBUILD SHORT DESCRIPTION:  balsa (Email Client)
 
-SLACKBUILD NAME: cmus
-SLACKBUILD LOCATION: ./cmus
-SLACKBUILD FILES: README cmus.SlackBuild cmus.info slack-desc
-SLACKBUILD VERSION: 2.8.0
-SLACKBUILD REQUIRED: jack-audio-connection-kit
-SLACKBUILD DOWNLOAD: https://github.com/cmus/cmus/archive/v2.8.0.tar.gz
-SLACKBUILD MD5SUM: 3451aa83637d4145932a695cdb4c96ca
-SLACKBUILD SHORT DESCRIPTION:  cmus (ncurses based music player)
-
 SLACKBUILD NAME: converseen
 SLACKBUILD LOCATION: ./converseen
 SLACKBUILD FILES: README converseen.SlackBuild converseen.info doinst.sh slack-desc
 SLACKBUILD VERSION: 0.9.8.0
-SLACKBUILD REQUIRED: 
+SLACKBUILD REQUIRED: qt5
 SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/converseen/converseen-0.9.8.0.tar.bz2
 SLACKBUILD MD5SUM: 35d5c36f1ecfcca9a3abd6626615dd0a
 SLACKBUILD SHORT DESCRIPTION:  converseen
@@ -213,15 +204,6 @@ SLACKBUILD REQUIRED: protobuf qt5
 SLACKBUILD DOWNLOAD: https://github.com/pstavirs/ostinato/archive/v1.0.tar.gz
 SLACKBUILD MD5SUM: 51a5e89f7e84b95e6c54e08505021743
 SLACKBUILD SHORT DESCRIPTION:  ostinato (Packet/Traffic Generator and Analyzer)
-
-SLACKBUILD NAME: profanity
-SLACKBUILD LOCATION: ./profanity
-SLACKBUILD FILES: README profanity.SlackBuild profanity.info slack-desc
-SLACKBUILD VERSION: 0.7.1
-SLACKBUILD REQUIRED: libotr libmesode
-SLACKBUILD DOWNLOAD: https://github.com/boothj5/profanity/releases/download/0.7.1/profanity-0.7.1.tar.gz
-SLACKBUILD MD5SUM: cf0708c7ccedbd961d614bd0bbbeb28e
-SLACKBUILD SHORT DESCRIPTION:  profanity (A console based XMPP client)
 
 SLACKBUILD NAME: qbittorrent
 SLACKBUILD LOCATION: ./qbittorrent

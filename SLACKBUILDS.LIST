@@ -1,7 +1,6 @@
 amule/amule.SlackBuild
 ansifilter/ansifilter.SlackBuild
 balsa/balsa.SlackBuild
-cmus/cmus.SlackBuild
 converseen/converseen.SlackBuild
 darktable/darktable.SlackBuild
 diskmonitor/diskmonitor.SlackBuild
@@ -22,7 +21,6 @@ neovim-qt/neovim-qt.SlackBuild
 nomacs/nomacs.SlackBuild
 openshot/openshot.SlackBuild
 ostinato/ostinato.SlackBuild
-profanity/profanity.SlackBuild
 qbittorrent/qbittorrent.SlackBuild
 qdirstat/qdirstat.SlackBuild
 qnetstatview/qnetstatview.SlackBuild
