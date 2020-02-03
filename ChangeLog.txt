@@ -1,3 +1,17 @@
+Mon Feb 3 11:49:06 UTC 2020
+ansifilter-2.16-x86_64-1cf.txz:  Upgraded.
+converseen-0.9.8.1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
+Tue Jan 28 13:36:28 UTC 2020
+lyx-2.3.4-x86_64-1cf.txz:  Upgraded.
+mkvtoolnix-43.0.0-x86_64-1cf.txz:  Upgraded.
++--------------------------+
+Sun Jan 26 09:28:04 UTC 2020
+cmus-2.8.0-x86_64-2cf:  Removed.
+	- Moved to main repository
+profanity-0.7.1-x86_64-3cf:  Removed.
+	- moved to main repository
++--------------------------+
 Fri Jan 24 15:04:53 UTC 2020
 gmic-2.8.3-x86_64-1cf.txz:  Upgraded.
 qbittorrent-4.2.1-x86_64-1cf.txz:  Upgraded.

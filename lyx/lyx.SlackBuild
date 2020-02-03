@@ -2,7 +2,7 @@
 #
 # Slackware build script for LyX (http://www.lyx.org/)
 #
-# Copyright 2008-2019 Corrado Franco (https://conraid.net)
+# Copyright 2008-2020 Corrado Franco (https://corradofranco.it)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -28,7 +28,7 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=lyx
-VERSION=2.3.3
+VERSION=2.3.4
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}

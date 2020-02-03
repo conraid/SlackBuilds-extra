@@ -145,18 +145,18 @@ SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 SLACKBUILD NAME: lyx
 SLACKBUILD LOCATION: ./lyx
 SLACKBUILD FILES: PKGNOTE README doinst.sh lyx.SlackBuild lyx.info slack-desc
-SLACKBUILD VERSION: 2.3.3
+SLACKBUILD VERSION: 2.3.4
 SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.3.tar.xz
-SLACKBUILD MD5SUM: b49cc1f92e0cab8988f066650a7b5868
+SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.4.tar.xz
+SLACKBUILD MD5SUM: d0f028ec36423993749679b6833abfda
 SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 
 SLACKBUILD NAME: mkvtoolnix
 SLACKBUILD LOCATION: ./mkvtoolnix
 SLACKBUILD FILES: README mkvtoolnix.SlackBuild mkvtoolnix.info slack-desc
-SLACKBUILD VERSION: 42.0.0
+SLACKBUILD VERSION: 43.0.0
 SLACKBUILD REQUIRED: cmark pugixml qt5
-SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-42.0.0.tar.xz
+SLACKBUILD DOWNLOAD: https://mkvtoolnix.download/sources/mkvtoolnix-43.0.0.tar.xz
 SLACKBUILD MD5SUM: 41036afe31231e8d8ab4fe684271e0eb
 SLACKBUILD SHORT DESCRIPTION:  mkvtoolnix (tools to create, alter and inspect Matroska files)
 

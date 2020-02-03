@@ -11,9 +11,35 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 24 Jan 2020 15:04:53 UTC</pubDate>
-      <lastBuildDate>Sun, 26 Jan 2020 10:10:14 UTC</lastBuildDate>
+      <pubDate>Tue, 28 Jan 2020 13:36:28 UTC</pubDate>
+      <lastBuildDate>Tue, 28 Jan 2020 13:39:16 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue, 28 Jan 2020 13:36:28 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue, 28 Jan 2020 13:36:28 UTC</pubDate>
+         <guid isPermaLink="false">20200128143628</guid>
+         <description>
+           <![CDATA[<pre>
+lyx-2.3.4-x86_64-1cf.txz:  Upgraded.
+mkvtoolnix-43.0.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
+      <item>
+         <title>Sun, 26 Jan 2020 09:28:04 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sun, 26 Jan 2020 09:28:04 UTC</pubDate>
+         <guid isPermaLink="false">20200126102804</guid>
+         <description>
+           <![CDATA[<pre>
+cmus-2.8.0-x86_64-2cf:  Removed.
+	- Moved to main repository
+profanity-0.7.1-x86_64-3cf:  Removed.
+	- moved to main repository
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri, 24 Jan 2020 15:04:53 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -203,31 +229,6 @@ wireshark-3.2.0rc2-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 wine-4.21-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat,  7 Dec 2019 14:40:51 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat,  7 Dec 2019 14:40:51 UTC</pubDate>
-         <guid isPermaLink="false">20191207154051</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.8.0-x86_64-1cf.txz:  Upgraded.
-mkvtoolnix-41.0.0-x86_64-1cf.txz:  Upgraded.
-wireshark-3.2.0rc1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue,  3 Dec 2019 14:45:40 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue,  3 Dec 2019 14:45:40 UTC</pubDate>
-         <guid isPermaLink="false">20191203154540</guid>
-         <description>
-           <![CDATA[<pre>
-neomutt-20191129-x86_64-1cf:  Removed.
-	- Moved to standard repository
            </pre>]]>
          </description>
       </item>
