@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Tue,  4 Feb 2020 14:17:14 UTC</pubDate>
-      <lastBuildDate>Tue,  4 Feb 2020 14:17:29 UTC</lastBuildDate>
+      <pubDate>Sat,  8 Feb 2020 16:30:40 UTC</pubDate>
+      <lastBuildDate>Sat,  8 Feb 2020 16:30:55 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sat,  8 Feb 2020 16:30:40 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sat,  8 Feb 2020 16:30:40 UTC</pubDate>
+         <guid isPermaLink="false">20200208173040</guid>
+         <description>
+           <![CDATA[<pre>
+scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Tue,  4 Feb 2020 14:17:14 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -212,21 +223,6 @@ qnetstatview-1.5.5-x86_64-1cf.txz:  Added.
            <![CDATA[<pre>
 darktable-3.0.0-x86_64-1cf.txz:  Upgraded.
 kid3-3.8.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri, 20 Dec 2019 12:33:08 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri, 20 Dec 2019 12:33:08 UTC</pubDate>
-         <guid isPermaLink="false">20191220133308</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.8.1-x86_64-1cf.txz:  Upgraded.
-qtkeychain-0.10.0-x86_64-1cf.txz:  Added.
-sirikali-1.4.2-x86_64-1cf.txz:  Upgraded.
-trojita-0.7-x86_64-1cf.txz:  Added.
-wireshark-3.2.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

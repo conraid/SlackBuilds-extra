@@ -1,3 +1,6 @@
+Sat Feb 8 16:30:40 UTC 2020
+scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
++--------------------------+
 Tue Feb 4 14:17:14 UTC 2020
 rawtherapee-5.8-x86_64-1cf.txz:  Upgraded.
 zulucrypt-5.7.1-x86_64-1cf.txz:  Upgraded.
