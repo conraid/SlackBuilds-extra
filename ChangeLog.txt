@@ -1,3 +1,8 @@
+Sun Feb 9 13:38:10 UTC 2020
+libopenshot-0.2.4-x86_64-1cf.txz:  Upgraded.
+openshot-2.5.0-x86_64-1cf.txz:  Upgraded.
+qbittorrent-4.2.1-x86_64-2cf.txz:  Rebuilt.
++--------------------------+
 Sat Feb 8 16:30:40 UTC 2020
 scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
 +--------------------------+

@@ -2,7 +2,7 @@
 #
 # Slackware build script for openshot
 #
-# Copyright 2019-2020 Corrado Franco (https://conraid.net)
+# Copyright 2019-2020 Corrado Franco (https://corradofranco.it)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -31,8 +31,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=openshot-qt
 PKGNAM=openshot
-COMMIT=2b386db44a7f11bfa375af85c3baadb6f156c777
-VERSION=$(echo $COMMIT | head -c7)
+VERSION=2.5.0
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
@@ -74,9 +73,9 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$COMMIT
-tar xvf $CWD/$PRGNAM-$COMMIT.tar.gz
-cd $PRGNAM-$COMMIT
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.gz || tar xvf $CWD/v$VERSION.tar.gz
+cd $PRGNAM-$VERSION
 
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
