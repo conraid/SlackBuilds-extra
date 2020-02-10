@@ -1,3 +1,6 @@
+Mon Feb 10 16:06:41 UTC 2020
+gmic-2.8.4-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Sun Feb 9 13:38:10 UTC 2020
 libopenshot-0.2.4-x86_64-1cf.txz:  Upgraded.
 openshot-2.5.0-x86_64-1cf.txz:  Upgraded.

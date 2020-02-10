@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sun,  9 Feb 2020 13:38:10 UTC</pubDate>
-      <lastBuildDate>Sun,  9 Feb 2020 13:38:23 UTC</lastBuildDate>
+      <pubDate>Mon, 10 Feb 2020 16:06:41 UTC</pubDate>
+      <lastBuildDate>Mon, 10 Feb 2020 16:06:45 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 10 Feb 2020 16:06:41 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 10 Feb 2020 16:06:41 UTC</pubDate>
+         <guid isPermaLink="false">20200210170641</guid>
+         <description>
+           <![CDATA[<pre>
+gmic-2.8.4-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sun,  9 Feb 2020 13:38:10 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -212,18 +223,6 @@ ktexteditor-5.65.0-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 darktable-3.0.0-x86_64-2cf.txz:  Rebuilt.
 	- Fixed error with basecurve
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu, 26 Dec 2019 14:17:07 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu, 26 Dec 2019 14:17:07 UTC</pubDate>
-         <guid isPermaLink="false">20191226151707</guid>
-         <description>
-           <![CDATA[<pre>
-libopenshot-a1158ee-x86_64-1cf.txz:  Upgraded.
-qnetstatview-1.5.5-x86_64-1cf.txz:  Added.
            </pre>]]>
          </description>
       </item>
