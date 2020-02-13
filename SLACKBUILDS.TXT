@@ -145,10 +145,10 @@ SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 SLACKBUILD NAME: lyx
 SLACKBUILD LOCATION: ./lyx
 SLACKBUILD FILES: PKGNOTE README doinst.sh lyx.SlackBuild lyx.info slack-desc
-SLACKBUILD VERSION: 2.3.4
+SLACKBUILD VERSION: 2.3.4.2
 SLACKBUILD REQUIRED: qt5
-SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.4.tar.xz
-SLACKBUILD MD5SUM: d0f028ec36423993749679b6833abfda
+SLACKBUILD DOWNLOAD: ftp://ftp.lyx.org/pub/lyx/stable/2.3.x/lyx-2.3.4.2.tar.xz
+SLACKBUILD MD5SUM: d3c2d1e57a00981634fadce9a734ae0e
 SLACKBUILD SHORT DESCRIPTION:  LyX (WYSIWYM document processor)
 
 SLACKBUILD NAME: mkvtoolnix
@@ -361,10 +361,10 @@ SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 SLACKBUILD NAME: wine
 SLACKBUILD LOCATION: ./wine
 SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 5.0
+SLACKBUILD VERSION: 5.1
 SLACKBUILD REQUIRED: OpenAL fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/5.0/wine-5.0.tar.xz
-SLACKBUILD MD5SUM: 95993144d0c63bdd31110ae5a90c77b2
+SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/5.x/wine-5.1.tar.xz
+SLACKBUILD MD5SUM: 9dfaf58e5eacaaa376e5f40910204274
 SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
 
 SLACKBUILD NAME: wireshark
