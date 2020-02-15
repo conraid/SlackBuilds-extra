@@ -223,12 +223,3 @@ SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.3.tar.xz
 SLACKBUILD MD5SUM: 4c27d59a032710dae3cffa5990bb6aea
 SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 
-SLACKBUILD NAME: wine
-SLACKBUILD LOCATION: ./wine
-SLACKBUILD FILES: README doinst.sh files/wine.svg files/winecfg.desktop files/winecfg.png files/winecfg.svg slack-desc wine.SlackBuild wine.info
-SLACKBUILD VERSION: 5.1
-SLACKBUILD REQUIRED: OpenAL fontforge cabextract
-SLACKBUILD DOWNLOAD: https://dl.winehq.org/wine/source/5.x/wine-5.1.tar.xz
-SLACKBUILD MD5SUM: 9dfaf58e5eacaaa376e5f40910204274
-SLACKBUILD SHORT DESCRIPTION:  wine (Wine Is Not an Emulator)
-
