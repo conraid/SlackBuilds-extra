@@ -11,10 +11,5 @@ encfs,gocryptfs and securefs based encrypted folders
 HOME: https://mhogomchungu.github.io/sirikali
 
 ======================================================================
-NOTE: 
-
-I used qt5 by Alien 
-
-======================
-REQUIRES: ecryptfs-simple cryfs encfs securefs libpwquality qt5
+REQUIRES: ecryptfs-simple cryfs encfs securefs 
 

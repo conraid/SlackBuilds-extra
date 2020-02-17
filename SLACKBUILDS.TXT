@@ -38,14 +38,14 @@ SLACKBUILD NAME: git-cola
 SLACKBUILD LOCATION: ./git-cola
 SLACKBUILD FILES: README doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
 SLACKBUILD VERSION: 3.3
-SLACKBUILD REQUIRED: qt5 PyQt5
+SLACKBUILD REQUIRED: PyQt5
 SLACKBUILD DOWNLOAD: https://github.com/git-cola/git-cola/archive/v3.3.tar.gz
 SLACKBUILD MD5SUM: fa0012511a14921d0aaab1abce263c39
 SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
 
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
-SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
+SLACKBUILD FILES: README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
 SLACKBUILD VERSION: 2.8.4
 SLACKBUILD REQUIRED: opencv graphicsmagick
 SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.4.tar.gz
@@ -65,7 +65,7 @@ SLACKBUILD NAME: keepassxc
 SLACKBUILD LOCATION: ./keepassxc
 SLACKBUILD FILES: README doinst.sh keepassxc.SlackBuild keepassxc.info slack-desc
 SLACKBUILD VERSION: 2.5.3
-SLACKBUILD REQUIRED: qt5 qrencode
+SLACKBUILD REQUIRED: qrencode
 SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.5.3/keepassxc-2.5.3-src.tar.xz
 SLACKBUILD MD5SUM: ac7ad8bec58366fe1e9f21ac7d7fe208
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
@@ -92,16 +92,16 @@ SLACKBUILD NAME: multibootusb
 SLACKBUILD LOCATION: ./multibootusb
 SLACKBUILD FILES: README doinst.sh multibootusb.SlackBuild multibootusb.info slack-desc
 SLACKBUILD VERSION: 9.2.0
-SLACKBUILD REQUIRED: pyqt5 qt5
+SLACKBUILD REQUIRED: PyQt5
 SLACKBUILD DOWNLOAD: https://github.com/mbusb/multibootusb/archive/v9.2.0/multibootusb-9.2.0.tar.gz
 SLACKBUILD MD5SUM: 8b4e9fb36af2b2af34019d73db9ce8c3
 SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a USB disk)
 
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
-SLACKBUILD FILES: PKGNOTE README doinst.sh nomacs.SlackBuild nomacs.info patches/37805e3bc8753970127db101f4aa0c061bc5a70d.patch patches/7fdb4371135909bf5a2ba0caac2370e2a1a1c692.patch slack-desc
+SLACKBUILD FILES: README doinst.sh nomacs.SlackBuild nomacs.info patches/37805e3bc8753970127db101f4aa0c061bc5a70d.patch patches/7fdb4371135909bf5a2ba0caac2370e2a1a1c692.patch slack-desc
 SLACKBUILD VERSION: 3.12.0
-SLACKBUILD REQUIRED: opencv quazip qt5
+SLACKBUILD REQUIRED: opencv quazip
 SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
@@ -117,7 +117,7 @@ SLACKBUILD SHORT DESCRIPTION:  openshot (open-source video editor)
 
 SLACKBUILD NAME: qtcurve
 SLACKBUILD LOCATION: ./qtcurve
-SLACKBUILD FILES: PKGNOTE README patches/flags.patch qtcurve.SlackBuild qtcurve.info slack-desc
+SLACKBUILD FILES: README patches/flags.patch qtcurve.SlackBuild qtcurve.info slack-desc
 SLACKBUILD VERSION: ee2228e
 SLACKBUILD REQUIRED: kde5
 SLACKBUILD DOWNLOAD: https://github.com/KDE/qtcurve/archive/ee2228ea2f18ac5da9b434ee6089381df815aa94.tar.gz
@@ -135,7 +135,7 @@ SLACKBUILD SHORT DESCRIPTION:  rawtherapee (Raw image processing software)
 
 SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali
-SLACKBUILD FILES: PKGNOTE README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
+SLACKBUILD FILES: README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
 SLACKBUILD VERSION: 1.4.2
 SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs
 SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.2/SiriKali-1.4.2.tar.xz

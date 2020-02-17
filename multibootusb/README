@@ -15,5 +15,5 @@ Syslinux is used as default boot loader for making USB bootable.
 HOME: http://multibootusb.org
 
 ======================================================================
-REQUIRES: pyqt5 qt5
+REQUIRES: PyQt5
 

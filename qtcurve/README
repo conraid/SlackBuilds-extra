@@ -12,10 +12,5 @@ The   underlying  code  is  based  upon  Blue/FreeCurve  -  however
 HOME: https://cgit.kde.org/qtcurve.git
 
 ======================================================================
-NOTE: 
-
-I used qt5 by Alien 
-
-======================
 REQUIRES: kde5
 

@@ -11,5 +11,5 @@ interface.
 HOME: https://git-cola.github.io/
 
 ======================================================================
-REQUIRES: qt5 python3-PyQt5
+REQUIRES: python3-PyQt5
 
