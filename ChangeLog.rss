@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat, 15 Feb 2020 16:34:52 UTC</pubDate>
-      <lastBuildDate>Sat, 15 Feb 2020 16:36:25 UTC</lastBuildDate>
+      <pubDate>Mon, 17 Feb 2020 12:48:38 UTC</pubDate>
+      <lastBuildDate>Mon, 17 Feb 2020 12:49:21 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 17 Feb 2020 12:48:38 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 17 Feb 2020 12:48:38 UTC</pubDate>
+         <guid isPermaLink="false">20200217134838</guid>
+         <description>
+           <![CDATA[<pre>
+Modev to main repository some packages.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat, 15 Feb 2020 16:34:52 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -212,17 +223,6 @@ ostinato-1.0-x86_64-4cf.txz:  Rebuilt.
 profanity-0.7.1-x86_64-2cf.txz:  Rebuilt.
 rawstudio-2.0-x86_64-7cf:  Removed.
 rawtherapee-5.7-x86_64-2cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 28 Dec 2019 13:56:27 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 28 Dec 2019 13:56:27 UTC</pubDate>
-         <guid isPermaLink="false">20191228145627</guid>
-         <description>
-           <![CDATA[<pre>
-libopenshot-a1158ee-x86_64-2cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>

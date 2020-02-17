@@ -7,15 +7,6 @@ SLACKBUILD DOWNLOAD: http://amule.sourceforge.net/tarballs/aMule-SVN-r11028.tar.
 SLACKBUILD MD5SUM: 56f19d05bd8b720840779064fe5bcf37
 SLACKBUILD SHORT DESCRIPTION:  amule (ed2k client)
 
-SLACKBUILD NAME: balsa
-SLACKBUILD LOCATION: ./balsa
-SLACKBUILD FILES: README balsa.SlackBuild balsa.info doinst.sh slack-desc
-SLACKBUILD VERSION: 2.5.7
-SLACKBUILD REQUIRED: libesmtp enchant2 webkitgtk gmime2
-SLACKBUILD DOWNLOAD: http://pawsa.fedorapeople.org/balsa/balsa-2.5.7.tar.bz2
-SLACKBUILD MD5SUM: 3d1d06c29e3d2cf9ec648641f35f0865
-SLACKBUILD SHORT DESCRIPTION:  balsa (Email Client)
-
 SLACKBUILD NAME: darktable
 SLACKBUILD LOCATION: ./darktable
 SLACKBUILD FILES: README darktable.SlackBuild darktable.info doinst.sh slack-desc
@@ -33,15 +24,6 @@ SLACKBUILD REQUIRED: kde5
 SLACKBUILD DOWNLOAD: https://github.com/papylhomme/diskmonitor/archive/0.3.3/diskmonitor-0.3.3.tar.gz
 SLACKBUILD MD5SUM: 31df3c7f2fefe7153811e7ca0379aa58
 SLACKBUILD SHORT DESCRIPTION:  diskmonitor (KDE tools to monitor SMART devices)
-
-SLACKBUILD NAME: fontforge
-SLACKBUILD LOCATION: ./fontforge
-SLACKBUILD FILES: README doinst.sh fontforge.SlackBuild fontforge.info slack-desc
-SLACKBUILD VERSION: 20190801
-SLACKBUILD REQUIRED: woof2 brotli libspiro libuninameslist
-SLACKBUILD DOWNLOAD: https://github.com/fontforge/fontforge/releases/download/20190801/fontforge-20190801.tar.gz
-SLACKBUILD MD5SUM: 5d845f6092b8c3342473ff64bc8ee70c
-SLACKBUILD SHORT DESCRIPTION:  fontforge (Font editor)
 
 SLACKBUILD NAME: gimp-lensfun
 SLACKBUILD LOCATION: ./gimp-lensfun
@@ -65,7 +47,7 @@ SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: PKGNOTE README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
 SLACKBUILD VERSION: 2.8.4
-SLACKBUILD REQUIRED: opencv graphicsmagick cimg qt5
+SLACKBUILD REQUIRED: opencv graphicsmagick
 SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.4.tar.gz
 SLACKBUILD MD5SUM: 40b6e218e21a57c7ce06d6aefe377825
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
@@ -88,15 +70,6 @@ SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/downlo
 SLACKBUILD MD5SUM: ac7ad8bec58366fe1e9f21ac7d7fe208
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
 
-SLACKBUILD NAME: kid3
-SLACKBUILD LOCATION: ./kid3
-SLACKBUILD FILES: PKGNOTE README doinst.sh kid3.SlackBuild kid3.info slack-desc
-SLACKBUILD VERSION: 3.8.2
-SLACKBUILD REQUIRED: libmp4v2 qt5
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/kid3/kid3-3.8.2.tar.gz
-SLACKBUILD MD5SUM: a7b27ef15eb19b77cf7e689add005581
-SLACKBUILD SHORT DESCRIPTION:  Kid3 (Efficient Audio Tagger)
-
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
@@ -110,7 +83,7 @@ SLACKBUILD NAME: luminance-hdr
 SLACKBUILD LOCATION: ./luminance-hdr
 SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/omp.patch patches/qt-5.11.patch slack-desc
 SLACKBUILD VERSION: 2..0
-SLACKBUILD REQUIRED: qt5 qt5-webkit cfitsio libxbdcommon
+SLACKBUILD REQUIRED: cfitsio
 SLACKBUILD DOWNLOAD: https://github.com/LuminanceHDR/LuminanceHDR/archive/v.2.6.0.tar.gz
 SLACKBUILD MD5SUM: 221d05cac964f17a37347ff82302c209
 SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
@@ -164,7 +137,7 @@ SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali
 SLACKBUILD FILES: PKGNOTE README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
 SLACKBUILD VERSION: 1.4.2
-SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs libpwquality qt5
+SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs
 SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.2/SiriKali-1.4.2.tar.xz
 SLACKBUILD MD5SUM: e87543b2d366f550470a5ace1248cc68
 SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
@@ -195,31 +168,4 @@ SLACKBUILD REQUIRED: exempi kde5 libcsv
 SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.2.1.tar.xz
 SLACKBUILD MD5SUM: d1e3485aa20111020547a80ca266cf14
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
-
-SLACKBUILD NAME: trojita
-SLACKBUILD LOCATION: ./trojita
-SLACKBUILD FILES: README doinst.sh slack-desc trojita.SlackBuild trojita.info
-SLACKBUILD VERSION: 0.7
-SLACKBUILD REQUIRED: qtkeychain qt5 qt5-webkit
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/trojita/trojita-0.7.tar.xz
-SLACKBUILD MD5SUM: b2b5720be888ec6298a88798b113ad5f
-SLACKBUILD SHORT DESCRIPTION:  trojita (Qt IMAP e-mail client)
-
-SLACKBUILD NAME: vimb
-SLACKBUILD LOCATION: ./vimb
-SLACKBUILD FILES: README doinst.sh slack-desc vimb.SlackBuild vimb.info
-SLACKBUILD VERSION: 3.6.0
-SLACKBUILD REQUIRED: webkitgtk
-SLACKBUILD DOWNLOAD: https://github.com/fanglingsu/vimb/archive/3.6.0/vimb-3.6.0.tar.gz
-SLACKBUILD MD5SUM: b9b1002c34eb7b4f0eef7e885047908f
-SLACKBUILD SHORT DESCRIPTION:  vimb (keyboard-driven, vim-like web browser)
-
-SLACKBUILD NAME: webkitgtk
-SLACKBUILD LOCATION: ./webkitgtk
-SLACKBUILD FILES: README slack-desc webkitgtk.SlackBuild webkitgtk.info
-SLACKBUILD VERSION: 2.26.3
-SLACKBUILD REQUIRED: woff2 hyphen libseccomp bubblewrap xdg-dbus-proxy
-SLACKBUILD DOWNLOAD: https://www.webkitgtk.org/releases/webkitgtk-2.26.3.tar.xz
-SLACKBUILD MD5SUM: 4c27d59a032710dae3cffa5990bb6aea
-SLACKBUILD SHORT DESCRIPTION:  webkitgtk (Web content rendering)
 
