@@ -52,6 +52,24 @@ SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.8.4.tar.gz
 SLACKBUILD MD5SUM: 40b6e218e21a57c7ce06d6aefe377825
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
+SLACKBUILD NAME: kaccounts-integration
+SLACKBUILD LOCATION: ./kaccounts-integration
+SLACKBUILD FILES: README kaccounts-integration.SlackBuild kaccounts-integration.info patches/displayname.patch patches/fd98ccf1ac0e59090bc2ad3f7854dd114f9b7752..2420b04e3d01cd02c26e238221a7603614830d15.patch slack-desc
+SLACKBUILD VERSION: 19.12.2
+SLACKBUILD REQUIRED: signon-kwallet-extension signon-plugin-oauth2 signon-ui kde5
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/release-service/19.12.2/src/kaccounts-integration-19.12.2.tar.xz
+SLACKBUILD MD5SUM: 8645d42e9a10ad3986f63f2993917bf4
+SLACKBUILD SHORT DESCRIPTION:  kaccounts-integration ()
+
+SLACKBUILD NAME: kaccounts-providers
+SLACKBUILD LOCATION: ./kaccounts-providers
+SLACKBUILD FILES: README doinst.sh kaccounts-providers.SlackBuild kaccounts-providers.info slack-desc
+SLACKBUILD VERSION: 19.12.2
+SLACKBUILD REQUIRED: kaccounts-integration kde5
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/release-service/19.12.2/src/kaccounts-providers-19.12.2.tar.xz
+SLACKBUILD MD5SUM: f007bcef0076865c6a9cdce7716f9a65
+SLACKBUILD SHORT DESCRIPTION:  kaccounts-providers
+
 SLACKBUILD NAME: kdiff3
 SLACKBUILD LOCATION: ./kdiff3
 SLACKBUILD FILES: README doinst.sh kdiff3.SlackBuild kdiff3.info slack-desc
@@ -69,6 +87,15 @@ SLACKBUILD REQUIRED: qrencode
 SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/download/2.5.3/keepassxc-2.5.3-src.tar.xz
 SLACKBUILD MD5SUM: ac7ad8bec58366fe1e9f21ac7d7fe208
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
+
+SLACKBUILD NAME: kio-gdrive
+SLACKBUILD LOCATION: ./kio-gdrive
+SLACKBUILD FILES: README kio-gdrive.SlackBuild kio-gdrive.info slack-desc
+SLACKBUILD VERSION: 1.2.7
+SLACKBUILD REQUIRED: kde5 kaccounts-providers
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/kio-gdrive/1.2.7/src/kio-gdrive-1.2.7.tar.xz
+SLACKBUILD MD5SUM: f04713963588e4f4d5a9b23b357749dd
+SLACKBUILD SHORT DESCRIPTION:  kio-gdrive (KIO Slave to access Google Drive)
 
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
@@ -132,6 +159,15 @@ SLACKBUILD REQUIRED: libiptcdata lensfun
 SLACKBUILD DOWNLOAD: https://github.com/Beep6581/RawTherapee/releases/download/5.8/rawtherapee-5.8.tar.xz
 SLACKBUILD MD5SUM: 7c4b2d8246664d84d5061e4c7271d3af
 SLACKBUILD SHORT DESCRIPTION:  rawtherapee (Raw image processing software)
+
+SLACKBUILD NAME: signon-kwallet-extension
+SLACKBUILD LOCATION: ./signon-kwallet-extension
+SLACKBUILD FILES: README signon-kwallet-extension.SlackBuild signon-kwallet-extension.info slack-desc
+SLACKBUILD VERSION: 19.12.2
+SLACKBUILD REQUIRED: kde5 signond extra-cmake-modules
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/release-service/19.12.2/src/signon-kwallet-extension-19.12.2.tar.xz
+SLACKBUILD MD5SUM: 14978e4e1acefd1609cbb0cba271f975
+SLACKBUILD SHORT DESCRIPTION:  signon-kwallet-extension (KWallet integration for signon framework)
 
 SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali

@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon, 17 Feb 2020 12:48:38 UTC</pubDate>
-      <lastBuildDate>Mon, 17 Feb 2020 13:04:48 UTC</lastBuildDate>
+      <pubDate>Mon, 24 Feb 2020 15:44:09 UTC</pubDate>
+      <lastBuildDate>Mon, 24 Feb 2020 15:44:21 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 24 Feb 2020 15:44:09 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 24 Feb 2020 15:44:09 UTC</pubDate>
+         <guid isPermaLink="false">20200224164409</guid>
+         <description>
+           <![CDATA[<pre>
+kaccounts-integration-19.12.2-x86_64-1cf.txz:  Added.
+kaccounts-providers-19.12.2-x86_64-1cf.txz:  Added.
+kio-gdrive-1.2.7-x86_64-1cf.txz:  Added.
+signon-kwallet-extension-19.12.2-x86_64-1cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon, 17 Feb 2020 12:48:38 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -203,26 +217,6 @@ mkvtoolnix-42.0.0-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 gimp-lensfun-0.2.4-x86_64-5cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Wed,  1 Jan 2020 16:32:59 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed,  1 Jan 2020 16:32:59 UTC</pubDate>
-         <guid isPermaLink="false">20200101173259</guid>
-         <description>
-           <![CDATA[<pre>
-converseen-0.9.8.0-x86_64-2cf.txz:  Rebuilt.
-darktable-3.0.0-x86_64-3cf.txz:  Rebuilt.
-libopenshot-a1158ee-x86_64-3cf.txz:  Rebuilt.
-multibootusb-9.2.0-x86_64-2cf.txz:  Rebuilt.
-nomacs-3.12-x86_64-5cf.txz:  Rebuilt.
-openshot-2b386db-x86_64-1cf.txz:  Upgraded.
-ostinato-1.0-x86_64-4cf.txz:  Rebuilt.
-profanity-0.7.1-x86_64-2cf.txz:  Rebuilt.
-rawstudio-2.0-x86_64-7cf:  Removed.
-rawtherapee-5.7-x86_64-2cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>

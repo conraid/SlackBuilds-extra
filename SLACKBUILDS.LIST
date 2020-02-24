@@ -4,8 +4,11 @@ diskmonitor/diskmonitor.SlackBuild
 gimp-lensfun/gimp-lensfun.SlackBuild
 git-cola/git-cola.SlackBuild
 gmic/gmic.SlackBuild
+kaccounts-integration/kaccounts-integration.SlackBuild
+kaccounts-providers/kaccounts-providers.SlackBuild
 kdiff3/kdiff3.SlackBuild
 keepassxc/keepassxc.SlackBuild
+kio-gdrive/kio-gdrive.SlackBuild
 ktexteditor/ktexteditor.SlackBuild
 luminance-hdr/luminance-hdr.SlackBuild
 multibootusb/multibootusb.SlackBuild
@@ -13,6 +16,7 @@ nomacs/nomacs.SlackBuild
 openshot/openshot.SlackBuild
 qtcurve/qtcurve.SlackBuild
 rawtherapee/rawtherapee.SlackBuild
+signon-kwallet-extension/signon-kwallet-extension.SlackBuild
 sirikali/sirikali.SlackBuild
 smb4k/smb4k.SlackBuild
 soundkonverter/soundkonverter.SlackBuild
