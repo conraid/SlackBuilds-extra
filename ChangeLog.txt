@@ -1,3 +1,7 @@
+Tue Mar 3 14:21:09 UTC 2020
+nufraw-0.43-3-x86_64-1cf.txz:  Added.
+openshot-2.5.1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Mon Feb 24 15:44:09 UTC 2020
 kaccounts-integration-19.12.2-x86_64-1cf.txz:  Added.
 kaccounts-providers-19.12.2-x86_64-1cf.txz:  Added.

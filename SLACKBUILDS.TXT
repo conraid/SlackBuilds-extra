@@ -133,13 +133,22 @@ SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
 SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
 
+SLACKBUILD NAME: nufraw
+SLACKBUILD LOCATION: ./nufraw
+SLACKBUILD FILES: README files/doinst.sh nufraw.SlackBuild nufraw.info slack-desc
+SLACKBUILD VERSION: 0.43-3
+SLACKBUILD REQUIRED: gtkimageview lensfun cfitsio exiv2
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/nufraw/nufraw-0.43-3.tar.gz
+SLACKBUILD MD5SUM: 4d77576a16f70b25f53410fe61322ed8
+SLACKBUILD SHORT DESCRIPTION:  nufraw (Unindentified Flying RAW)
+
 SLACKBUILD NAME: openshot
 SLACKBUILD LOCATION: ./openshot
 SLACKBUILD FILES: README doinst.sh openshot.SlackBuild openshot.info slack-desc
-SLACKBUILD VERSION: 2.5.0
+SLACKBUILD VERSION: 2.5.1
 SLACKBUILD REQUIRED: httplib2 python-pyzmq libopenshot PyQt5
-SLACKBUILD DOWNLOAD: https://github.com/OpenShot/openshot-qt/archive/v2.5.0/openshot-qt.tar.gz
-SLACKBUILD MD5SUM: 22328e0e2ef6e3a888cffdb7e014907b
+SLACKBUILD DOWNLOAD: https://github.com/OpenShot/openshot-qt/archive/v2.5.1/openshot-qt.tar.gz
+SLACKBUILD MD5SUM: e59bf56ac01aee5f43491aebebe479a8
 SLACKBUILD SHORT DESCRIPTION:  openshot (open-source video editor)
 
 SLACKBUILD NAME: qtcurve
