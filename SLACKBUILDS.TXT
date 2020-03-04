@@ -214,3 +214,12 @@ SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.2.1.tar.xz
 SLACKBUILD MD5SUM: d1e3485aa20111020547a80ca266cf14
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
 
+SLACKBUILD NAME: vimtips
+SLACKBUILD LOCATION: ./vimtips
+SLACKBUILD FILES: README slack-desc vimtips.SlackBuild vimtips.info
+SLACKBUILD VERSION: 0.2.3
+SLACKBUILD REQUIRED: PyQt5 pyquery python-requests psutil
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/v/vimtips/vimtips-0.2.3.tar.gz
+SLACKBUILD MD5SUM: 33654c14214516079855d19ef501b70c
+SLACKBUILD SHORT DESCRIPTION:  vimtips (aggregate and show vim tips)
+

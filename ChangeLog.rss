@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Tue,  3 Mar 2020 14:21:09 UTC</pubDate>
-      <lastBuildDate>Tue,  3 Mar 2020 14:21:15 UTC</lastBuildDate>
+      <pubDate>Wed,  4 Mar 2020 17:28:20 UTC</pubDate>
+      <lastBuildDate>Wed,  4 Mar 2020 17:28:26 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed,  4 Mar 2020 17:28:20 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed,  4 Mar 2020 17:28:20 UTC</pubDate>
+         <guid isPermaLink="false">20200304182820</guid>
+         <description>
+           <![CDATA[<pre>
+vimtips-0.2.3-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Tue,  3 Mar 2020 14:21:09 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -207,17 +218,6 @@ gmic-2.8.2-x86_64-1cf.txz:  Upgraded.
 keepassxc-2.5.2-x86_64-1cf.txz:  Upgraded.
 vimb-3.6.0-x86_64-1cf.txz:  Upgraded.
 webkitgtk-2.26.2-x86_64-2cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu,  2 Jan 2020 15:46:28 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu,  2 Jan 2020 15:46:28 UTC</pubDate>
-         <guid isPermaLink="false">20200102164628</guid>
-         <description>
-           <![CDATA[<pre>
-mkvtoolnix-42.0.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
