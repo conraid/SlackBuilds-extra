@@ -11,16 +11,26 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  4 Mar 2020 17:28:20 UTC</pubDate>
-      <lastBuildDate>Wed,  4 Mar 2020 17:28:26 UTC</lastBuildDate>
+      <pubDate>Fri, 20 Mar 2020 09:10:00 UTC</pubDate>
+      <lastBuildDate>Fri, 20 Mar 2020 09:13:32 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
       <item>
-         <title>Wed,  4 Mar 2020 17:28:20 UTC</title>
+         <title>Fri, 20 Mar 2020 09:10:00 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed,  4 Mar 2020 17:28:20 UTC</pubDate>
-         <guid isPermaLink="false">20200304182820</guid>
+         <pubDate>Fri, 20 Mar 2020 09:10:00 UTC</pubDate>
+         <guid isPermaLink="false">20200320101000</guid>
          <description>
            <![CDATA[<pre>
+nomacs-3.14.2-x86_64-1cf.txz:  Upgraded.
+photoqt-1.7.1-x86_64-1cf.txz:  Added.
+smb4k-3.0.3-x86_64-1cf.txz:  Upgraded.
+yakuake-19.12.3-x86_64-1cf.txz:  Added.
+git-cola/git-cola-3.3-x86_64-2cf.txz:  Removed.
+multibootusb/multibootusb-9.2.0-x86_64-3cf.txz:  Removed.
+openshot/openshot-2.5.1-x86_64-2cf.txz:  Removed.
+vimtips/vimtips-0.2.3-x86_64-2cf.txz:  Removed.
+--------------------------+
+Wed Mar 4 17:28:20 UTC 2020
 vimtips-0.2.3-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>

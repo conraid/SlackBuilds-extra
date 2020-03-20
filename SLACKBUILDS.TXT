@@ -34,15 +34,6 @@ SLACKBUILD DOWNLOAD: https://github.com/seebk/GIMP-Lensfun/archive/0.2.4.tar.gz
 SLACKBUILD MD5SUM: 8d05111b6c4d18988c4e30c4f0c900a2
 SLACKBUILD SHORT DESCRIPTION:  gimp-lensfun (gimp plugin for use lenfuns)
 
-SLACKBUILD NAME: git-cola
-SLACKBUILD LOCATION: ./git-cola
-SLACKBUILD FILES: README doinst.sh git-cola.SlackBuild git-cola.dep git-cola.info git-cola.required slack-desc
-SLACKBUILD VERSION: 3.3
-SLACKBUILD REQUIRED: PyQt5
-SLACKBUILD DOWNLOAD: https://github.com/git-cola/git-cola/archive/v3.3.tar.gz
-SLACKBUILD MD5SUM: fa0012511a14921d0aaab1abce263c39
-SLACKBUILD SHORT DESCRIPTION:  git-cola (The highly caffeinated Git GUI)
-
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
@@ -115,22 +106,13 @@ SLACKBUILD DOWNLOAD: https://github.com/LuminanceHDR/LuminanceHDR/archive/v.2.6.
 SLACKBUILD MD5SUM: 221d05cac964f17a37347ff82302c209
 SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 
-SLACKBUILD NAME: multibootusb
-SLACKBUILD LOCATION: ./multibootusb
-SLACKBUILD FILES: README doinst.sh multibootusb.SlackBuild multibootusb.info slack-desc
-SLACKBUILD VERSION: 9.2.0
-SLACKBUILD REQUIRED: PyQt5
-SLACKBUILD DOWNLOAD: https://github.com/mbusb/multibootusb/archive/v9.2.0/multibootusb-9.2.0.tar.gz
-SLACKBUILD MD5SUM: 8b4e9fb36af2b2af34019d73db9ce8c3
-SLACKBUILD SHORT DESCRIPTION:  multibootusb (Install multiple live linux on a USB disk)
-
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
-SLACKBUILD FILES: README doinst.sh nomacs.SlackBuild nomacs.info patches/37805e3bc8753970127db101f4aa0c061bc5a70d.patch patches/7fdb4371135909bf5a2ba0caac2370e2a1a1c692.patch slack-desc
-SLACKBUILD VERSION: 3.12.0
+SLACKBUILD FILES: README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
+SLACKBUILD VERSION: 3.14.2
 SLACKBUILD REQUIRED: opencv quazip
-SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.12.tar.gz
-SLACKBUILD MD5SUM: 7b2160cbcf907ee080d696c61b3dc4e8
+SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.14.2.tar.gz
+SLACKBUILD MD5SUM: 65bd50be8f611305850d3c071adcfcc3
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
 
 SLACKBUILD NAME: nufraw
@@ -142,14 +124,14 @@ SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/nufraw/nufraw-0.43-3.tar.g
 SLACKBUILD MD5SUM: 4d77576a16f70b25f53410fe61322ed8
 SLACKBUILD SHORT DESCRIPTION:  nufraw (Unindentified Flying RAW)
 
-SLACKBUILD NAME: openshot
-SLACKBUILD LOCATION: ./openshot
-SLACKBUILD FILES: README doinst.sh openshot.SlackBuild openshot.info slack-desc
-SLACKBUILD VERSION: 2.5.1
-SLACKBUILD REQUIRED: httplib2 python-pyzmq libopenshot PyQt5
-SLACKBUILD DOWNLOAD: https://github.com/OpenShot/openshot-qt/archive/v2.5.1/openshot-qt.tar.gz
-SLACKBUILD MD5SUM: e59bf56ac01aee5f43491aebebe479a8
-SLACKBUILD SHORT DESCRIPTION:  openshot (open-source video editor)
+SLACKBUILD NAME: photoqt
+SLACKBUILD LOCATION: ./photoqt
+SLACKBUILD FILES: README doinst.sh patches/c6fd41478e818f3a651d40f96cab3d790e1c09a4.patch photoqt.SlackBuild photoqt.info slack-desc
+SLACKBUILD VERSION: 1.7.1
+SLACKBUILD REQUIRED: libqpsd graphicsmagick extra-cmake-modules exiv2 poppler
+SLACKBUILD DOWNLOAD: https://photoqt.org/downloads/source/photoqt-1.7.1.tar.gz
+SLACKBUILD MD5SUM: 656fee6f9923499992f069496a0aaa5d
+SLACKBUILD SHORT DESCRIPTION:  photoqt (qt image viewer)
 
 SLACKBUILD NAME: qtcurve
 SLACKBUILD LOCATION: ./qtcurve
@@ -190,10 +172,10 @@ SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesy
 SLACKBUILD NAME: smb4k
 SLACKBUILD LOCATION: ./smb4k
 SLACKBUILD FILES: README doinst.sh slack-desc smb4k.SlackBuild smb4k.info
-SLACKBUILD VERSION: 3.0.2
-SLACKBUILD REQUIRED: extra-cmake-modules
-SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/smb4k/smb4k-3.0.2.tar.xz
-SLACKBUILD MD5SUM: 12ea7b57edec04e74276ecc7a37801f5
+SLACKBUILD VERSION: 3.0.3
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/smb4k/smb4k-3.0.3.tar.xz
+SLACKBUILD MD5SUM: d3a688e9d3f1a008a262c2f2292b534a
 SLACKBUILD SHORT DESCRIPTION:  smb4k (Advanced Network Neighborhood Browser for KDE)
 
 SLACKBUILD NAME: soundkonverter
@@ -214,12 +196,12 @@ SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.2.1.tar.xz
 SLACKBUILD MD5SUM: d1e3485aa20111020547a80ca266cf14
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
 
-SLACKBUILD NAME: vimtips
-SLACKBUILD LOCATION: ./vimtips
-SLACKBUILD FILES: README slack-desc vimtips.SlackBuild vimtips.info
-SLACKBUILD VERSION: 0.2.3
-SLACKBUILD REQUIRED: PyQt5 pyquery python-requests psutil
-SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/v/vimtips/vimtips-0.2.3.tar.gz
-SLACKBUILD MD5SUM: 33654c14214516079855d19ef501b70c
-SLACKBUILD SHORT DESCRIPTION:  vimtips (aggregate and show vim tips)
+SLACKBUILD NAME: yakuake
+SLACKBUILD LOCATION: ./yakuake
+SLACKBUILD FILES: README doinst.sh slack-desc yakuake.SlackBuild yakuake.info
+SLACKBUILD VERSION: 19.12.3
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: http://download.kde.org/stable/release-service/19.12.3/src/yakuake-19.12.3.tar.xz
+SLACKBUILD MD5SUM: b4de7f749b9a0f7a8f66cada48f72e53
+SLACKBUILD SHORT DESCRIPTION:  yakuake (Yet Another Kuake, KDE terminal emulator) 
 
