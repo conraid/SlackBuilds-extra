@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Slackware build script for Gimp G'MIC plugin
+# Slackware build script for photoqt
 #
-# Copyright 2011-2020 Corrado Franco (https://corradofranco.it)
+# Copyright 2020 Corrado Franco (https://corradofranco.it)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -24,19 +24,20 @@
 # <http://www.gnu.org/licenses/>.
 #
 # Latest version of this SlackBuild at https://github.com/conraid/SlackBuilds
-#
+
 set -eu
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-PKGNAM=gmic
-SRCVERSION=2.9.0
-VERSION=$SRCVERSION
+PKGNAM=photoqt
+VERSION=1.7.1
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
 OUTPUT=${OUTPUT:-/tmp}
+
+DOCFILES="CHANGELOG COPYING* INSTALL README"
 
 if [ -z ${ARCH:=""} ]; then
   case "$( uname -m )" in
@@ -50,18 +51,18 @@ fi
 # the name of the created package would be, and then exit. This information
 # could be useful to other scripts.
 if [ ! -z "${PRINT_PACKAGE_NAME:-""}" ]; then
-  echo "$PKGNAM-$VERSION-$ARCH-${BUILD}${TAG}.txz"
+  echo "$PKGNAM-$VERSION-$ARCH-$BUILD.txz "
   exit 0
 fi
 
 if [ "$ARCH" = "i586" ]; then
-  SLKCFLAGS="-O2 -march=i586 -mtune=i686 -fno-fast-math"
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
   LIBDIRSUFFIX=""
 elif [ "$ARCH" = "i686" ]; then
-  SLKCFLAGS="-O2 -march=i686 -mtune=i686 -fno-fast-math"
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
   LIBDIRSUFFIX=""
 elif [ "$ARCH" = "x86_64" ]; then
-  SLKCFLAGS="-O2 -fPIC -pipe -fomit-frame-pointer -fno-fast-math"
+  SLKCFLAGS="-O2 -fPIC -pipe -fomit-frame-pointer"
   LIBDIRSUFFIX="64"
 else
   SLKCFLAGS="-O2"
@@ -71,9 +72,9 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PKGNAM
-tar xvf $CWD/${PKGNAM}_$VERSION.tar.gz
-cd $PKGNAM-$SRCVERSION
+rm -rf $PKGNAM-$VERSION
+tar xvf $CWD/$PKGNAM-$VERSION.tar.gz
+cd $PKGNAM-$VERSION
 
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
@@ -85,42 +86,19 @@ if [ -e $CWD/patches/ ]; then
   done
 fi
 
-# Fix path
-sed -e "/^LIB/s/lib/lib$LIBDIRSUFFIX/" \
-    -e "s|share/doc/gmic|doc/gmic-$VERSION|g" \
-    -e 's|/share/man|/man|g' -i src/Makefile
+mkdir -p build
+cd build
+cmake -Wno-dev \
+  -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS -DNDEBUG" \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/usr \
+  -DFREEIMAGE=OFF \
+  -DDEVIL=OFF \
+  ..
 
-# Build library and command line
-make -j1 \
-CFLAGS="$SLKCFLAGS" \
-CXXFLAGS="$SLKCFLAGS" \
-WGET=/dev/true \
--C src \
-cli lib libc
-
-# Build plugins
-if [ -x /usr/bin/qmake-qt5 ]; then
-  QMAKE="qmake-qt5"
-  cd gmic-qt
-  for PLUGIN_TYPE in none gimp krita; do
-    # Use qmake here because fftw cmake is wrong
-    $QMAKE QMAKE_CXXFLAGS="-DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" WGET=/dev/true GMIC_PATH=../src GMIC_DYNAMIC_LINKING=on HOST=$PLUGIN_TYPE
-    make -j1
-  done
-  cd ..
-else
-  QMAKE="qmake"
-fi
-
-
-## Build zart
-cd zart
-SLKCFLAGS=${SLKCFLAGS/-O2/}
-$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
-make -j1
+make
+make DESTDIR=$PKG install
 cd ..
-
-make DESTDIR=$PKG install -C src
 
 # Don't ship .la files:
 rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la
@@ -128,15 +106,18 @@ rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
 find $PKG | xargs file | grep "current ar archive" | cut -f 1 -d : | xargs -r strip -g 2> /dev/null || true
 
+if [ -d $PKG/usr/man ]; then
+  find $PKG/usr/man -type f -exec chmod 644 {} \; -exec gzip -9 {} \;
+  for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+fi
+
 mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
-cp -a COPYING README* $PKG/usr/doc/$PKGNAM-$VERSION || true
+cp -a $DOCFILES $PKG/usr/doc/$PKGNAM-$VERSION || true
 cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
-
-# Remove empty dir
-rmdir $PKG/usr/share || true
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}

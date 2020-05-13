@@ -1,3 +1,13 @@
+Wed May 13 05:54:06 UTC 2020
+amule-r11028-x86_64-2cf.txz:  Rebuilt.
+darktable-3.0.2-x86_64-1cf.txz:  Upgraded.
+gmic-2.9.0-x86_64-1cf.txz:  Upgraded.
+kdiff3-1.8.2-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.5.4-x86_64-1cf.txz:  Upgraded.
+sirikali-1.4.3-x86_64-1cf.txz:  Upgraded.
+smb4k-3.0.4-x86_64-1cf.txz:  Upgraded.
+tellico-3.3-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Fri Mar 20 09:10:00 UTC 2020
 nomacs-3.14.2-x86_64-1cf.txz:  Upgraded.
 photoqt-1.7.1-x86_64-1cf.txz:  Added.

@@ -13,3 +13,5 @@ possible.
 HOME: http://smb4k.sf.net/
 
 ======================================================================
+REQUIRES: extra-cmake-modules
+

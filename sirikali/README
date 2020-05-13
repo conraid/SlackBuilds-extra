@@ -11,5 +11,5 @@ encfs,gocryptfs and securefs based encrypted folders
 HOME: https://mhogomchungu.github.io/sirikali
 
 ======================================================================
-REQUIRES: ecryptfs-simple cryfs encfs securefs 
+REQUIRES: ecryptfs-simple cryfs encfs securefs
 

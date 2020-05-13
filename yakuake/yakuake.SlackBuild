@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Slackware build script for sirikali
+# Slackware build script for yakuake (http://yakuake.kde.org/)
 #
-# Copyright 2017-2020 Corrado Franco (https://corradofranco.it)
+# Copyright 2008-2020 Corrado Franco (https://corradofranco.it)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -22,23 +22,20 @@
 # You may have received a copy of the GNU General Public License along
 # with this program (most likely, a file named COPYING).  If not, see
 # <http://www.gnu.org/licenses/>.
-#
-# Latest version of this SlackBuild at https://github.com/conraid/SlackBuilds
 
 set -eu
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-PRGNAM=SiriKali
-PKGNAM=$(echo $PRGNAM | tr A-Z a-z)
-VERSION=1.4.3
+PKGNAM=yakuake
+VERSION=19.12.3
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-DOCFILES="ABOUT* BUILD* COPYING COPYRIGHT GPL* changelog LICENSE README*"
+DOCFILES="AUTHORS COPYING* ChangeLog KDE4FAQ NEWS README TODO"
 
 if [ -z ${ARCH:=""} ]; then
   case "$( uname -m )" in
@@ -73,36 +70,29 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-$VERSION.tar.xz
-cd $PRGNAM-$VERSION
+rm -rf $PKGNAM-$VERSION
+tar xvf $CWD/$PKGNAM-$VERSION.tar.xz
+cd $PKGNAM-$VERSION
 
 chown -R root:root .
-chmod -R u+w,go+r-w,a+X-s .
-
-# Fix man path
-sed 's|CMAKE_INSTALL_DATADIR\}/man/|CMAKE_INSTALL_PREFIX}/man/|' -i CMakeLists.txt
+chmod -R u+w,go+r-w,a-s .
 
 mkdir -p build
 cd build
 cmake -Wno-dev \
-  -DCMAKE_C_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
   -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
-  -DLIB_SUFFIX=$LIBDIRSUFFIX \
-  -DQT5=ON \
+  -DMAN_INSTALL_DIR=/usr/man \
+  -DSYSCONF_INSTALL_DIR=/etc \
   ..
 
 make
-make DESTDIR=$PKG install
+make DESTDIR=$PKG install/strip
 cd ..
 
 # Don't ship .la files:
 rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la
-
-find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
-find $PKG | xargs file | grep "current ar archive" | cut -f 1 -d : | xargs -r strip -g 2> /dev/null || true
 
 if [ -d $PKG/usr/man ]; then
   find $PKG/usr/man -type f -exec chmod 644 {} \; -exec gzip -9 {} \;
@@ -113,9 +103,9 @@ mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
 cp -a $DOCFILES $PKG/usr/doc/$PKGNAM-$VERSION || true
 cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
 
-mkdir -p $PKG/install 
+mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
+/sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD${TAG}.txz

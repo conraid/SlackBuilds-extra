@@ -11,9 +11,27 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 20 Mar 2020 09:10:00 UTC</pubDate>
-      <lastBuildDate>Fri, 20 Mar 2020 09:13:32 UTC</lastBuildDate>
+      <pubDate>Wed, 13 May 2020 05:54:06 UTC</pubDate>
+      <lastBuildDate>Wed, 13 May 2020 05:54:26 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed, 13 May 2020 05:54:06 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed, 13 May 2020 05:54:06 UTC</pubDate>
+         <guid isPermaLink="false">20200513075406</guid>
+         <description>
+           <![CDATA[<pre>
+amule-r11028-x86_64-2cf.txz:  Rebuilt.
+darktable-3.0.2-x86_64-1cf.txz:  Upgraded.
+gmic-2.9.0-x86_64-1cf.txz:  Upgraded.
+kdiff3-1.8.2-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.5.4-x86_64-1cf.txz:  Upgraded.
+sirikali-1.4.3-x86_64-1cf.txz:  Upgraded.
+smb4k-3.0.4-x86_64-1cf.txz:  Upgraded.
+tellico-3.3-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri, 20 Mar 2020 09:10:00 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -215,19 +233,6 @@ wireshark-3.2.1-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 gmic-2.8.2-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sun,  5 Jan 2020 11:52:10 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sun,  5 Jan 2020 11:52:10 UTC</pubDate>
-         <guid isPermaLink="false">20200105125210</guid>
-         <description>
-           <![CDATA[<pre>
-keepassxc-2.5.2-x86_64-1cf.txz:  Upgraded.
-vimb-3.6.0-x86_64-1cf.txz:  Upgraded.
-webkitgtk-2.26.2-x86_64-2cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>
