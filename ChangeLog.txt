@@ -1,3 +1,9 @@
+Thu Jun 4 12:41:50 UTC 2020
+ktexteditor-5.70.1-x86_64-1cf.txz:  Upgraded.
+obs-studio-25.0.8-x86_64-1cf.txz:  Added.
+sirikali-1.4.4-x86_64-1cf.txz:  Upgraded.
+smb4k-3.0.6-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Wed May 13 05:54:06 UTC 2020
 amule-r11028-x86_64-2cf.txz:  Rebuilt.
 darktable-3.0.2-x86_64-1cf.txz:  Upgraded.

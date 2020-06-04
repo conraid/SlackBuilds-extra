@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed, 13 May 2020 05:54:06 UTC</pubDate>
-      <lastBuildDate>Wed, 13 May 2020 05:54:26 UTC</lastBuildDate>
+      <pubDate>Thu,  4 Jun 2020 12:41:50 UTC</pubDate>
+      <lastBuildDate>Thu,  4 Jun 2020 12:42:18 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu,  4 Jun 2020 12:41:50 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu,  4 Jun 2020 12:41:50 UTC</pubDate>
+         <guid isPermaLink="false">20200604144150</guid>
+         <description>
+           <![CDATA[<pre>
+ktexteditor-5.70.1-x86_64-1cf.txz:  Upgraded.
+obs-studio-25.0.8-x86_64-1cf.txz:  Added.
+sirikali-1.4.4-x86_64-1cf.txz:  Upgraded.
+smb4k-3.0.6-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed, 13 May 2020 05:54:06 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -222,17 +236,6 @@ kid3-3.8.2-x86_64-1cf.txz:  Upgraded.
 webkitgtk-2.26.3-x86_64-1cf.txz:  Upgraded.
 wine-5.0-x86_64-1cf.txz:  Upgraded.
 wireshark-3.2.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Wed, 15 Jan 2020 12:48:51 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed, 15 Jan 2020 12:48:51 UTC</pubDate>
-         <guid isPermaLink="false">20200115134851</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.8.2-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
