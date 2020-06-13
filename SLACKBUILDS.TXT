@@ -36,11 +36,11 @@ SLACKBUILD SHORT DESCRIPTION:  gimp-lensfun (gimp plugin for use lenfuns)
 
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
-SLACKBUILD FILES: README gmic.SlackBuild gmic.info patches/zart-opencv4.patch slack-desc
-SLACKBUILD VERSION: 2.9.0
-SLACKBUILD REQUIRED: opencv graphicsmagick
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.9.0.tar.gz
-SLACKBUILD MD5SUM: 0980af23bfc6466f6aab3d60d758f1ac
+SLACKBUILD FILES: README gmic.SlackBuild gmic.info slack-desc
+SLACKBUILD VERSION: 2.9.1
+SLACKBUILD REQUIRED: opencv graphicsmagick digikam
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.9.1.tar.gz
+SLACKBUILD MD5SUM: a6060d3c7efa391e90ea26c5eb34b7ac
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kaccounts-integration

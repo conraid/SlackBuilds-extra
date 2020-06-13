@@ -30,13 +30,16 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=gmic
-SRCVERSION=2.9.0
+SRCVERSION=2.9.1
 VERSION=$SRCVERSION
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
 OUTPUT=${OUTPUT:-/tmp}
+
+PLUGINS=${PLUGINS:-"none gimp krita"} # Plugins: none, gimp, krita, digikam
+ZART=${ZART:-"NO"} # YES to compile ZART. In my system it produces a segfault
 
 if [ -z ${ARCH:=""} ]; then
   case "$( uname -m )" in
@@ -71,8 +74,8 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PKGNAM
-tar xvf $CWD/${PKGNAM}_$VERSION.tar.gz
+rm -rf $PKGNAM-$SRCVERSION
+tar xvf $CWD/${PKGNAM}_$SRCVERSION.tar.gz
 cd $PKGNAM-$SRCVERSION
 
 chown -R root:root .
@@ -91,36 +94,52 @@ sed -e "/^LIB/s/lib/lib$LIBDIRSUFFIX/" \
     -e 's|/share/man|/man|g' -i src/Makefile
 
 # Build library and command line
-make -j1 \
-CFLAGS="$SLKCFLAGS" \
-CXXFLAGS="$SLKCFLAGS" \
-WGET=/dev/true \
--C src \
-cli lib libc
+cmake -B build -Wno-dev \
+  -DCMAKE_CXX_FLAGS_RELEASE="$SLKCFLAGS -DNDEBUG" \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/usr \
+  -DENABLE_DYNAMIC_LINKING=ON \
+  -DBUILD_LIB_STATIC=OFF
 
-# Build plugins
-if [ -x /usr/bin/qmake-qt5 ]; then
-  QMAKE="qmake-qt5"
-  cd gmic-qt
-  for PLUGIN_TYPE in none gimp krita; do
-    # Use qmake here because fftw cmake is wrong
-    $QMAKE QMAKE_CXXFLAGS="-DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" WGET=/dev/true GMIC_PATH=../src GMIC_DYNAMIC_LINKING=on HOST=$PLUGIN_TYPE
-    make -j1
-  done
-  cd ..
-else
-  QMAKE="qmake"
-fi
+cmake --build build
+DESTDIR=$PKG cmake --install build
 
+cd $PKGNAM-qt
+for PLUGIN_TYPE in $PLUGINS; do
+  export LDFLAGS="-L../build"
+  cmake -B build-$PLUGIN_TYPE -Wno-dev \
+    -DCMAKE_CXX_FLAGS_RELEASE="$SLKCFLAGS -DNDEBUG" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DENABLE_DYNAMIC_LINKING=ON \
+    -DGMIC_PATH=$TMP/$PKGNAM-$VERSION/src \
+    -DGMIC_LIB_PATH=$TMP/$PKGNAM-$VERSION/build \
+    -DGMIC_QT_HOST=$PLUGIN_TYPE
 
-## Build zart
-cd zart
-SLKCFLAGS=${SLKCFLAGS/-O2/}
-$QMAKE PREFIX=/usr QMAKE_CFLAGS="$SLKCFLAGS" QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" GMIC_DYNAMIC_LINKING=on GMIC_PATH=../src -o Makefile zart.pro
-make -j1
+  cmake --build build-$PLUGIN_TYPE
+  DESTDIR=$PKG cmake --install build-$PLUGIN_TYPE
+done
 cd ..
 
-make DESTDIR=$PKG install -C src
+if [ $ZART == "YES" ]; then
+  ## Build zart
+  cd zart
+  SLKCFLAGS=${SLKCFLAGS/-O2/}
+  qmake-qt5 \
+    PREFIX=/usr \
+    QMAKE_CFLAGS="$SLKCFLAGS" \
+    QMAKE_CXXFLAGS="$SLKCFLAGS -DOPENCV2_HEADERS" \
+    QMAKE_CFLAGS_RELEASE="$SLKCFLAGS" \
+    QMAKE_CXXFLAGS_RELEASE="$SLKCFLAGS -DOPENCV2_HEADERS" \
+    GMIC_DYNAMIC_LINKING=on \
+    GMIC_PATH=../src \
+    GMIC_LIB_PATH=$TMP/$PKGNAM-$VERSION/build \
+    -o Makefile zart.pro
+
+  make -j1
+  install -Dm755 zart $PKG/usr/bin/zart
+cd ..
+fi
 
 # Don't ship .la files:
 rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la

@@ -1,3 +1,6 @@
+Sat Jun 13 13:04:43 UTC 2020
+gmic-2.9.1-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Thu Jun 4 12:41:50 UTC 2020
 ktexteditor-5.70.1-x86_64-1cf.txz:  Upgraded.
 obs-studio-25.0.8-x86_64-1cf.txz:  Added.
