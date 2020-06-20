@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat, 13 Jun 2020 13:04:43 UTC</pubDate>
-      <lastBuildDate>Sat, 13 Jun 2020 13:05:03 UTC</lastBuildDate>
+      <pubDate>Sat, 20 Jun 2020 13:53:03 UTC</pubDate>
+      <lastBuildDate>Sat, 20 Jun 2020 13:53:18 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sat, 20 Jun 2020 13:53:03 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sat, 20 Jun 2020 13:53:03 UTC</pubDate>
+         <guid isPermaLink="false">20200620155303</guid>
+         <description>
+           <![CDATA[<pre>
+ktexteditor-5.71.0-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat, 13 Jun 2020 13:04:43 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -220,18 +231,6 @@ cmus-2.8.0-x86_64-2cf:  Removed.
 	- Moved to main repository
 profanity-0.7.1-x86_64-3cf:  Removed.
 	- moved to main repository
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri, 24 Jan 2020 15:04:53 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri, 24 Jan 2020 15:04:53 UTC</pubDate>
-         <guid isPermaLink="false">20200124160453</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.8.3-x86_64-1cf.txz:  Upgraded.
-qbittorrent-4.2.1-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

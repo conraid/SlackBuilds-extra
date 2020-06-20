@@ -91,10 +91,10 @@ SLACKBUILD SHORT DESCRIPTION:  kio-gdrive (KIO Slave to access Google Drive)
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor
 SLACKBUILD FILES: README ktexteditor.SlackBuild ktexteditor.info slack-desc
-SLACKBUILD VERSION: 5.70.1
+SLACKBUILD VERSION: 5.71.0
 SLACKBUILD REQUIRED: editorconfig-core-c kde5 libgit2
-SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.70/ktexteditor-5.70.1.tar.xz
-SLACKBUILD MD5SUM: f761f1b7876cecfc12cdb09c58a7cab2
+SLACKBUILD DOWNLOAD: https://download.kde.org/stable/frameworks/5.71/ktexteditor-5.71.0.tar.xz
+SLACKBUILD MD5SUM: 22c795c3de9db2796183635761bd761a
 SLACKBUILD SHORT DESCRIPTION:  ktexteditor (Full text editor component)
 
 SLACKBUILD NAME: luminance-hdr
