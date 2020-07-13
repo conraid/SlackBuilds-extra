@@ -1,3 +1,8 @@
+Mon Jul 13 12:17:49 UTC 2020
+keepassxc-2.6.0-x86_64-1cf.txz:  Upgraded.
+nomacs-3.15.0.1616-x86_64-1cf.txz:  Upgraded.
+obs-studio-25.0.8-x86_64-2cf.txz:  Rebuilt.
++--------------------------+
 Sat Jun 20 13:53:03 UTC 2020
 ktexteditor-5.71.0-x86_64-1cf.txz:  Upgraded.
 +--------------------------+

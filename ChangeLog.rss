@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat, 20 Jun 2020 13:53:03 UTC</pubDate>
-      <lastBuildDate>Sat, 20 Jun 2020 13:53:18 UTC</lastBuildDate>
+      <pubDate>Mon, 13 Jul 2020 12:17:49 UTC</pubDate>
+      <lastBuildDate>Mon, 13 Jul 2020 12:19:39 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon, 13 Jul 2020 12:17:49 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 13 Jul 2020 12:17:49 UTC</pubDate>
+         <guid isPermaLink="false">20200713141749</guid>
+         <description>
+           <![CDATA[<pre>
+keepassxc-2.6.0-x86_64-1cf.txz:  Upgraded.
+nomacs-3.15.0.1616-x86_64-1cf.txz:  Upgraded.
+obs-studio-25.0.8-x86_64-2cf.txz:  Rebuilt.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat, 20 Jun 2020 13:53:03 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -217,20 +230,6 @@ converseen-0.9.8.1-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 lyx-2.3.4-x86_64-1cf.txz:  Upgraded.
 mkvtoolnix-43.0.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sun, 26 Jan 2020 09:28:04 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sun, 26 Jan 2020 09:28:04 UTC</pubDate>
-         <guid isPermaLink="false">20200126102804</guid>
-         <description>
-           <![CDATA[<pre>
-cmus-2.8.0-x86_64-2cf:  Removed.
-	- Moved to main repository
-profanity-0.7.1-x86_64-3cf:  Removed.
-	- moved to main repository
            </pre>]]>
          </description>
       </item>
