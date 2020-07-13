@@ -12,5 +12,5 @@ Additionally it is possible to synchronize multiple viewers.
 HOME: http://www.nomacs.org/
 
 ======================================================================
-REQUIRES: opencv quazip
+REQUIRES: opencv quazip qt-heif-image-plugin libqpsd
 

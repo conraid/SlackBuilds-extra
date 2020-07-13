@@ -30,8 +30,8 @@ set -eu
 cd $(dirname $0) ; CWD=$(pwd)
 
 PKGNAM=nomacs
-VERSION=3.14.2
-PLUGINVERSION=3.14
+VERSION=3.15.0.1616
+PLUGINVERSION=3.15.1616
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
@@ -82,9 +82,8 @@ chmod -R u+w,go+r-w,a+X-s .
 
 cd ImageLounge
 
-# Install plugins
 tar xvf $CWD/$PKGNAM-plugins-$PLUGINVERSION.tar.gz
-mv $PKGNAM-plugins-$PLUGINVERSION plugins
+mv $PKGNAM-plugins-$PLUGINVERSION/* plugins
 
 # Fix man and plugin path
 sed 's|share/man/|man/|' -i cmake/UnixBuildTarget.cmake
@@ -100,13 +99,13 @@ fi
 mkdir -p build
 cd build
 cmake \
-  -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
-  -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
-  -DCMAKE_BUILD_TYPE=none \
+  -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
+  -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
   -DUSE_SYSTEM_QUAZIP=ON \
   -DENABLE_TRANSLATIONS=true \
   -DLIB_SUFFIX=${LIBDIRSUFFIX} \
+  -DENABLE_HEIF=ON \
   -DUSE_SYSTEM_QUAZIP=ON \
   ..
 
