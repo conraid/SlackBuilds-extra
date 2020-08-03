@@ -109,10 +109,10 @@ SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 SLACKBUILD NAME: nomacs
 SLACKBUILD LOCATION: ./nomacs
 SLACKBUILD FILES: README doinst.sh nomacs.SlackBuild nomacs.info slack-desc
-SLACKBUILD VERSION: 3.15.0.1616
-SLACKBUILD REQUIRED: opencv quazip qt-heif-image-plugin libqpsd
-SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.15.0.1616/nomacs-3.15.0.1616.tar.gz
-SLACKBUILD MD5SUM: d5ca41685f8a3f0d7dfa878c09f1cb55
+SLACKBUILD VERSION: 3.16
+SLACKBUILD REQUIRED: opencv quazip qt-heif-image-plugin
+SLACKBUILD DOWNLOAD: https://github.com/nomacs/nomacs/archive/3.16.224/nomacs-3.16.224.tar.gz
+SLACKBUILD MD5SUM: 3489dc4dfb56007ffbc4b2d442f95131
 SLACKBUILD SHORT DESCRIPTION:  nomacs (Qt image viewer)
 
 SLACKBUILD NAME: nufraw
@@ -172,10 +172,10 @@ SLACKBUILD SHORT DESCRIPTION:  signon-kwallet-extension (KWallet integration for
 SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali
 SLACKBUILD FILES: README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
-SLACKBUILD VERSION: 1.4.4
+SLACKBUILD VERSION: 1.4.6
 SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs
-SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.4/SiriKali-1.4.4.tar.xz
-SLACKBUILD MD5SUM: 1f471cdc12576a5da8a333b13c5b68ae
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.6/SiriKali-1.4.6.tar.xz
+SLACKBUILD MD5SUM: 4c8d140ec52e8b1aa2687b6d4cae9f61
 SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
 
 SLACKBUILD NAME: smb4k

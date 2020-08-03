@@ -11,9 +11,21 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon, 13 Jul 2020 12:17:49 UTC</pubDate>
-      <lastBuildDate>Mon, 13 Jul 2020 12:19:39 UTC</lastBuildDate>
+      <pubDate>Mon,  3 Aug 2020 13:03:53 UTC</pubDate>
+      <lastBuildDate>Mon,  3 Aug 2020 13:04:29 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon,  3 Aug 2020 13:03:53 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon,  3 Aug 2020 13:03:53 UTC</pubDate>
+         <guid isPermaLink="false">20200803150353</guid>
+         <description>
+           <![CDATA[<pre>
+nomacs-3.16.224-x86_64-1cf.txz:  Upgraded.
+sirikali-1.4.6-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon, 13 Jul 2020 12:17:49 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -218,18 +230,6 @@ zulucrypt-5.7.1-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 ansifilter-2.16-x86_64-1cf.txz:  Upgraded.
 converseen-0.9.8.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue, 28 Jan 2020 13:36:28 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue, 28 Jan 2020 13:36:28 UTC</pubDate>
-         <guid isPermaLink="false">20200128143628</guid>
-         <description>
-           <![CDATA[<pre>
-lyx-2.3.4-x86_64-1cf.txz:  Upgraded.
-mkvtoolnix-43.0.0-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>
