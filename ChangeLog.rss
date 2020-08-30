@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon,  3 Aug 2020 13:03:53 UTC</pubDate>
-      <lastBuildDate>Mon,  3 Aug 2020 13:04:29 UTC</lastBuildDate>
+      <pubDate>Sun, 30 Aug 2020 13:53:15 UTC</pubDate>
+      <lastBuildDate>Sun, 30 Aug 2020 13:53:47 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sun, 30 Aug 2020 13:53:15 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sun, 30 Aug 2020 13:53:15 UTC</pubDate>
+         <guid isPermaLink="false">20200830155315</guid>
+         <description>
+           <![CDATA[<pre>
+darktable-3.2.1-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.6.1-x86_64-1cf.txz:  Upgraded.
+ktexteditor-5.72.0-x86_64-1cf.txz:  Upgraded.
+tellico-3.3.2-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon,  3 Aug 2020 13:03:53 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -218,18 +232,6 @@ scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
            <![CDATA[<pre>
 rawtherapee-5.8-x86_64-1cf.txz:  Upgraded.
 zulucrypt-5.7.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon,  3 Feb 2020 11:49:06 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon,  3 Feb 2020 11:49:06 UTC</pubDate>
-         <guid isPermaLink="false">20200203124906</guid>
-         <description>
-           <![CDATA[<pre>
-ansifilter-2.16-x86_64-1cf.txz:  Upgraded.
-converseen-0.9.8.1-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

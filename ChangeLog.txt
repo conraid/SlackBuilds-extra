@@ -1,3 +1,9 @@
+Sun Aug 30 13:53:15 UTC 2020
+darktable-3.2.1-x86_64-1cf.txz:  Upgraded.
+keepassxc-2.6.1-x86_64-1cf.txz:  Upgraded.
+ktexteditor-5.72.0-x86_64-1cf.txz:  Upgraded.
+tellico-3.3.2-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Mon Aug 3 13:03:53 UTC 2020
 nomacs-3.16.224-x86_64-1cf.txz:  Upgraded.
 sirikali-1.4.6-x86_64-1cf.txz:  Upgraded.
