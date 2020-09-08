@@ -37,10 +37,10 @@ SLACKBUILD SHORT DESCRIPTION:  gimp-lensfun (gimp plugin for use lenfuns)
 SLACKBUILD NAME: gmic
 SLACKBUILD LOCATION: ./gmic
 SLACKBUILD FILES: README gmic.SlackBuild gmic.info slack-desc
-SLACKBUILD VERSION: 2.9.1
-SLACKBUILD REQUIRED: opencv graphicsmagick digikam
-SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.9.1.tar.gz
-SLACKBUILD MD5SUM: a6060d3c7efa391e90ea26c5eb34b7ac
+SLACKBUILD VERSION: 2.9.2
+SLACKBUILD REQUIRED: opencv graphicsmagick
+SLACKBUILD DOWNLOAD: http://gmic.eu/files/source/gmic_2.9.2.tar.gz
+SLACKBUILD MD5SUM: c66c118231bd4061f74dc127b04a7f75
 SLACKBUILD SHORT DESCRIPTION:  GMIC (Image converter and gimp plugin)
 
 SLACKBUILD NAME: kaccounts-integration
@@ -61,6 +61,15 @@ SLACKBUILD DOWNLOAD: https://download.kde.org/stable/release-service/19.12.2/src
 SLACKBUILD MD5SUM: f007bcef0076865c6a9cdce7716f9a65
 SLACKBUILD SHORT DESCRIPTION:  kaccounts-providers
 
+SLACKBUILD NAME: kcolorpicker
+SLACKBUILD LOCATION: ./kcolorpicker
+SLACKBUILD FILES: README kcolorpicker.SlackBuild kcolorpicker.info slack-desc
+SLACKBUILD VERSION: 0.1.4
+SLACKBUILD REQUIRED: extra-cmake-modules
+SLACKBUILD DOWNLOAD: https://github.com/ksnip/kColorPicker/archive/v0.1.4/kColorPicker-0.1.4.tar.gz
+SLACKBUILD MD5SUM: 9f7026c566f8de619deabffed9045d95
+SLACKBUILD SHORT DESCRIPTION:  kcolorpicker (Qt based Color Picker with popup menu)
+
 SLACKBUILD NAME: kdiff3
 SLACKBUILD LOCATION: ./kdiff3
 SLACKBUILD FILES: README doinst.sh kdiff3.SlackBuild kdiff3.info slack-desc
@@ -79,6 +88,15 @@ SLACKBUILD DOWNLOAD: https://github.com/keepassxreboot/keepassxc/releases/downlo
 SLACKBUILD MD5SUM: 9089b93bacb23d4ad8c3c7846ab703a3
 SLACKBUILD SHORT DESCRIPTION:  keepassxc (KeePass Cross-Platform Community Edition)
 
+SLACKBUILD NAME: kimageannotator
+SLACKBUILD LOCATION: ./kimageannotator
+SLACKBUILD FILES: README kimageannotator.SlackBuild kimageannotator.info slack-desc
+SLACKBUILD VERSION: 0.3.2
+SLACKBUILD REQUIRED: extra-cmake-modules kcolorpicker
+SLACKBUILD DOWNLOAD: https://github.com/ksnip/kImageAnnotator/archive/v0.3.2/kImageAnnotator-0.3.2.tar.gz
+SLACKBUILD MD5SUM: 8d65b5c3c687203e80fe2b0eb19bf3e8
+SLACKBUILD SHORT DESCRIPTION:  kimageannotator
+
 SLACKBUILD NAME: kio-gdrive
 SLACKBUILD LOCATION: ./kio-gdrive
 SLACKBUILD FILES: README kio-gdrive.SlackBuild kio-gdrive.info slack-desc
@@ -87,6 +105,15 @@ SLACKBUILD REQUIRED: kde5 kaccounts-providers
 SLACKBUILD DOWNLOAD: https://download.kde.org/stable/kio-gdrive/1.2.7/src/kio-gdrive-1.2.7.tar.xz
 SLACKBUILD MD5SUM: f04713963588e4f4d5a9b23b357749dd
 SLACKBUILD SHORT DESCRIPTION:  kio-gdrive (KIO Slave to access Google Drive)
+
+SLACKBUILD NAME: ksnip
+SLACKBUILD LOCATION: ./ksnip
+SLACKBUILD FILES: README doinst.sh ksnip.SlackBuild ksnip.info slack-desc
+SLACKBUILD VERSION: 1.7.3
+SLACKBUILD REQUIRED: kcolorpicker kimageannotator extra-cmake-modules
+SLACKBUILD DOWNLOAD: https://github.com/ksnip/ksnip/archive/v1.7.3/kImageAnnotator-1.7.3.tar.gz
+SLACKBUILD MD5SUM: 140d84d04b41d0d5d159fdfa4a85e1d8
+SLACKBUILD SHORT DESCRIPTION:  ksnip (Tool for annotating images)
 
 SLACKBUILD NAME: ktexteditor
 SLACKBUILD LOCATION: ./ktexteditor

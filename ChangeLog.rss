@@ -11,9 +11,23 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sun, 30 Aug 2020 13:53:15 UTC</pubDate>
-      <lastBuildDate>Sun, 30 Aug 2020 13:53:47 UTC</lastBuildDate>
+      <pubDate>Tue,  8 Sep 2020 14:05:51 UTC</pubDate>
+      <lastBuildDate>Tue,  8 Sep 2020 14:06:03 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Tue,  8 Sep 2020 14:05:51 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Tue,  8 Sep 2020 14:05:51 UTC</pubDate>
+         <guid isPermaLink="false">20200908160551</guid>
+         <description>
+           <![CDATA[<pre>
+gmic-2.9.2-x86_64-1cf.txz:  Upgraded.
+kcolorpicker-0.1.4-x86_64-1cf.txz:  Added.
+kimageannotator-0.3.2-x86_64-1cf.txz:  Added.
+ksnip-1.7.3-x86_64-1cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sun, 30 Aug 2020 13:53:15 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -220,18 +234,6 @@ qbittorrent-4.2.1-x86_64-2cf.txz:  Rebuilt.
          <description>
            <![CDATA[<pre>
 scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue,  4 Feb 2020 14:17:14 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue,  4 Feb 2020 14:17:14 UTC</pubDate>
-         <guid isPermaLink="false">20200204151714</guid>
-         <description>
-           <![CDATA[<pre>
-rawtherapee-5.8-x86_64-1cf.txz:  Upgraded.
-zulucrypt-5.7.1-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

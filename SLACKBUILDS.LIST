@@ -5,9 +5,12 @@ gimp-lensfun/gimp-lensfun.SlackBuild
 gmic/gmic.SlackBuild
 kaccounts-integration/kaccounts-integration.SlackBuild
 kaccounts-providers/kaccounts-providers.SlackBuild
+kcolorpicker/kcolorpicker.SlackBuild
 kdiff3/kdiff3.SlackBuild
 keepassxc/keepassxc.SlackBuild
+kimageannotator/kimageannotator.SlackBuild
 kio-gdrive/kio-gdrive.SlackBuild
+ksnip/ksnip.SlackBuild
 ktexteditor/ktexteditor.SlackBuild
 luminance-hdr/luminance-hdr.SlackBuild
 nomacs/nomacs.SlackBuild
