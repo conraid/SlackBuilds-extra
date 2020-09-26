@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Tue,  8 Sep 2020 14:05:51 UTC</pubDate>
-      <lastBuildDate>Tue,  8 Sep 2020 14:06:03 UTC</lastBuildDate>
+      <pubDate>Sat, 26 Sep 2020 12:35:06 UTC</pubDate>
+      <lastBuildDate>Sat, 26 Sep 2020 12:35:16 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Sat, 26 Sep 2020 12:35:06 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Sat, 26 Sep 2020 12:35:06 UTC</pubDate>
+         <guid isPermaLink="false">20200926143506</guid>
+         <description>
+           <![CDATA[<pre>
+amule-r11057-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Tue,  8 Sep 2020 14:05:51 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -223,17 +234,6 @@ gmic-2.8.4-x86_64-1cf.txz:  Upgraded.
 libopenshot-0.2.4-x86_64-1cf.txz:  Upgraded.
 openshot-2.5.0-x86_64-1cf.txz:  Upgraded.
 qbittorrent-4.2.1-x86_64-2cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat,  8 Feb 2020 16:30:40 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat,  8 Feb 2020 16:30:40 UTC</pubDate>
-         <guid isPermaLink="false">20200208173040</guid>
-         <description>
-           <![CDATA[<pre>
-scribus-1.5.5-x86_64-3cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>

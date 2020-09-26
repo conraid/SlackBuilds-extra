@@ -1,10 +1,10 @@
 SLACKBUILD NAME: amule
 SLACKBUILD LOCATION: ./amule
 SLACKBUILD FILES: README amule.SlackBuild amule.info doinst.sh slack-desc
-SLACKBUILD VERSION: r11028
+SLACKBUILD VERSION: r11057
 SLACKBUILD REQUIRED: cryptopp wxgtk libupnp geoip
-SLACKBUILD DOWNLOAD: http://amule.sourceforge.net/tarballs/aMule-SVN-r11028.tar.bz2
-SLACKBUILD MD5SUM: 56f19d05bd8b720840779064fe5bcf37
+SLACKBUILD DOWNLOAD: http://amule.sourceforge.net/tarballs/aMule-SVN-r11057.tar.bz2
+SLACKBUILD MD5SUM: 480454e9f8dfdef1932ecd89848d91bb
 SLACKBUILD SHORT DESCRIPTION:  amule (ed2k client)
 
 SLACKBUILD NAME: darktable

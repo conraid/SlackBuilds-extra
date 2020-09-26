@@ -1,3 +1,6 @@
+Sat Sep 26 12:35:06 UTC 2020
+amule-r11057-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Tue Sep 8 14:05:51 UTC 2020
 gmic-2.9.2-x86_64-1cf.txz:  Upgraded.
 kcolorpicker-0.1.4-x86_64-1cf.txz:  Added.
