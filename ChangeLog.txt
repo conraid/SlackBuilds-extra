@@ -1,3 +1,6 @@
+Fri Oct 2 13:04:48 UTC 2020
+sirikali-1.4.7-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Sat Sep 26 12:35:06 UTC 2020
 amule-r11057-x86_64-1cf.txz:  Upgraded.
 +--------------------------+

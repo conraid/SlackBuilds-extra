@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Sat, 26 Sep 2020 12:35:06 UTC</pubDate>
-      <lastBuildDate>Sat, 26 Sep 2020 12:35:16 UTC</lastBuildDate>
+      <pubDate>Fri,  2 Oct 2020 13:04:48 UTC</pubDate>
+      <lastBuildDate>Fri,  2 Oct 2020 13:04:58 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Fri,  2 Oct 2020 13:04:48 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri,  2 Oct 2020 13:04:48 UTC</pubDate>
+         <guid isPermaLink="false">20201002150448</guid>
+         <description>
+           <![CDATA[<pre>
+sirikali-1.4.7-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Sat, 26 Sep 2020 12:35:06 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -221,19 +232,6 @@ wine-5.1-x86_64-1cf.txz:  Upgraded.
          <description>
            <![CDATA[<pre>
 gmic-2.8.4-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sun,  9 Feb 2020 13:38:10 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sun,  9 Feb 2020 13:38:10 UTC</pubDate>
-         <guid isPermaLink="false">20200209143810</guid>
-         <description>
-           <![CDATA[<pre>
-libopenshot-0.2.4-x86_64-1cf.txz:  Upgraded.
-openshot-2.5.0-x86_64-1cf.txz:  Upgraded.
-qbittorrent-4.2.1-x86_64-2cf.txz:  Rebuilt.
            </pre>]]>
          </description>
       </item>

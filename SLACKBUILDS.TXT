@@ -199,10 +199,10 @@ SLACKBUILD SHORT DESCRIPTION:  signon-kwallet-extension (KWallet integration for
 SLACKBUILD NAME: sirikali
 SLACKBUILD LOCATION: ./sirikali
 SLACKBUILD FILES: README doinst.sh sirikali.SlackBuild sirikali.info slack-desc
-SLACKBUILD VERSION: 1.4.6
+SLACKBUILD VERSION: 1.4.7
 SLACKBUILD REQUIRED: ecryptfs-simple cryfs encfs securefs
-SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.6/SiriKali-1.4.6.tar.xz
-SLACKBUILD MD5SUM: 4c8d140ec52e8b1aa2687b6d4cae9f61
+SLACKBUILD DOWNLOAD: https://github.com/mhogomchungu/sirikali/releases/download/1.4.7/SiriKali-1.4.7.tar.xz
+SLACKBUILD MD5SUM: adf2281a55c3a883418f0173864f0c31
 SLACKBUILD SHORT DESCRIPTION:  sirikali (GUI front-end for some encrypted filesystems)
 
 SLACKBUILD NAME: smb4k

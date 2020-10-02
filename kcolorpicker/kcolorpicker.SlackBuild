@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Slackware build script for sirikali
+# Slackware build script for kcolorpicker
 #
-# Copyright 2017-2020 Corrado Franco (https://corradofranco.it)
+# Copyright 2020 Corrado Franco (https://corradofranco.it)
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -29,16 +29,17 @@ set -eu
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-PRGNAM=SiriKali
+PRGNAM=kColorPicker
 PKGNAM=$(echo $PRGNAM | tr A-Z a-z)
-VERSION=1.4.7
+SRCVERSION=0.1.4
+VERSION=$(echo $SRCVERSION | tr - _)
 BUILD=${BUILD:-1}
 TAG=${TAG:-cf}
 TMP=${TMP:-/tmp/pkg}
 PKG=$TMP/package-$PKGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-DOCFILES="ABOUT* BUILD* COPYING COPYRIGHT GPL* changelog LICENSE README*"
+DOCFILES="LICENSE *.md"
 
 if [ -z ${ARCH:=""} ]; then
   case "$( uname -m )" in
@@ -52,7 +53,7 @@ fi
 # the name of the created package would be, and then exit. This information
 # could be useful to other scripts.
 if [ ! -z "${PRINT_PACKAGE_NAME:-""}" ]; then
-  echo "$PKGNAM-$VERSION-$ARCH-${BUILD}${TAG}.txz"
+  echo "$PKGNAM-$VERSION-$ARCH-$BUILD.txz "
   exit 0
 fi
 
@@ -73,25 +74,34 @@ fi
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-$VERSION.tar.xz
-cd $PRGNAM-$VERSION
+rm -rf $PRGNAM-$SRCVERSION
+tar xvf $CWD/$PRGNAM-$SRCVERSION.tar.gz || tar xvf $CWD/v$SRCVERSION.tar.gz
+cd $PRGNAM-$SRCVERSION
 
 chown -R root:root .
 chmod -R u+w,go+r-w,a+X-s .
 
-# Fix man path
-sed 's|CMAKE_INSTALL_DATADIR\}/man/|CMAKE_INSTALL_PREFIX}/man/|' -i CMakeLists.txt
+# Apply patches
+if [ -e $CWD/patches ]; then
+  if [ -e $CWD/patches/series ]; then
+    for PATCH in $(cat $CWD/patches/series); do
+      patch -p1 -i $CWD/patches/$PATCH
+    done
+  else
+    for PATCH in $CWD/patches/*.patch; do
+      patch -p1 -i $PATCH
+    done
+  fi
+fi
+
 
 mkdir -p build
 cd build
 cmake -Wno-dev \
-  -DCMAKE_C_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
-  -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS" \
+  -DCMAKE_CXX_FLAGS_RELEASE:STRING="$SLKCFLAGS -DNDEBUG" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=/usr \
-  -DLIB_SUFFIX=$LIBDIRSUFFIX \
-  -DQT5=ON \
+  -DBUILD_SHARED_LIBS=ON \
   ..
 
 make
@@ -113,9 +123,8 @@ mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
 cp -a $DOCFILES $PKG/usr/doc/$PKGNAM-$VERSION || true
 cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
 
-mkdir -p $PKG/install 
+mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
-cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
