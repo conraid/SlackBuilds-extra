@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri,  2 Oct 2020 13:04:48 UTC</pubDate>
-      <lastBuildDate>Fri,  2 Oct 2020 13:04:58 UTC</lastBuildDate>
+      <pubDate>Wed,  7 Oct 2020 09:25:19 UTC</pubDate>
+      <lastBuildDate>Wed,  7 Oct 2020 09:25:25 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Wed,  7 Oct 2020 09:25:19 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed,  7 Oct 2020 09:25:19 UTC</pubDate>
+         <guid isPermaLink="false">20201007112519</guid>
+         <description>
+           <![CDATA[<pre>
+obs-studio-26.0.2-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri,  2 Oct 2020 13:04:48 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -221,17 +232,6 @@ Moved to main repository some packages.
            <![CDATA[<pre>
 lyx-2.3.4.2-x86_64-1cf.txz:  Upgraded.
 wine-5.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon, 10 Feb 2020 16:06:41 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon, 10 Feb 2020 16:06:41 UTC</pubDate>
-         <guid isPermaLink="false">20200210170641</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.8.4-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

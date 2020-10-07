@@ -153,11 +153,11 @@ SLACKBUILD SHORT DESCRIPTION:  nufraw (Unindentified Flying RAW)
 
 SLACKBUILD NAME: obs-studio
 SLACKBUILD LOCATION: ./obs-studio
-SLACKBUILD FILES: README obs-studio.SlackBuild obs-studio.info patches/bcee9c4a3ed46fff2fa458fb24ae140042fa4d3c.patch slack-desc
-SLACKBUILD VERSION: 25.0.8
+SLACKBUILD FILES: README obs-studio.SlackBuild obs-studio.info slack-desc
+SLACKBUILD VERSION: 26.0.2
 SLACKBUILD REQUIRED: jack vlc x264 mbedtls
-SLACKBUILD DOWNLOAD: https://github.com/obsproject/obs-studio/archive/25.0.8/obs-studio-25.0.8.tar.gz
-SLACKBUILD MD5SUM: 269e7a31b9b59f0eaf06f1c90a2e4573
+SLACKBUILD DOWNLOAD: https://github.com/obsproject/obs-studio/archive/26.0.2/obs-studio-26.0.2.tar.gz
+SLACKBUILD MD5SUM: 75dea679867dce642c8d1910ef6da0a5
 SLACKBUILD SHORT DESCRIPTION:  obs-studio (Open Broadcaster Software)
 
 SLACKBUILD NAME: photoqt
