@@ -11,9 +11,21 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  7 Oct 2020 09:25:19 UTC</pubDate>
-      <lastBuildDate>Wed,  7 Oct 2020 09:25:25 UTC</lastBuildDate>
+      <pubDate>Thu, 15 Oct 2020 08:41:41 UTC</pubDate>
+      <lastBuildDate>Thu, 15 Oct 2020 08:42:17 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu, 15 Oct 2020 08:41:41 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu, 15 Oct 2020 08:41:41 UTC</pubDate>
+         <guid isPermaLink="false">20201015104141</guid>
+         <description>
+           <![CDATA[<pre>
+ktexteditor-5.72.0-x86_64-2cf.txz:  Rebuilt.
+	- Recompiled against libgit2-1.1.0
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed,  7 Oct 2020 09:25:19 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -220,18 +232,6 @@ Modev to main repository some packages.
          <description>
            <![CDATA[<pre>
 Moved to main repository some packages.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu, 13 Feb 2020 15:01:52 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu, 13 Feb 2020 15:01:52 UTC</pubDate>
-         <guid isPermaLink="false">20200213160152</guid>
-         <description>
-           <![CDATA[<pre>
-lyx-2.3.4.2-x86_64-1cf.txz:  Upgraded.
-wine-5.1-x86_64-1cf.txz:  Upgraded.
            </pre>]]>
          </description>
       </item>

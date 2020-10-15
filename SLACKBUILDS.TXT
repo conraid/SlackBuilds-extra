@@ -232,12 +232,3 @@ SLACKBUILD DOWNLOAD: http://tellico-project.org/files/tellico-3.3.2.tar.xz
 SLACKBUILD MD5SUM: c81ecb9c66d73e71f1c3ec051db17971
 SLACKBUILD SHORT DESCRIPTION:  Tellico (KDE application for keeping track of your collections)
 
-SLACKBUILD NAME: yakuake
-SLACKBUILD LOCATION: ./yakuake
-SLACKBUILD FILES: README doinst.sh slack-desc yakuake.SlackBuild yakuake.info
-SLACKBUILD VERSION: 19.12.3
-SLACKBUILD REQUIRED: 
-SLACKBUILD DOWNLOAD: http://download.kde.org/stable/release-service/19.12.3/src/yakuake-19.12.3.tar.xz
-SLACKBUILD MD5SUM: b4de7f749b9a0f7a8f66cada48f72e53
-SLACKBUILD SHORT DESCRIPTION:  yakuake (Yet Another Kuake, KDE terminal emulator) 
-
