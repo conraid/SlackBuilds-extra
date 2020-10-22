@@ -1,3 +1,6 @@
+Thu Oct 22 09:16:39 UTC 2020
+keepassxc-2.6.2-x86_64-1cf.txz:  Upgraded.
++--------------------------+
 Thu Oct 15 08:41:41 UTC 2020
 ktexteditor-5.72.0-x86_64-2cf.txz:  Rebuilt.
 	- Recompiled against libgit2-1.1.0

@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Thu, 15 Oct 2020 08:41:41 UTC</pubDate>
-      <lastBuildDate>Thu, 15 Oct 2020 08:42:17 UTC</lastBuildDate>
+      <pubDate>Thu, 22 Oct 2020 09:16:39 UTC</pubDate>
+      <lastBuildDate>Thu, 22 Oct 2020 09:17:49 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Thu, 22 Oct 2020 09:16:39 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Thu, 22 Oct 2020 09:16:39 UTC</pubDate>
+         <guid isPermaLink="false">20201022111639</guid>
+         <description>
+           <![CDATA[<pre>
+keepassxc-2.6.2-x86_64-1cf.txz:  Upgraded.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Thu, 15 Oct 2020 08:41:41 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -221,17 +232,6 @@ signon-kwallet-extension-19.12.2-x86_64-1cf.txz:  Added.
          <description>
            <![CDATA[<pre>
 Modev to main repository some packages.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 15 Feb 2020 16:34:52 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 15 Feb 2020 16:34:52 UTC</pubDate>
-         <guid isPermaLink="false">20200215173452</guid>
-         <description>
-           <![CDATA[<pre>
-Moved to main repository some packages.
            </pre>]]>
          </description>
       </item>
