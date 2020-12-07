@@ -11,9 +11,20 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Thu, 22 Oct 2020 09:16:39 UTC</pubDate>
-      <lastBuildDate>Thu, 22 Oct 2020 09:17:49 UTC</lastBuildDate>
+      <pubDate>Mon,  7 Dec 2020 15:15:47 UTC</pubDate>
+      <lastBuildDate>Mon,  7 Dec 2020 15:20:34 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.98</generator>
+      <item>
+         <title>Mon,  7 Dec 2020 15:15:47 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon,  7 Dec 2020 15:15:47 UTC</pubDate>
+         <guid isPermaLink="false">20201207161547</guid>
+         <description>
+           <![CDATA[<pre>
+Move all to main repository
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Thu, 22 Oct 2020 09:16:39 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -221,17 +232,6 @@ kaccounts-integration-19.12.2-x86_64-1cf.txz:  Added.
 kaccounts-providers-19.12.2-x86_64-1cf.txz:  Added.
 kio-gdrive-1.2.7-x86_64-1cf.txz:  Added.
 signon-kwallet-extension-19.12.2-x86_64-1cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon, 17 Feb 2020 12:48:38 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon, 17 Feb 2020 12:48:38 UTC</pubDate>
-         <guid isPermaLink="false">20200217134838</guid>
-         <description>
-           <![CDATA[<pre>
-Modev to main repository some packages.
            </pre>]]>
          </description>
       </item>
