@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Mon,  7 Dec 2020 15:15:47 UTC</pubDate>
-      <lastBuildDate>Mon,  7 Dec 2020 15:24:05 UTC</lastBuildDate>
-      <generator>gen_repos_files.sh v 1.98</generator>
+      <pubDate>Fri, 29 Dec 2023 15:45:12 UTC</pubDate>
+      <lastBuildDate>Fri, 29 Dec 2023 15:46:26 UTC</lastBuildDate>
+      <generator>gen_repos_files.sh v 1.99</generator>
+      <item>
+         <title>Fri, 29 Dec 2023 15:45:12 UTC</title>
+         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Fri, 29 Dec 2023 15:45:12 UTC</pubDate>
+         <guid isPermaLink="false">20231229164512</guid>
+         <description>
+           <![CDATA[<pre>
+obs-studio-30.0.2-x86_64-1cf.txz:  Added.
+photoqt-4.0.1-x86_64-1cf.txz:  Added.
+poppler-qt6-23.12.0-x86_64-1cf.txz:  Added.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Mon,  7 Dec 2020 15:15:47 UTC</title>
          <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
@@ -218,20 +231,6 @@ vimtips-0.2.3-x86_64-1cf.txz:  Upgraded.
            <![CDATA[<pre>
 nufraw-0.43-3-x86_64-1cf.txz:  Added.
 openshot-2.5.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon, 24 Feb 2020 15:44:09 UTC</title>
-         <link>http://slack.conraid.net/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon, 24 Feb 2020 15:44:09 UTC</pubDate>
-         <guid isPermaLink="false">20200224164409</guid>
-         <description>
-           <![CDATA[<pre>
-kaccounts-integration-19.12.2-x86_64-1cf.txz:  Added.
-kaccounts-providers-19.12.2-x86_64-1cf.txz:  Added.
-kio-gdrive-1.2.7-x86_64-1cf.txz:  Added.
-signon-kwallet-extension-19.12.2-x86_64-1cf.txz:  Added.
            </pre>]]>
          </description>
       </item>

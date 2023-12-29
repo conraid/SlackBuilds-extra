@@ -4,7 +4,7 @@ Slackware Current EXTRA Repository by Conraid.
 
 ## Repository for Slackware Current packages
 
-In this branch there are packages that need dependency outside my repository, like ktown by alien for example.
+In this branch there are packages that need dependency outside my repository, like qt6 by alien or ponce for example.
 
 Each directory contains everything (SlackBuild script, slack-desc file, plus all possible patch) you'll need when you want to build the packages yourself. 
 
@@ -41,5 +41,5 @@ All scrips are released under the GPL License.
 
 ## Links
 
-Compiled packages are on http://slack.conraid.net/repository/ or https://sourceforge.net/projects/slackers/
+Compiled packages are on http://slackers.it/repository
 
