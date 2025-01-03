@@ -11,226 +11,29 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri, 29 Dec 2023 15:45:12 UTC</pubDate>
-      <lastBuildDate>Fri, 29 Dec 2023 15:52:06 UTC</lastBuildDate>
+      <pubDate>Fri,  3 Jan 2025 15:51:57 UTC</pubDate>
+      <lastBuildDate>Fri,  3 Jan 2025 15:55:00 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.99</generator>
       <item>
-         <title>Fri, 29 Dec 2023 15:45:12 UTC</title>
+         <title>Fri,  3 Jan 2025 15:51:57 UTC</title>
          <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri, 29 Dec 2023 15:45:12 UTC</pubDate>
-         <guid isPermaLink="false">20231229164512</guid>
+         <pubDate>Fri,  3 Jan 2025 15:51:57 UTC</pubDate>
+         <guid isPermaLink="false">20250103165157</guid>
          <description>
            <![CDATA[<pre>
-obs-studio-30.0.2-x86_64-1cf.txz:  Added.
-photoqt-4.0.1-x86_64-1cf.txz:  Added.
-poppler-qt6-23.12.0-x86_64-1cf.txz:  Added.
+qemu-guest-agent-9.2.0-x86_64-1cf.txz:  Added.
+    - Thanks to ponce and drigoskalwalker.
            </pre>]]>
          </description>
       </item>
       <item>
-         <title>Mon,  7 Dec 2020 15:15:47 UTC</title>
+         <title>Wed, 31 Dec 20234 15:45:12 UTC</title>
          <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon,  7 Dec 2020 15:15:47 UTC</pubDate>
-         <guid isPermaLink="false">20201207161547</guid>
+         <pubDate>Wed, 31 Dec 20234 15:45:12 UTC</pubDate>
+         <guid isPermaLink="false">202341231164512</guid>
          <description>
            <![CDATA[<pre>
-Move all to main repository
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu, 22 Oct 2020 09:16:39 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu, 22 Oct 2020 09:16:39 UTC</pubDate>
-         <guid isPermaLink="false">20201022111639</guid>
-         <description>
-           <![CDATA[<pre>
-keepassxc-2.6.2-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu, 15 Oct 2020 08:41:41 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu, 15 Oct 2020 08:41:41 UTC</pubDate>
-         <guid isPermaLink="false">20201015104141</guid>
-         <description>
-           <![CDATA[<pre>
-ktexteditor-5.72.0-x86_64-2cf.txz:  Rebuilt.
-	- Recompiled against libgit2-1.1.0
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Wed,  7 Oct 2020 09:25:19 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed,  7 Oct 2020 09:25:19 UTC</pubDate>
-         <guid isPermaLink="false">20201007112519</guid>
-         <description>
-           <![CDATA[<pre>
-obs-studio-26.0.2-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri,  2 Oct 2020 13:04:48 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri,  2 Oct 2020 13:04:48 UTC</pubDate>
-         <guid isPermaLink="false">20201002150448</guid>
-         <description>
-           <![CDATA[<pre>
-sirikali-1.4.7-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 26 Sep 2020 12:35:06 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 26 Sep 2020 12:35:06 UTC</pubDate>
-         <guid isPermaLink="false">20200926143506</guid>
-         <description>
-           <![CDATA[<pre>
-amule-r11057-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue,  8 Sep 2020 14:05:51 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue,  8 Sep 2020 14:05:51 UTC</pubDate>
-         <guid isPermaLink="false">20200908160551</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.9.2-x86_64-1cf.txz:  Upgraded.
-kcolorpicker-0.1.4-x86_64-1cf.txz:  Added.
-kimageannotator-0.3.2-x86_64-1cf.txz:  Added.
-ksnip-1.7.3-x86_64-1cf.txz:  Added.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sun, 30 Aug 2020 13:53:15 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sun, 30 Aug 2020 13:53:15 UTC</pubDate>
-         <guid isPermaLink="false">20200830155315</guid>
-         <description>
-           <![CDATA[<pre>
-darktable-3.2.1-x86_64-1cf.txz:  Upgraded.
-keepassxc-2.6.1-x86_64-1cf.txz:  Upgraded.
-ktexteditor-5.72.0-x86_64-1cf.txz:  Upgraded.
-tellico-3.3.2-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon,  3 Aug 2020 13:03:53 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon,  3 Aug 2020 13:03:53 UTC</pubDate>
-         <guid isPermaLink="false">20200803150353</guid>
-         <description>
-           <![CDATA[<pre>
-nomacs-3.16.224-x86_64-1cf.txz:  Upgraded.
-sirikali-1.4.6-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Mon, 13 Jul 2020 12:17:49 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Mon, 13 Jul 2020 12:17:49 UTC</pubDate>
-         <guid isPermaLink="false">20200713141749</guid>
-         <description>
-           <![CDATA[<pre>
-keepassxc-2.6.0-x86_64-1cf.txz:  Upgraded.
-nomacs-3.15.0.1616-x86_64-1cf.txz:  Upgraded.
-obs-studio-25.0.8-x86_64-2cf.txz:  Rebuilt.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 20 Jun 2020 13:53:03 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 20 Jun 2020 13:53:03 UTC</pubDate>
-         <guid isPermaLink="false">20200620155303</guid>
-         <description>
-           <![CDATA[<pre>
-ktexteditor-5.71.0-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Sat, 13 Jun 2020 13:04:43 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Sat, 13 Jun 2020 13:04:43 UTC</pubDate>
-         <guid isPermaLink="false">20200613150443</guid>
-         <description>
-           <![CDATA[<pre>
-gmic-2.9.1-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Thu,  4 Jun 2020 12:41:50 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Thu,  4 Jun 2020 12:41:50 UTC</pubDate>
-         <guid isPermaLink="false">20200604144150</guid>
-         <description>
-           <![CDATA[<pre>
-ktexteditor-5.70.1-x86_64-1cf.txz:  Upgraded.
-obs-studio-25.0.8-x86_64-1cf.txz:  Added.
-sirikali-1.4.4-x86_64-1cf.txz:  Upgraded.
-smb4k-3.0.6-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Wed, 13 May 2020 05:54:06 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Wed, 13 May 2020 05:54:06 UTC</pubDate>
-         <guid isPermaLink="false">20200513075406</guid>
-         <description>
-           <![CDATA[<pre>
-amule-r11028-x86_64-2cf.txz:  Rebuilt.
-darktable-3.0.2-x86_64-1cf.txz:  Upgraded.
-gmic-2.9.0-x86_64-1cf.txz:  Upgraded.
-kdiff3-1.8.2-x86_64-1cf.txz:  Upgraded.
-keepassxc-2.5.4-x86_64-1cf.txz:  Upgraded.
-sirikali-1.4.3-x86_64-1cf.txz:  Upgraded.
-smb4k-3.0.4-x86_64-1cf.txz:  Upgraded.
-tellico-3.3-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Fri, 20 Mar 2020 09:10:00 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Fri, 20 Mar 2020 09:10:00 UTC</pubDate>
-         <guid isPermaLink="false">20200320101000</guid>
-         <description>
-           <![CDATA[<pre>
-nomacs-3.14.2-x86_64-1cf.txz:  Upgraded.
-photoqt-1.7.1-x86_64-1cf.txz:  Added.
-smb4k-3.0.3-x86_64-1cf.txz:  Upgraded.
-yakuake-19.12.3-x86_64-1cf.txz:  Added.
-git-cola/git-cola-3.3-x86_64-2cf.txz:  Removed.
-multibootusb/multibootusb-9.2.0-x86_64-3cf.txz:  Removed.
-openshot/openshot-2.5.1-x86_64-2cf.txz:  Removed.
-vimtips/vimtips-0.2.3-x86_64-2cf.txz:  Removed.
---------------------------+
-Wed Mar 4 17:28:20 UTC 2020
-vimtips-0.2.3-x86_64-1cf.txz:  Upgraded.
-           </pre>]]>
-         </description>
-      </item>
-      <item>
-         <title>Tue,  3 Mar 2020 14:21:09 UTC</title>
-         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
-         <pubDate>Tue,  3 Mar 2020 14:21:09 UTC</pubDate>
-         <guid isPermaLink="false">20200303152109</guid>
-         <description>
-           <![CDATA[<pre>
-nufraw-0.43-3-x86_64-1cf.txz:  Added.
-openshot-2.5.1-x86_64-1cf.txz:  Upgraded.
+Reset repository.
            </pre>]]>
          </description>
       </item>
