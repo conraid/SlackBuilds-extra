@@ -39,5 +39,5 @@ You will need to perform host side setup too, to take the advantage of
 qemu-ga.
 
 ======================
-REQUIRES: device-tree-compiler libcacard libnfs jack usbredir vde2 virglrenderer spice spice-protocol snappy libslirp virtiofsd libbpf swtpm
+REQUIRES: python-distlib
 

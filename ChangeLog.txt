@@ -1,3 +1,8 @@
+Mon Aug 11 12:47:22 UTC 2025
+luminance-hdr-2.6.1.1-x86_64-21cf.txz:  Added.
+qemu-guest-agent-10.0.3-x86_64-1cf.txz:  Upgraded.
+  If someone can test whether it works and give me feedback about it, I would be grateful.
++--------------------------+
 Fri Jan 3 15:51:57 UTC 2025
 qemu-guest-agent-9.2.0-x86_64-1cf.txz:  Added.
     - Thanks to ponce and drigoskalwalker.

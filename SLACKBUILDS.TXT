@@ -1,9 +1,18 @@
+SLACKBUILD NAME: luminance-hdr
+SLACKBUILD LOCATION: ./luminance-hdr
+SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/80_exiv2_0.28.patch patches/boost-185.patch patches/clamp.patch patches/luminance-hdr-2.5.1-openmp-automagic.patch patches/luminance-hdr-2.6.0-cmake.patch patches/luminance-hdr-2.6.0-docs.patch patches/luminance-hdr-2.6.0-no-git.patch patches/luminance-hdr-2.6.1.1-fixheaders.patch patches/luminance-hdr-2.6.1.1-openexr3.patch slack-desc
+SLACKBUILD VERSION: 2.6.1.1
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: http://downloads.sourceforge.net/qtpfsgui/luminance-hdr-2.6.1.1.tar.bz2
+SLACKBUILD MD5SUM: c57baf1d3c5d7952f952496f20f86c8f
+SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
+
 SLACKBUILD NAME: qemu-guest-agent
 SLACKBUILD LOCATION: ./qemu-guest-agent
-SLACKBUILD FILES: PKGNOTE README doinst.sh files/qemu-ga files/rc.qemu-ga qemu-guest-agent.SlackBuild qemu-guest-agent.info slack-desc slack-required
-SLACKBUILD VERSION: 9.2.0
-SLACKBUILD REQUIRED: device-tree-compiler libcacard libnfs jack usbredir vde2 virglrenderer spice spice-protocol snappy libslirp virtiofsd libbpf swtpm
-SLACKBUILD DOWNLOAD: https://download.qemu.org/qemu-9.2.0.tar.xz
-SLACKBUILD MD5SUM: ece615b98642720430236e20237dd936
+SLACKBUILD FILES: PKGNOTE README doinst.sh files/rc.qemu-ga qemu-guest-agent.SlackBuild qemu-guest-agent.info slack-desc slack-required
+SLACKBUILD VERSION: 10.0.3
+SLACKBUILD REQUIRED: python-distlib
+SLACKBUILD DOWNLOAD: https://download.qemu.org/qemu-10.0.3.tar.xz
+SLACKBUILD MD5SUM: 4a244f485c9d7ac3d40f958f13eae298
 SLACKBUILD SHORT DESCRIPTION:  qemu-guest-agent (QEMU Guest Agent daemon)
 

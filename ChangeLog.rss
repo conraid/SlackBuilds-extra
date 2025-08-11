@@ -11,9 +11,22 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Fri,  3 Jan 2025 15:51:57 UTC</pubDate>
-      <lastBuildDate>Fri,  3 Jan 2025 15:55:00 UTC</lastBuildDate>
+      <pubDate>Mon, 11 Aug 2025 12:47:22 UTC</pubDate>
+      <lastBuildDate>Mon, 11 Aug 2025 12:49:04 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.99</generator>
+      <item>
+         <title>Mon, 11 Aug 2025 12:47:22 UTC</title>
+         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Mon, 11 Aug 2025 12:47:22 UTC</pubDate>
+         <guid isPermaLink="false">20250811144722</guid>
+         <description>
+           <![CDATA[<pre>
+luminance-hdr-2.6.1.1-x86_64-21cf.txz:  Added.
+qemu-guest-agent-10.0.3-x86_64-1cf.txz:  Upgraded.
+  If someone can test whether it works and give me feedback about it, I would be grateful.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Fri,  3 Jan 2025 15:51:57 UTC</title>
          <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
