@@ -11,9 +11,21 @@
       <description>Corrado Franco (Conraid) Slackware current EXTRA package repository.</description>
       <language>en-us</language>
       <id xmlns="http://www.w3.org/2005/Atom">urn:uuid:5f918df8-684b-11dd-bffd-0013d49950e2</id>
-      <pubDate>Wed,  5 Nov 2025 10:38:05 UTC</pubDate>
-      <lastBuildDate>Wed,  5 Nov 2025 10:38:37 UTC</lastBuildDate>
+      <pubDate>Wed,  5 Nov 2025 10:57:32 UTC</pubDate>
+      <lastBuildDate>Wed,  5 Nov 2025 10:58:41 UTC</lastBuildDate>
       <generator>gen_repos_files.sh v 1.99</generator>
+      <item>
+         <title>Wed,  5 Nov 2025 10:57:32 UTC</title>
+         <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>
+         <pubDate>Wed,  5 Nov 2025 10:57:32 UTC</pubDate>
+         <guid isPermaLink="false">20251105115732</guid>
+         <description>
+           <![CDATA[<pre>
+cronie-1.7.2-x86_64-2cf.txz:  Added.
+  Moved from testing.
+           </pre>]]>
+         </description>
+      </item>
       <item>
          <title>Wed,  5 Nov 2025 10:38:05 UTC</title>
          <link>http://slackers.it/repository/slackware64-current-extra/ChangeLog.txt</link>

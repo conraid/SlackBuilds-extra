@@ -1,3 +1,7 @@
+Wed Nov 5 10:57:32 UTC 2025
+cronie-1.7.2-x86_64-2cf.txz:  Added.
+  Moved from testing.
++--------------------------+
 Wed Nov 5 10:38:05 UTC 2025
 qemu-guest-agent-10.1.2-x86_64-1cf.txz:  Upgraded.
 +--------------------------+

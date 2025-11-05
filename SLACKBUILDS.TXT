@@ -1,3 +1,12 @@
+SLACKBUILD NAME: cronie
+SLACKBUILD LOCATION: ./cronie
+SLACKBUILD FILES: PKGNOTE README cronie.SlackBuild cronie.info doinst.sh files/cron.deny files/crond.default files/crontab files/crontab.root files/default-anacron files/rc.crond files/run-parts files/run-parts.8.gz patches/09c630c654b2aeff06a90a412cce0a60ab4955a4.patch patches/add-l-option.patch slack-desc
+SLACKBUILD VERSION: 1.7.2
+SLACKBUILD REQUIRED: 
+SLACKBUILD DOWNLOAD: https://github.com/cronie-crond/cronie/releases/download/cronie-1.7.2/cronie-1.7.2.tar.gz
+SLACKBUILD MD5SUM: 2dacf4a7198b26dbd497a418cf31443d
+SLACKBUILD SHORT DESCRIPTION:  cronie (The standard UNIX cron daemon)
+
 SLACKBUILD NAME: luminance-hdr
 SLACKBUILD LOCATION: ./luminance-hdr
 SLACKBUILD FILES: README doinst.sh luminance-hdr.SlackBuild luminance-hdr.info patches/80_exiv2_0.28.patch patches/boost-185.patch patches/clamp.patch patches/luminance-hdr-2.5.1-openmp-automagic.patch patches/luminance-hdr-2.6.0-cmake.patch patches/luminance-hdr-2.6.0-docs.patch patches/luminance-hdr-2.6.0-no-git.patch patches/luminance-hdr-2.6.1.1-fixheaders.patch patches/luminance-hdr-2.6.1.1-openexr3.patch slack-desc
