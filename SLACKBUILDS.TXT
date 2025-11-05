@@ -10,9 +10,9 @@ SLACKBUILD SHORT DESCRIPTION:  Luminance HDR (HDR imaging tool)
 SLACKBUILD NAME: qemu-guest-agent
 SLACKBUILD LOCATION: ./qemu-guest-agent
 SLACKBUILD FILES: PKGNOTE README doinst.sh files/rc.qemu-ga qemu-guest-agent.SlackBuild qemu-guest-agent.info slack-desc slack-required
-SLACKBUILD VERSION: 10.0.3
+SLACKBUILD VERSION: 10.1.2
 SLACKBUILD REQUIRED: python-distlib
-SLACKBUILD DOWNLOAD: https://download.qemu.org/qemu-10.0.3.tar.xz
+SLACKBUILD DOWNLOAD: https://download.qemu.org/qemu-10.1.2.tar.xz
 SLACKBUILD MD5SUM: 4a244f485c9d7ac3d40f958f13eae298
 SLACKBUILD SHORT DESCRIPTION:  qemu-guest-agent (QEMU Guest Agent daemon)
 
