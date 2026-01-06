@@ -1,8 +1,0 @@
-Note that Slackware has dcron - Dillon's Cron daemon. This package will
-conflict with dcron, so it is advised to remove dcron before installing
-cronie:
-
-  Stop the dcron daemon and remove the dcron package:
-  # /etc/rc.d/rc.crond stop
-  # removepkg dcron
-  # rm -rf /var/spool/cron

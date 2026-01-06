@@ -1,3 +1,11 @@
+Tue Jan 6 17:09:29 UTC 2026
+cronie-1.7.2-x86_64-2cf.txz:  Removed.
+  Moved to testing.
+qemu-guest-agent-10.1.2-x86_64-1cf.txz:  Removed.
+  Moved to testing.
+luminance-hdr-2.6.1.1-x86_64-21cf.txz:  Removed.
+  Moved to testing.
++--------------------------+
 Wed Nov 5 10:57:32 UTC 2025
 cronie-1.7.2-x86_64-2cf.txz:  Added.
   Moved from testing.
