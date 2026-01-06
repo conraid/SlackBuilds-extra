@@ -4,9 +4,9 @@ Slackware Current EXTRA Repository by Conraid.
 
 ## Repository for Slackware Current packages
 
-In this branch there are packages that need dependency outside my repository, like qt6 by alien or ponce for example.
+In this branch there are packages that need dependency outside my repository, like ktown by alien or ponce's packages, for example.
 
-Each directory contains everything (SlackBuild script, slack-desc file, plus all possible patch) you'll need when you want to build the packages yourself. 
+Each directory contains everything (SlackBuild script, slack-desc file, plus all possible patch) you'll need when you want to build the packages yourself.
 
 To *make package from slackbuild* do
 
@@ -34,6 +34,8 @@ To build:
 This command builds a package which will be created in the same directory.
 
 ## Note
+
+*** Use them at your own risk; no one will support you if your system fails. ***
 
 If you have any questions or requests, you can contact me at slackers.it (at) gmail (dot) com
 
