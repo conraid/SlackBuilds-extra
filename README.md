@@ -1,47 +1,7 @@
-# Slackers
+# **Repository Moved**
 
-Slackware Current EXTRA Repository by Conraid.
+The main repository has moved to: **[forge.slackware.nl](https://forge.slackware.nl/conraid/SlackBuilds-extra)**
+-
 
-## Repository for Slackware Current packages
-
-In this branch there are packages that need dependency outside my repository, like ktown by alien or ponce's packages, for example.
-
-Each directory contains everything (SlackBuild script, slack-desc file, plus all possible patch) you'll need when you want to build the packages yourself.
-
-To *make package from slackbuild* do
-
-Download source code:
-
-  source .info
-  curl -JOL $DOWNLOAD
-
-or
-
-  wget [--no-check-certificate] [--content-disposition] $DOWNLOAD
-
-wget, with some servers, doesn't set the correct filename
-
-If exists FILENAME variable means that it contains the filename.
-
-if exists DOWNLOAD__* extra variables, do also
-
-## Build
-
-To build:
-
-  sh .SlackBuild
-
-This command builds a package which will be created in the same directory.
-
-## Note
-
-*** Use them at your own risk; no one will support you if your system fails. ***
-
-If you have any questions or requests, you can contact me at slackers.it (at) gmail (dot) com
-
-All scrips are released under the GPL License.
-
-## Links
-
-Compiled packages are on http://slackers.it/repository
+Please send reports there or alternatively to: **[codeberg.org](https://codeberg.org/conraid/SlackBuilds-extra)**
 
